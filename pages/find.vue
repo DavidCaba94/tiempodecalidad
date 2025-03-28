@@ -1,14 +1,11 @@
 <template>
-  <div>
-    <NuxtPage />
-  </div>
+  <Menu></Menu>
+  <div>BUSCAR</div>
 </template>
 
 <script>
-import '~/assets/css/main.css'
-
 export default {
-  name: 'Index',
+  name: 'Find',
   head: {
     title: 'Tiempo de Calidad',
     meta: [
