@@ -1,11 +1,11 @@
 <template>
   <Menu></Menu>
-  <div>BUSCAR</div>
+  <div>RESEÑAS</div>
 </template>
 
 <script>
 export default {
-  name: 'Find',
+  name: 'Reseñas',
   head: {
     title: 'Tiempo de Calidad',
     meta: [

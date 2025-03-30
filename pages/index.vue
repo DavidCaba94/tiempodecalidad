@@ -1,6 +1,6 @@
 <template>
   <Menu></Menu>
-  <div>INCIO</div>
+  <div class="index-container">INCIO</div>
 </template>
 
 <script>
@@ -21,3 +21,9 @@ export default {
   }
 }
 </script>
+
+<style>
+.index-container {
+  margin-top: 100px;
+}
+</style>

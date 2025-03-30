@@ -24,3 +24,9 @@ export default {
   }
 }
 </script>
+
+<style>
+* {
+  font-family: 'Inter', sans-serif;
+}
+</style>
