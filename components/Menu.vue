@@ -1,21 +1,21 @@
 <template>
-  <div :class="{'full-menu-container': true, 'expanded': isMenuShow}">
+  <div class="full-menu-container" :class="{'expanded': isMenuShow, 'dark-mode': darkMode}">
     <div class="menu-container">
       <div class="hamburger-menu" @click="toggleMenu()">
-        <div class="bar" ref="bar"></div>
+        <div class="bar" :class="{'dark-mode': darkMode}" ref="bar"></div>
       </div>
       <div class="logo-container">
         <NuxtLink to="/">
           <img src="../assets/img/icono.png" alt="Logo" class="img-logo" />
         </NuxtLink>
       </div>
-      <div class="night-icon" @click="toggleDarkMode()">
-        <Icon v-if="!isDarkMode" name="uil:moon"/>
+      <div class="night-icon" :class="{'dark-mode': darkMode}" @click="toggleDarkMode()">
+        <Icon v-if="!darkMode" name="uil:moon"/>
         <Icon v-else name="uil:sun"/>
       </div>
     </div>
     <transition name="dropdown">
-      <div v-if="isMenuShow" class="list-menu">
+      <div v-if="isMenuShow" class="list-menu" :class="{'dark-mode': darkMode}">
         <NuxtLink to="/" :class="activeRoute === '/' ? 'active' : ''">Inicio</NuxtLink>
         <NuxtLink to="/reviews" :class="activeRoute === '/reviews' ? 'active' : ''">Reseñas</NuxtLink>
         <NuxtLink to="/watches" :class="activeRoute === '/watches' ? 'active' : ''">Relojes</NuxtLink>
@@ -29,24 +29,26 @@
 <script>
 export default {
   name: 'Menu',
+  props: {
+    darkMode: {
+      type: Boolean,
+      default: false
+    }
+  },
   data() {
     return {
-      isMenuShow: false,
-      isDarkMode: false,
-      searchText: '',
-      searchedItems: [],
-      items: [
-        { id: 1, name: 'Pagani Design', link: '/watches/1' },
-        { id: 2, name: 'Tandorio', link: '/watches/2' },
-        { id: 3, name: 'Cadisen', link: '/watches/3' },
-        { id: 4, name: 'Steeldive', link: '/watches/4' },
-        { id: 5, name: 'Addiesdive', link: '/watches/5' }
-      ]
+      isMenuShow: false
     }
   },
   computed: {
     activeRoute() {
       return this.$route.path
+    }
+  },
+  watch: {
+    activeRoute(newRoute) {
+      this.isMenuShow = false
+      this.$refs.bar.classList.remove('animate')
     }
   },
   methods: {
@@ -55,14 +57,7 @@ export default {
       this.isMenuShow = !this.isMenuShow;
     },
     toggleDarkMode() {
-      this.isDarkMode = !this.isDarkMode;
-    },
-    searchItems() {
-      this.searchedItems = this.searchText
-        ? this.items.filter(item => 
-            item.name.toLowerCase().includes(this.searchText.toLowerCase())
-          )
-        : [];
+      this.$emit('onChangeDarkMode');
     }
   }
 }
@@ -75,12 +70,17 @@ export default {
   left: 0;
   width: -webkit-fill-available;
   background-color: #ffffff94;
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(8px);
   box-shadow: 0 1px 10px rgba(0, 0, 0, 0.07);
   padding: 15px 10px;
   transition: max-height 0.5s ease-in-out;
   max-height: 50px;
   overflow: hidden;
+}
+
+.full-menu-container.dark-mode {
+  background-color: #02061894;
+  border-bottom: 1px solid #ffffff14;
 }
 
 .full-menu-container.expanded {
@@ -127,6 +127,10 @@ export default {
   cursor: pointer;
 }
 
+.night-icon.dark-mode {
+  color: white;
+}
+
 .night-icon:hover {
   color: #00a182;
 }
@@ -146,6 +150,10 @@ export default {
   color: black;
   font-size: 16px;
   padding: 10px;
+}
+
+.list-menu.dark-mode a {
+  color: white;
 }
 
 .list-menu a:hover {
@@ -177,7 +185,9 @@ export default {
   position: relative;
   transform: translateY(25px);
   background: black;
-  transition: all 0ms 300ms;
+}
+.bar.dark-mode {
+  background: white;
 }
 .bar.animate {
   background: rgba(255, 255, 255, 0);
@@ -191,6 +201,9 @@ export default {
   background: black;
   transition: bottom 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms cubic-bezier(0.23, 1, 0.32, 1);
 }
+.bar.dark-mode:before {
+  background: white;
+}
 
 .bar:after {
   content: "";
@@ -199,6 +212,9 @@ export default {
   top: 10px;
   background: black;
   transition: top 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms cubic-bezier(0.23, 1, 0.32, 1);
+}
+.bar.dark-mode:after {
+  background: white;
 }
 
 .bar.animate:after {

@@ -1,5 +1,4 @@
 <template>
-  <Menu></Menu>
   <div>RESEÑAS</div>
 </template>
 

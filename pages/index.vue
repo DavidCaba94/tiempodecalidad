@@ -1,5 +1,4 @@
 <template>
-  <Menu></Menu>
   <div class="index-container">INCIO</div>
 </template>
 
