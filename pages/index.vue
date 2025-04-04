@@ -2,14 +2,14 @@
   <div class="index-container">
     <h2>Novedades</h2>
     <div class="card-container">
-      <NuxtLink :to="post.url" v-for="post in news" :key="post.id" class="news-card" v-bind:style="{ backgroundImage: 'url(/_nuxt/assets/img/watches' + post.image + ')' }">
+      <NuxtLink :to="post.url" v-for="post in news" :key="post.id" class="news-card" v-bind:style="{ backgroundImage: 'url(../assets/img/watches' + post.image + ')' }">
         <p class="brand">{{ post.brand }}</p>
         <p class="model">{{ post.model }}</p>
       </NuxtLink>
     </div>
     <h2>Relojes</h2>
     <div class="card-container">
-      <div v-for="post in news" :key="post.id" class="news-card" v-bind:style="{ backgroundImage: 'url(/_nuxt/assets/img/watches' + post.image + ')' }">
+      <div v-for="post in news" :key="post.id" class="news-card" v-bind:style="{ backgroundImage: 'url(../assets/img/watches' + post.image + ')' }">
         <p class="brand">{{ post.brand }}</p>
         <p class="model">{{ post.model }}</p>
       </div>
