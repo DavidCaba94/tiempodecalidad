@@ -7,13 +7,22 @@
         <p class="model">{{ post.model }}</p>
       </NuxtLink>
     </div>
+    <NuxtLink to="/reviews" class="link-button">
+      <p>Ver todas las reseñas</p>
+      <Icon name="uil:arrow-right" class="next-icon"/>
+    </NuxtLink>
     <h2>Relojes</h2>
     <div class="card-container">
       <div v-for="post in news" :key="post.id" class="news-card" :style="{ backgroundImage: 'url(../assets/img/watches' + post.image + ')' }">
         <p class="brand">{{ post.brand }}</p>
         <p class="model">{{ post.model }}</p>
+        <img :src="getCountryIcon(post.country)" :alt="post.country" class="country-icon"/>
       </div>
     </div>
+    <NuxtLink to="/watches" class="link-button">
+      <p>Ver todos los relojes</p>
+      <Icon name="uil:arrow-right" class="next-icon"/>
+    </NuxtLink>
   </div>
 </template>
 
@@ -60,6 +69,9 @@ export default {
         }
       }
       this.watches = randomWatches;
+    },
+    getCountryIcon(country) { 
+      return '../assets/img/flags/' + country.toLowerCase() + '.png';
     }
   }
 }
@@ -87,7 +99,7 @@ export default {
   justify-content: flex-end;
   width: 30%;
   height: 200px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   background-size: cover;
@@ -114,6 +126,29 @@ export default {
   color: white;
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.7);
   margin: 0;
+  margin-bottom: 10px;
+}
+
+.link-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 40px;
+  margin: 0 auto;
+  color: #828282;
+  text-decoration: none;
+  margin-bottom: 50px;
+}
+
+.next-icon {
+  margin-left: 10px;
+  font-size: 25px;
+}
+
+.country-icon {
+  width: 35px;
+  height: 35px;
   margin-bottom: 10px;
 }
 
