@@ -60,7 +60,7 @@ export default {
 }
 
 body.dark-mode {
-  background-color: #020618;
+  background-color: #111421;
   color: #ffffff;
   transition: background-color 0.3s ease, color 0.3s ease;
   -webkit-font-smoothing: antialiased;
