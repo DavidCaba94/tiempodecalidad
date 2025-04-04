@@ -76,6 +76,7 @@ export default {
   transition: max-height 0.5s ease-in-out;
   max-height: 50px;
   overflow: hidden;
+  z-index: 1000;
 }
 
 .full-menu-container.dark-mode {
@@ -111,6 +112,7 @@ export default {
   align-items: center;
   justify-content: center;
   flex-wrap: nowrap;
+  margin-top: 6px;
 }
 
 .img-logo {
@@ -122,8 +124,10 @@ export default {
   width: 40px;
   margin-left: 10px;
   margin-right: 10px;
+  margin-top: 7px;
   color: black;
   font-size: 25px;
+  text-align: center;
   cursor: pointer;
 }
 

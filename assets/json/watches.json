@@ -1,22 +1,6 @@
 [
   {
     "id": 1,
-    "brand": "Rolex",
-    "model": "Submariner",
-    "price": 8500,
-    "movement": "Automatic",
-    "type": "Diver",
-    "water_resistance": "300m",
-    "material": "Stainless Steel",
-    "bezel": "Ceramic",
-    "size": 40,
-    "colors": ["black", "blue", "green"],
-    "country": "Switzerland",
-    "url": "/watches/rolex/submariner",
-    "image": "/img/watches/rolex/submariner.jpg"
-  },
-  {
-    "id": 2,
     "brand": "Omega",
     "model": "Speedmaster",
     "price": 5500,
@@ -29,10 +13,10 @@
     "colors": ["black", "white", "blue"],
     "country": "Switzerland",
     "url": "/watches/omega/speedmaster",
-    "image": "/img/watches/omega/speedmaster.jpg"
+    "image": "/rolex/submariner.jpg"
   },
   {
-    "id": 3,
+    "id": 2,
     "brand": "Tag Heuer",
     "model": "Carrera",
     "price": 4000,
@@ -45,10 +29,10 @@
     "colors": ["black", "white", "red"],
     "country": "Switzerland",
     "url": "/watches/tagheuer/carrera",
-    "image": "/img/watches/tagheuer/carrera.jpg"
+    "image": "/rolex/submariner.jpg"
   },
   {
-    "id": 4,
+    "id": 3,
     "brand": "Seiko",
     "model": "Prospex",
     "price": 1200,
@@ -61,6 +45,22 @@
     "colors": ["black", "blue", "green"],
     "country": "Japan",
     "url": "/watches/seiko/prospex",
-    "image": "/img/watches/seiko/prospex.jpg"
+    "image": "/rolex/submariner.jpg"
+  },
+  {
+    "id": 4,
+    "brand": "Rolex",
+    "model": "Submariner",
+    "price": 8500,
+    "movement": "Automatic",
+    "type": "Diver",
+    "water_resistance": "300m",
+    "material": "Stainless Steel",
+    "bezel": "Ceramic",
+    "size": 40,
+    "colors": ["black", "blue", "green"],
+    "country": "Switzerland",
+    "url": "/watches/rolex/submariner",
+    "image": "/rolex/submariner.jpg"
   }
 ]
