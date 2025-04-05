@@ -19,7 +19,7 @@
         <img :src="getCountryIcon(post.country)" :alt="post.country" class="country-icon"/>
       </div>
     </div>
-    <NuxtLink to="/watches" class="link-button">
+    <NuxtLink to="/watch-list" class="link-button">
       <p>Ver todos los relojes</p>
       <Icon name="uil:arrow-right" class="next-icon"/>
     </NuxtLink>
