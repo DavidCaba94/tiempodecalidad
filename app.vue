@@ -2,12 +2,11 @@
   <div :class="darkMode ? 'dark-mode' : 'light-mode'">
     <Menu :darkMode="darkMode" @onChangeDarkMode="onChangeDarkMode"></Menu>
     <NuxtPage />
+    <Footer></Footer>
   </div>
 </template>
 
 <script>
-import '~/assets/css/main.css'
-
 export default {
   name: 'Index',
   head: {
@@ -25,7 +24,7 @@ export default {
   },
   data() {
     return {
-      darkMode: false
+      darkMode: true
     }
   },
   mounted() {

@@ -1,0 +1,51 @@
+[
+  {
+    "id": 1,
+    "title": "Rolex Submariner",
+    "description": "The Rolex Submariner is a classic dive watch known for its durability and timeless design. It features a rotating bezel, luminous markers, and is water-resistant up to 300 meters.",
+    "url": "/watches/omega/speedmaster",
+    "image": "/rolex/submariner.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Omega Speedmaster",
+    "description": "The Omega Speedmaster is a legendary chronograph watch that has been to the moon. It features a tachymetric scale, chronograph functions, and a classic design.",
+    "url": "/watches/rolex/submariner",
+    "image": "/rolex/submariner.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Tag Heuer Carrera",
+    "description": "The Tag Heuer Carrera is a sporty chronograph watch that combines elegance with performance. It features a tachymetric scale, chronograph functions, and a sleek design.",
+    "url": "/watches/tagheuer/carrera",
+    "image": "/rolex/submariner.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Breitling Navitimer",
+    "description": "The Breitling Navitimer is a pilot's watch known for its complex dial and chronograph functions. It features a slide rule bezel, luminous markers, and a robust design.",
+    "url": "/watches/breitling/navitimer",
+    "image": "/rolex/submariner.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Patek Philippe Nautilus",
+    "description": "The Patek Philippe Nautilus is a luxury sports watch known for its unique octagonal bezel and integrated bracelet. It features a self-winding movement and a classic design.",
+    "url": "/watches/patekphilippe/nautilus",
+    "image": "/rolex/submariner.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Audemars Piguet Royal Oak",
+    "description": "The Audemars Piguet Royal Oak is a luxury sports watch known for its unique octagonal bezel and integrated bracelet. It features a self-winding movement and a classic design.",
+    "url": "/watches/audemarspiguet/royaloak",
+    "image": "/rolex/submariner.jpg"
+  },
+  {
+    "id": 7,
+    "title": "IWC Big Pilot",
+    "description": "The IWC Big Pilot is a large pilot's watch known for its legibility and robust design. It features a large dial, luminous markers, and a self-winding movement.",
+    "url": "/watches/iwc/bigpilot",
+    "image": "/rolex/submariner.jpg"
+  }
+]

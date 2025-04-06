@@ -17,8 +17,8 @@
     <transition name="dropdown">
       <div v-if="isMenuShow" class="list-menu" :class="{'dark-mode': darkMode}">
         <NuxtLink to="/" :class="activeRoute === '/' ? 'active' : ''">Inicio</NuxtLink>
-        <NuxtLink to="/reviews" :class="activeRoute === '/reviews' ? 'active' : ''">Reseñas</NuxtLink>
         <NuxtLink to="/watch-list" :class="activeRoute === '/watch-list' ? 'active' : ''">Relojes</NuxtLink>
+        <NuxtLink to="/reviews-list" :class="activeRoute === '/reviews-list' ? 'active' : ''">Reseñas</NuxtLink>
         <NuxtLink to="/recomendaciones" :class="activeRoute === '/recomendaciones' ? 'active' : ''">Recomendaciones</NuxtLink>
         <NuxtLink to="/videos" :class="activeRoute === '/videos' ? 'active' : ''">Vídeos</NuxtLink>
       </div>
@@ -32,7 +32,7 @@ export default {
   props: {
     darkMode: {
       type: Boolean,
-      default: false
+      default: true
     }
   },
   data() {
@@ -63,7 +63,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .full-menu-container {
   position: fixed;
   top: 0;

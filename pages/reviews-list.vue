@@ -6,7 +6,7 @@
 export default {
   name: 'Reseñas',
   head: {
-    title: 'Tiempo de Calidad',
+    title: 'Reseñas - Tiempo de Calidad',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },

@@ -2,22 +2,19 @@
   <div class="index-container">
     <h2>Novedades</h2>
     <div class="card-container">
-      <NuxtLink :to="post.url" v-for="post in news" :key="post.id" class="news-card" :style="{ backgroundImage: 'url(../assets/img/watches' + post.image + ')' }">
-        <p class="brand">{{ post.brand }}</p>
-        <p class="model">{{ post.model }}</p>
+      <NuxtLink :to="post.url" v-for="post in news" :key="post.id" class="news-width">
+        <ReviewCard :reviewObject="post"></ReviewCard>
       </NuxtLink>
     </div>
-    <NuxtLink to="/reviews" class="link-button">
+    <NuxtLink to="/reviews-list" class="link-button">
       <p>Ver todas las reseñas</p>
       <Icon name="uil:arrow-right" class="next-icon"/>
     </NuxtLink>
     <h2>Relojes</h2>
     <div class="card-container">
-      <div v-for="post in news" :key="post.id" class="news-card" :style="{ backgroundImage: 'url(../assets/img/watches' + post.image + ')' }">
-        <p class="brand">{{ post.brand }}</p>
-        <p class="model">{{ post.model }}</p>
-        <img :src="getCountryIcon(post.country)" :alt="post.country" class="country-icon"/>
-      </div>
+      <NuxtLink v-for="watch in watches" :key="watch.id" :to="watch.url" class="card-width">
+        <WatchCard :watchObject="watch"></WatchCard>
+      </NuxtLink>
     </div>
     <NuxtLink to="/watch-list" class="link-button">
       <p>Ver todos los relojes</p>
@@ -28,6 +25,7 @@
 
 <script>
 import watchesList from '~/assets/json/watches.json';
+import reviewsList from '~/assets/json/reviews.json';
 export default {
   name: 'Index',
   head: {
@@ -55,8 +53,8 @@ export default {
   },
   methods: {
     setLastNews() {
-      const invertedWatchesList = [...watchesList].reverse();
-      this.news = invertedWatchesList.slice(0, 3);
+      const invertedReviewsList = [...reviewsList].reverse();
+      this.news = invertedReviewsList.slice(0, 3);
     },
     setRandomWatches() {
       const randomWatches = [];
@@ -77,7 +75,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .index-container {
   max-width: 960px;
   margin: 0 auto;
@@ -92,41 +90,9 @@ export default {
   justify-content: space-between;
 }
 
-.news-card {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-end;
+.card-width {
   width: 30%;
-  height: 200px;
-  margin-bottom: 30px;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  background-size: cover;
-  background-position: center;
-  cursor: pointer;
   text-decoration: none;
-}
-
-.news-card:hover {
-  transform: scale(1.05);
-  transition: transform 0.2s;
-}
-
-.brand {
-  font-size: 18px;
-  font-weight: bold;
-  color: white;
-  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.7);
-  margin: 0;
-}
-
-.model {
-  font-size: 16px;
-  color: white;
-  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.7);
-  margin: 0;
-  margin-bottom: 10px;
 }
 
 .link-button {
@@ -146,10 +112,8 @@ export default {
   font-size: 25px;
 }
 
-.country-icon {
-  width: 35px;
-  height: 35px;
-  margin-bottom: 10px;
+a {
+  text-decoration: none;
 }
 
 /* Mobile media query */
@@ -163,11 +127,9 @@ export default {
     align-items: center;
   }
 
-  .news-card {
+  .card-width {
     width: 100%;
     max-width: 500px;
-    height: 300px;
-    margin-right: 0;
   }
 }
 </style>

@@ -12,18 +12,11 @@
       </transition>
     </div>
     <div class='card-container'>
-      <NuxtLink
-        v-for="watch in filteredWatches"
-        :key="watch.id"
-        :to="watch.url"
-        class='news-card'
-        :style="{ backgroundImage: 'url(../assets/img/watches' + watch.image + ')' }"
-      >
-        <p class='brand'>{{ watch.brand }}</p>
-        <p class='model'>{{ watch.model }}</p>
-        <img :src="getCountryIcon(watch.country)" :alt="watch.country" class='country-icon'/>
+      <NuxtLink v-for="watch in filteredWatches" :key="watch.id" :to="watch.url" class="card-width">
+        <WatchCard :watchObject="watch"></WatchCard>
       </NuxtLink>
     </div>
+    <Pagination :totalItems="filteredWatches.length" :itemsPerPage="12" @pageChanged="pageChanged"></Pagination>
   </div>
 </template>
 
@@ -32,7 +25,7 @@ import watchesList from '~/assets/json/watches.json';
 export default {
   name: 'Relojes',
   head: {
-    title: 'Tiempo de Calidad',
+    title: 'Relojes - Tiempo de Calidad',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -48,7 +41,8 @@ export default {
     return {
       watches: [],
       filteredWatches: [],
-      isFilterActive: false
+      isFilterActive: false,
+      currentPage: 1
     }
   },
   mounted() {
@@ -64,12 +58,16 @@ export default {
     },
     getCountryIcon(country) { 
       return '../assets/img/flags/' + country.toLowerCase() + '.png';
+    },
+    pageChanged(page) {
+      this.currentPage = page;
+      this.getWatches();
     }
   }
 }
 </script>
 
-<style>
+<style scoped>
 .watches-container {
   max-width: 960px;
   margin: 0 auto;
@@ -99,10 +97,32 @@ export default {
   margin-left: 10px;
 }
 
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card-width {
+  width: 30%;
+  margin: 10px;
+  text-decoration: none;
+}
+
 /* Mobile media query */
 @media (max-width: 768px) {
   .watches-container {
     margin-top: 50px;
+  }
+
+  .card-width {
+    width: 45%;
+  }
+}
+
+@media (max-width: 460px) {
+  .card-width {
+    width: 90%;
   }
 }
 </style>
