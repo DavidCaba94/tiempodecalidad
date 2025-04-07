@@ -36,7 +36,7 @@ export default {
   },
   computed: {
     totalItems() {
-      return this.videosList?.length;
+      return videosList?.length;
     }
   },
   mounted() {

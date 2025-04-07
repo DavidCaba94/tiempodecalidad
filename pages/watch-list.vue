@@ -1,27 +1,22 @@
 <template>
   <div class='watches-container'>
     <div class='filter-container'>
-      <div class='filter-button' @click="toggleFilters()">
+      <div class='filter-button' @click="showFilters()">
         <Icon name="uil:filter" class="next-icon"/>
-        <p>{{ !isFilterActive ? 'Ver filtros' : 'Ocultar filtros' }}</p>
+        <p>Filtros</p>
       </div>
-      <transition name="dropdown">
-        <div v-if="isFilterActive" class="list-filters">
-          Filtros mostrados
-        </div>
-      </transition>
     </div>
     <div class='card-container'>
-      <NuxtLink v-for="watch in filteredWatches" :key="watch.id" :to="watch.url" class="card-width">
+      <NuxtLink v-for="watch in watches" :key="watch.id" :to="watch.url" class="card-width">
         <WatchCard :watchObject="watch"></WatchCard>
       </NuxtLink>
     </div>
-    <Pagination :totalItems="filteredWatches.length" :itemsPerPage="12" @pageChanged="pageChanged"></Pagination>
+    <Pagination :totalItems="totalItems" :itemsPerPage="itemsPerPage" @pageChanged="pageChanged"></Pagination>
   </div>
 </template>
 
 <script>
-import watchesList from '~/assets/json/watches.json';
+import watchesList from '~/assets/json/watches.json'
 export default {
   name: 'Relojes',
   head: {
@@ -40,9 +35,14 @@ export default {
   data() {
     return {
       watches: [],
-      filteredWatches: [],
       isFilterActive: false,
-      currentPage: 1
+      currentPage: 1,
+      itemsPerPage: 9
+    }
+  },
+  computed: {
+    totalItems() {
+      return watchesList?.length;
     }
   },
   mounted() {
@@ -50,10 +50,11 @@ export default {
   },
   methods: {
     getWatches() {
-      this.watches = watchesList;
-      this.filteredWatches = this.watches;
+      const start = (this.currentPage - 1) * this.itemsPerPage;
+      const end = start + this.itemsPerPage;
+      this.watches = [...watchesList].reverse().slice(start, end);
     },
-    toggleFilters() {
+    showFilters() {
       this.isFilterActive = !this.isFilterActive;
     },
     getCountryIcon(country) { 

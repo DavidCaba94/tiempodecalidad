@@ -19,7 +19,7 @@
         <NuxtLink to="/" :class="activeRoute === '/' ? 'active' : ''">Inicio</NuxtLink>
         <NuxtLink to="/watch-list" :class="activeRoute === '/watch-list' ? 'active' : ''">Relojes</NuxtLink>
         <NuxtLink to="/reviews-list" :class="activeRoute === '/reviews-list' ? 'active' : ''">Reseñas</NuxtLink>
-        <NuxtLink to="/recomendaciones" :class="activeRoute === '/recomendaciones' ? 'active' : ''">Recomendaciones</NuxtLink>
+        <NuxtLink to="/recomendations" :class="activeRoute === '/recomendations' ? 'active' : ''">Recomendaciones</NuxtLink>
         <NuxtLink to="/videos" :class="activeRoute === '/videos' ? 'active' : ''">Vídeos</NuxtLink>
       </div>
     </transition>

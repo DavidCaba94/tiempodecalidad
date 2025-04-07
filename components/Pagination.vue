@@ -12,12 +12,11 @@ export default {
   props: {
     totalItems: {
       type: Number,
-      required: true,
-      default: 12
+      required: true
     },
     itemsPerPage: {
       type: Number,
-      default: 12
+      required: true
     }
   },
   data() {
@@ -26,9 +25,20 @@ export default {
       totalPages: 1
     }
   },
+  watch: {
+    totalItems: function(newVal, oldVal) {
+      let numPages = 1;
+      numPages = Math.ceil(newVal / this.itemsPerPage);
+      this.totalPages = numPages;
+    },
+    itemsPerPage: function(newVal, oldVal) {
+      let numPages = 1;
+      numPages = Math.ceil(this.totalItems / newVal);
+      this.totalPages = numPages;
+    }
+  },
   mounted() {
     this.totalPages = Math.ceil(this.totalItems / this.itemsPerPage);
-    if (this.totalItems % this.itemsPerPage !== 0) this.totalPages++;
   },
   methods: {
     prevPage() {
