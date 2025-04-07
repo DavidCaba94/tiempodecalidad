@@ -12,6 +12,88 @@
       </NuxtLink>
     </div>
     <Pagination :totalItems="totalItems" :itemsPerPage="itemsPerPage" @pageChanged="pageChanged"></Pagination>
+    <div v-if="isShowFilters" class="filter-box-container">
+      <div class="inputs-container">
+        <div class="input-row">
+          <div>Filtros</div>
+          <Icon name="mi:close" class="close-icon" @click="showFilters()"/>
+        </div>
+        <div class="input-row">
+          <div class="unique-input-row">
+            <div class="input-label">Marcas</div>
+            <select v-model="filtersValues.brand" class="input-select" @change="setModelsContent()">
+              <option v-for="(brand, i) in filtersContent.brands" :key="i" :value="brand">{{ brand }}</option>
+            </select>
+          </div>
+          <div class="unique-input-row">
+            <div class="input-label">Modelos</div>
+            <select v-model="filtersValues.model" class="input-select" :disabled="!filtersValues.brand">
+              <option v-for="model in filtersContent.models" :key="model" :value="model">{{ model }}</option>
+            </select>
+          </div>
+        </div>
+        <div class="input-row">
+          <div class="unique-input-row">
+            <div class="input-label">País</div>
+            <div class="countries-container">
+              <div v-for="country in filtersContent.countries" :key="country" @click="setCountry(country)">
+                <img :src="'../assets/img/flags/' + country + '.png'" :alt="country" class="country-icon" :class="filtersValues.country === country ? ' selected' : ''"/>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="input-row">
+          <div class="unique-input-row">
+            <div class="input-label">Color</div>
+            <div class="countries-container">
+              <div v-for="(color, i) in filtersContent.colors" :key="i" :value="color" @click="setColor(color)">
+                <div class="color-circle" :class="filtersValues.color === color ? ' selected' : ''" :style="{ backgroundColor: color }"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="input-row">
+          <div class="unique-input-row">
+            <div class="input-label">Movimiento</div>
+            <select v-model="filtersValues.movement" class="input-select">
+              <option v-for="(movement, i) in filtersContent.movements" :key="i" :value="movement">{{ movement }}</option>
+            </select>
+          </div>
+          <div class="unique-input-row">
+            <div class="input-label">Tipo</div>
+            <select v-model="filtersValues.type" class="input-select">
+              <option v-for="(type, i) in filtersContent.types" :key="i" :value="type">{{ type }}</option>
+            </select>
+          </div>
+        </div>
+        <div class="input-row">
+          <div class="unique-input-row">
+            <div class="input-label">Precio</div>
+            <select v-model="filtersValues.price" class="input-select">
+              <option v-for="(price, i) in filtersContent.prices" :key="i" :value="price">{{ price }}</option>
+            </select>
+          </div>
+        </div>
+        <div class="input-row">
+          <div class="unique-input-row">
+            <div class="input-label">Tamaño</div>
+            <select v-model="filtersValues.size" class="input-select">
+              <option v-for="(size, i) in filtersContent.sizes" :key="i" :value="size">{{ size }}</option>
+            </select>
+          </div>
+          <div class="unique-input-row">
+            <div class="input-label">Resistencia al agua</div>
+            <select v-model="filtersValues.waterResistance" class="input-select">
+              <option v-for="(waterResistance, i) in filtersContent.waterResistances" :key="i" :value="waterResistance">{{ waterResistance }}</option>
+            </select>
+          </div>
+        </div>
+        <div class="input-row buttons-width">
+          <div class="clear-button" @click="clearFilters()">Limpiar filtros</div>
+          <div class="apply-button">Aplicar</div>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -35,9 +117,31 @@ export default {
   data() {
     return {
       watches: [],
-      isFilterActive: false,
       currentPage: 1,
-      itemsPerPage: 9
+      itemsPerPage: 9,
+      isShowFilters: false,
+      filtersContent: {
+        brands: [],
+        models: [],
+        countries: [],
+        colors: [],
+        movements: [],
+        prices: [],
+        types: [],
+        sizes: [],
+        waterResistances: []
+      },
+      filtersValues: {
+        brand: null,
+        model: null,
+        country: null,
+        color: null,
+        movement: null,
+        price: null,
+        type: null,
+        size: null,
+        waterResistance: null
+      }
     }
   },
   computed: {
@@ -47,6 +151,7 @@ export default {
   },
   mounted() {
     this.getWatches();
+    this.setFiltersContent();
   },
   methods: {
     getWatches() {
@@ -55,7 +160,7 @@ export default {
       this.watches = [...watchesList].reverse().slice(start, end);
     },
     showFilters() {
-      this.isFilterActive = !this.isFilterActive;
+      this.isShowFilters = !this.isShowFilters;
     },
     getCountryIcon(country) { 
       return '../assets/img/flags/' + country.toLowerCase() + '.png';
@@ -63,6 +168,50 @@ export default {
     pageChanged(page) {
       this.currentPage = page;
       this.getWatches();
+    },
+    setFiltersContent() {
+      this.filtersContent.brands = [...new Set(watchesList.map(watch => watch.brand))];
+      this.filtersContent.movements = [...new Set(watchesList.map(watch => watch.movement))];
+      this.filtersContent.countries = [...new Set(watchesList.map(watch => watch.country))];
+      this.filtersContent.colors = this.getColorsCollection(watchesList);
+      this.filtersContent.prices = [...new Set(watchesList.map(watch => watch.price))];
+      this.filtersContent.types = [...new Set(watchesList.map(watch => watch.type))];
+      this.filtersContent.sizes = [...new Set(watchesList.map(watch => watch.size))].sort((a, b) => a - b);
+      this.filtersContent.waterResistances = [...new Set(watchesList.map(watch => watch.water_resistance))].sort((a, b) => a - b);
+    },
+    setModelsContent() {
+      this.filtersContent.models = [...new Set(watchesList.filter(watch => watch.brand === this.filtersValues.brand).map(watch => watch.model))];
+    },
+    clearFilters() {
+      this.filtersValues = {
+        brand: null,
+        model: null,
+        country: null,
+        color: null,
+        movement: null,
+        price: null,
+        type: null,
+        size: null,
+        waterResistance: null
+      };
+      this.setModelsContent();
+    },
+    setCountry(country) {
+      this.filtersValues.country = country;
+    },
+    setColor(color) {
+      this.filtersValues.color = color;
+    },
+    getColorsCollection(watchesList) {
+      const colors = [];
+      watchesList.forEach(watch => {
+        watch.colors.forEach(color => {
+          if (!colors.includes(color)) {
+            colors.push(color);
+          }
+        });
+      });
+      return colors;
     }
   }
 }
@@ -110,6 +259,160 @@ export default {
   text-decoration: none;
 }
 
+.filter-box-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  z-index: 999;
+  transition: all 0.3s ease;
+}
+
+.inputs-container {
+  width: 50%;
+  max-width: 350px;
+  max-height: 470px;
+  padding: 20px;
+  background-color: #ffffff94;
+  backdrop-filter: blur(8px);
+  border: 1px solid #ffffff14;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: scroll;
+}
+
+.dark-mode .inputs-container {
+  background-color: #02061894;
+}
+
+.input-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.unique-input-row {
+  display: block;
+  width: 100%;
+  margin: 0 10px;
+  text-align: left;
+}
+
+.close-icon {
+  cursor: pointer;
+  font-size: 25px;
+}
+
+.input-label {
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+.input-select {
+  width: 100%;
+  padding: 5px;
+  border: none;
+  border-bottom: 1px solid #7b7b7b;
+  background-color: #00000000;
+  font-size: 14px;
+  outline: none;
+}
+
+.dark-mode .input-select {
+  color: #ffffff;
+  border-bottom: 1px solid #ccc;
+}
+
+.countries-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.buttons-width {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.country-icon {
+  width: 35px;
+  height: 35px;
+  border-radius: 50px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.country-icon:hover {
+  transform: scale(1.1);
+  transition: transform 0.2s;
+}
+
+.country-icon.selected {
+  border: 4px solid #00a182;
+}
+
+.color-circle {
+  width: 35px;
+  height: 35px;
+  border-radius: 50px;
+  margin-right: 10px;
+  border: 1px solid #868686;
+  cursor: pointer;
+}
+
+.color-circle:hover {
+  transform: scale(1.1);
+  transition: transform 0.2s;
+}
+
+.color-circle.selected {
+  border: 4px solid #00a182;
+}
+
+.clear-button {
+  cursor: pointer;
+  background-color: #000000;
+  color: white;
+  font-size: 12px;
+  border-radius: 8px;
+  padding: 5px 10px;
+}
+
+.dark-mode .clear-button {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.clear-button:hover {
+  background-color: #bebebe;
+}
+
+.apply-button {
+  cursor: pointer;
+  background-color: #00a182;
+  color: white;
+  font-size: 12px;
+  border-radius: 8px;
+  padding: 5px 10px;
+  margin-left: 10px;
+}
+
+.apply-button:hover {
+  background-color: #007f6b;
+}
+
+
 /* Mobile media query */
 @media (max-width: 768px) {
   .watches-container {
@@ -118,6 +421,10 @@ export default {
 
   .card-width {
     width: 45%;
+  }
+
+  .inputs-container {
+    width: 80%;
   }
 }
 
