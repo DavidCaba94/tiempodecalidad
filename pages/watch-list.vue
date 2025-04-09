@@ -6,7 +6,7 @@
         <p>Filtros</p>
       </div>
       <div class='filter-button'>
-        <input v-model="searchText" type="text" placeholder="Buscar" class="input-search" @keypress="filterBySearch()"/>
+        <input v-model="searchText" type="text" placeholder="Buscar" class="input-search" @keyup="filterBySearch()"/>
         <Icon name="mi:search" class="next-icon"/>
       </div>
     </div>
@@ -104,7 +104,7 @@
         </div>
         <div class="input-row buttons-width">
           <div class="clear-button" @click="clearFilters()">Limpiar filtros</div>
-          <div class="apply-button">Aplicar</div>
+          <div class="apply-button" @click="applyFilters()">Aplicar</div>
         </div>
       </div>
     </div>
@@ -232,7 +232,7 @@ export default {
       return colors;
     },
     filterBySearch() {
-      if (this.searchText.length > 0) {
+      if (this.searchText.length > 2) {
         this.watches = watchesList.filter(watch => {
           return watch.brand.toLowerCase().includes(this.searchText.toLowerCase()) ||
                  watch.model.toLowerCase().includes(this.searchText.toLowerCase());
@@ -240,6 +240,39 @@ export default {
       } else {
         this.getWatches();
       }
+    },
+    applyFilters() {
+      this.getWatches();
+      if (this.filtersValues.country) {
+        this.watches = this.watches.filter(watch => watch.country === this.filtersValues.country);
+      }
+      if (this.filtersValues.brand) {
+        this.watches = this.watches.filter(watch => watch.brand === this.filtersValues.brand);
+      }
+      if (this.filtersValues.model) {
+        this.watches = this.watches.filter(watch => watch.model === this.filtersValues.model);
+      }
+      if (this.filtersValues.color) {
+        this.watches = this.watches.filter(watch => watch.colors.includes(this.filtersValues.color));
+      }
+      if (this.filtersValues.movement) {
+        this.watches = this.watches.filter(watch => watch.movement === this.filtersValues.movement);
+      }
+      if (this.filtersValues.price) {
+        this.watches = this.watches.filter(watch => watch.price <= this.filtersValues.price);
+      }
+      if (this.filtersValues.type) {
+        this.watches = this.watches.filter(watch => watch.type === this.filtersValues.type);
+      }
+      if (this.filtersValues.size) {
+        this.watches = this.watches.filter(watch => watch.size === this.filtersValues.size);
+      }
+      if (this.filtersValues.waterResistance) {
+        this.watches = this.watches.filter(watch => watch.water_resistance === this.filtersValues.waterResistance);
+      }
+      this.watches = this.watches.slice((this.currentPage - 1) * this.itemsPerPage, this.currentPage * this.itemsPerPage);
+      this.isShowFilters = false;
+      this.currentPage = 1;
     }
   }
 }
