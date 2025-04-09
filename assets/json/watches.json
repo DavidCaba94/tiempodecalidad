@@ -35,19 +35,19 @@
   },
   {
     "id": 3,
-    "brand": "Pagani Design",
-    "model": "PD-1651",
+    "brand": "Tandorio",
+    "model": "CUSN8",
     "price": 70,
     "movement": "Automatic",
-    "type": "Diver",
-    "water_resistance": 100,
+    "type": "Flieger",
+    "water_resistance": 200,
     "material": "Stainless Steel",
-    "bezel": "Black",
+    "bezel": "",
     "mirror": "Sapphire",
-    "size": 40,
-    "colors": ["black", "orangered", "silver"],
+    "size": 39,
+    "colors": ["black"],
     "country": "China",
-    "url": "/watches/pagani-design/yatch-master-pd1651",
-    "image": "/pagani-design/yatch-master.webp"
+    "url": "/watches/tandorio/cusn8-flieger-b",
+    "image": "/tandorio/flieger-b.avif"
   }
 ]
