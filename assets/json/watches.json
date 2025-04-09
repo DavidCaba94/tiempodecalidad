@@ -32,5 +32,22 @@
     "country": "China",
     "url": "/watches/pagani-design/yatch-master-pd1651",
     "image": "/pagani-design/yatch-master.webp"
+  },
+  {
+    "id": 3,
+    "brand": "Pagani Design",
+    "model": "PD-1651",
+    "price": 70,
+    "movement": "Automatic",
+    "type": "Diver",
+    "water_resistance": 100,
+    "material": "Stainless Steel",
+    "bezel": "Black",
+    "mirror": "Sapphire",
+    "size": 40,
+    "colors": ["black", "orangered", "silver"],
+    "country": "China",
+    "url": "/watches/pagani-design/yatch-master-pd1651",
+    "image": "/pagani-design/yatch-master.webp"
   }
 ]

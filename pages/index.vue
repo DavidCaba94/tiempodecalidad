@@ -54,7 +54,7 @@ export default {
   methods: {
     setLastNews() {
       const invertedReviewsList = [...reviewsList].reverse();
-      this.news = invertedReviewsList.slice(0, 1);
+      this.news = invertedReviewsList.slice(0, 2);
     },
     setRandomWatches() {
       const randomWatches = [];

@@ -5,5 +5,12 @@
     "description": "The Casio Marlin is a classic dive watch known for its durability and water resistance. It features a stainless steel case, a rotating bezel, and a reliable quartz movement.",
     "url": "/watches/casio/marlin-mdv-106",
     "image": "/casio/marlin.avif"
+  },
+  {
+    "id": 2,
+    "title": "Pagani Design Yatch Master",
+    "description": "The Pagani Design Yatch Master is a stylish and affordable dive watch. It features a stainless steel case, a sapphire crystal, and a reliable automatic movement.",
+    "url": "/watches/pagani-design/yatch-master-pd1651",
+    "image": "/pagani-design/yatch-master.webp"
   }
 ]
