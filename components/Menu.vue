@@ -5,9 +5,7 @@
         <div class="bar" :class="{'dark-mode': darkMode}" ref="bar"></div>
       </div>
       <div class="logo-container">
-        <NuxtLink to="/">
-          <img src="../assets/img/icono.png" alt="Logo" class="img-logo" />
-        </NuxtLink>
+        <img src="../assets/img/icono.png" alt="Logo" class="img-logo" />
       </div>
       <div class="night-icon" :class="{'dark-mode': darkMode}" @click="toggleDarkMode()">
         <Icon v-if="!darkMode" name="uil:moon"/>
