@@ -1,8 +1,10 @@
 <template>
   <div class="news-card" :style="{ backgroundImage: 'url(../assets/img/watches' + watchObject.image + ')' }">
-    <p class="brand">{{ watchObject.brand }}</p>
+    <div class="brand">
+      <img :src="getCountryIcon(watchObject.country)" :alt="watchObject.country" class="country-icon"/>
+      <p>{{ watchObject.brand }}</p>
+    </div>
     <p class="model">{{ watchObject.model }}</p>
-    <img :src="getCountryIcon(watchObject.country)" :alt="watchObject.country" class="country-icon"/>
   </div>
 </template>
 
@@ -45,25 +47,32 @@ export default {
 }
 
 .brand {
-  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
   font-weight: bold;
   color: white;
-  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.7);
+  text-shadow: 0 0px 6px rgba(0, 0, 0, 1);
   margin: 0;
+}
+
+.brand p {
+  margin: 0;
+  margin-left: 10px;
 }
 
 .model {
   font-size: 16px;
   color: white;
-  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.7);
+  text-shadow: 0 0px 6px rgba(0, 0, 0, 1);
   margin: 0;
   margin-bottom: 10px;
 }
 
 .country-icon {
-  width: 35px;
-  height: 35px;
-  margin-bottom: 10px;
+  width: 20px;
+  height: 20px;
 }
 
 /* Mobile media query */
