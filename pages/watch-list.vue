@@ -376,7 +376,7 @@ input {
   border: 1px solid #ffffff14;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  overflow: scroll;
+  overflow: auto;
 }
 
 .dark-mode .inputs-container {
