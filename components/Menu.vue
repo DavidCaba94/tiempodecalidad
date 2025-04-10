@@ -68,6 +68,7 @@ export default {
   position: fixed;
   top: 0;
   left: 0;
+  width: -moz-available;
   width: -webkit-fill-available;
   background-color: #ffffff94;
   backdrop-filter: blur(8px);
