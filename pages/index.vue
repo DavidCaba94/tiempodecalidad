@@ -1,5 +1,6 @@
 <template>
   <div class="index-container">
+    <div class="banner"></div>
     <h2>Novedades</h2>
     <div class="card-container">
       <NuxtLink :to="post.url" v-for="post in news" :key="post.id" class="news-width">
@@ -82,6 +83,16 @@ export default {
   padding: 20px;
   margin-top: 80px;
   text-align: center;
+}
+
+.banner {
+  width: 100%;
+  height: 200px;
+  background-image: url('../assets/img/banner/banner.png');
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 20px;
+  border-radius: 8px;
 }
 
 .card-container {

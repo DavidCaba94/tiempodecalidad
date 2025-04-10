@@ -66,7 +66,7 @@ body.dark-mode {
 }
 
 body.light-mode {
-  background-color: #ffffff;
+  background-color: #f7f7f7;
   color: #000000;
   transition: background-color 0.3s ease, color 0.3s ease;
   -webkit-font-smoothing: antialiased;
