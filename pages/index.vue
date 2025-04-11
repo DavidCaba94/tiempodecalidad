@@ -1,11 +1,35 @@
 <template>
   <div class="index-container">
+    <h1 class="title">TIEMPO DE CALIDAD</h1>
     <div class="banner"></div>
+    <p class="description">
+      Bienvenido a Tiempo de Calidad, tu fuente confiable para reseñas de relojes. Aquí encontrarás análisis detallados y comparativas de los mejores relojes del mercado. Ya sea que busques un reloj de lujo, deportivo o casual, tenemos la información que necesitas para tomar la mejor decisión. Explora nuestras reseñas y descubre el reloj perfecto para ti.
+    </p>
     <h2>Novedades</h2>
-    <div class="card-container">
-      <NuxtLink :to="post.url" v-for="post in news" :key="post.id" class="news-width">
-        <ReviewCard :reviewObject="post"></ReviewCard>
-      </NuxtLink>
+    <div class="news-container" v-if="news.length > 0">
+      <div class="news-first-column">
+        <NuxtLink :to="news[0]?.url" class="new-box-first">
+          <div :style="{backgroundImage: 'url(../assets/img' + news[0]?.image + ')'}" class="img-news"></div>
+          <h3 class="title-news">{{ news[0]?.title }}</h3>
+          <p class="description-news">{{ news[0]?.description }}</p>
+        </NuxtLink>
+      </div>
+      <div class="news-second-column">
+        <NuxtLink :to="news[1]?.url" class="new-box-second">
+          <div :style="{backgroundImage: 'url(../assets/img' + news[1]?.image + ')'}" class="img-news"></div>
+          <div class="new-description-column">
+            <h3 class="title-news">{{ news[1]?.title }}</h3>
+            <p class="description-news">{{ news[1]?.description }}</p>
+          </div>
+        </NuxtLink>
+        <NuxtLink :to="news[2]?.url" class="new-box-second">
+          <div :style="{backgroundImage: 'url(../assets/img' + news[2]?.image + ')'}" class="img-news"></div>
+          <div class="new-description-column">
+            <h3 class="title-news">{{ news[2]?.title }}</h3>
+            <p class="description-news">{{ news[2]?.description }}</p>
+          </div>
+        </NuxtLink>
+      </div>
     </div>
     <NuxtLink to="/reviews-list" class="link-button">
       <p>Ver todas las reseñas</p>
@@ -55,7 +79,7 @@ export default {
   methods: {
     setLastNews() {
       const invertedReviewsList = [...reviewsList].reverse();
-      this.news = invertedReviewsList.slice(0, 2);
+      this.news = invertedReviewsList.slice(0, 3);
     },
     setRandomWatches() {
       const randomWatches = [];
@@ -85,6 +109,12 @@ export default {
   text-align: center;
 }
 
+.title {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
 .banner {
   width: 100%;
   height: 200px;
@@ -93,6 +123,154 @@ export default {
   background-position: center;
   margin-bottom: 20px;
   border-radius: 8px;
+}
+
+.description {
+  font-size: 18px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-align: justify;
+  font-weight: 200;
+}
+
+.news-container {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+
+.news-first-column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  max-height: 360px;
+  margin-right: 10px;
+}
+
+.news-second-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+  max-height: 360px;
+}
+
+.new-box-first {
+  width: 100%;
+  height: 360px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  text-decoration: none;
+  border: 1px solid #bababa1c;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.new-box-first:hover {
+  transform: scale(1.02);
+  transition: transform 0.2s;
+}
+
+.new-box-second {
+  width: 100%;
+  height: 170px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  text-decoration: none;
+  border: 1px solid #bababa1c;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.new-box-second:hover {
+  transform: scale(1.02);
+  transition: transform 0.2s;
+}
+
+.new-box-second-column:first-child {
+  margin-bottom: 10px;
+}
+
+.img-news {
+  width: 100%;
+  height: 200px;
+  background-position: center;
+  background-size: cover;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.new-box-second .img-news {
+  width: 100%;
+  height: 170px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 0px;
+  border-top-right-radius: 0px;
+  margin-right: 10px;
+}
+
+.dark-mode .title-news {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0;
+  color: #ffffff;
+  padding: 10px;
+  text-align: left;
+}
+
+.dark-mode .description-news {
+  font-size: 16px;
+  font-weight: 300;
+  margin: 0;
+  color: #ffffff;
+  text-align: justify;
+  padding: 0px 20px 0px 10px;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.light-mode .title-news {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0;
+  color: #000000;
+  padding: 10px;
+  text-align: left;
+}
+
+.light-mode .description-news {
+  font-size: 16px;
+  font-weight: 300;
+  margin: 0;
+  color: #000000;
+  text-align: justify;
+  padding: 0px 20px 0px 10px;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.new-box-second .title-news {
+  margin-top: -10px;
+}
+
+.new-description-column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .card-container {
@@ -132,6 +310,72 @@ a {
   .index-container {
     margin-top: 50px;
   }
+
+  .title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .description {
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .new-box-second {
+    flex-direction: column;
+  }
+
+  .new-box-second:first-child {
+    margin-bottom: 20px;
+  }
+
+  .news-container {
+    flex-direction: column;
+  }
+
+  .news-first-column {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+
+  .news-second-column {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    max-height: none;
+  }
+
+  .new-box-second {
+    height: 360px;
+  }
+
+  .new-box-second .img-news {
+    margin-right: 0px;
+  }
+
+  .new-box-second .title-news {
+    margin-top: 0px;
+  }
+
+  .light-mode .description-news,
+  .dark-mode .description-news {
+    margin-bottom: 30px;
+  }
+
+  .news-second-column .img-news {
+    width: 100%;
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
 
   .card-container {
     flex-direction: column;
