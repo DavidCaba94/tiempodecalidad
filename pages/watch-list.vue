@@ -183,6 +183,10 @@ export default {
     pageChanged(page) {
       this.currentPage = page;
       this.getWatches();
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
     },
     setFiltersContent() {
       this.filtersContent.brands = [...new Set(watchesList.map(watch => watch.brand))];

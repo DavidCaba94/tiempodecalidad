@@ -72,7 +72,11 @@ export default {
     },
     pageChanged(page) {
       this.currentPage = page;
-      this.getWatches();
+      this.getReviews();
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
     }
   }
 }

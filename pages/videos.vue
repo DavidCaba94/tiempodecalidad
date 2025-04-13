@@ -51,6 +51,10 @@ export default {
     pageChanged(page) {
       this.currentPage = page;
       this.getVideos();
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
     }
   }
 }
