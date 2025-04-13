@@ -165,7 +165,6 @@ export default {
   align-items: center;
   flex-direction: column;
   text-decoration: none;
-  border: 1px solid #bababa1c;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -177,13 +176,12 @@ export default {
 
 .new-box-second {
   width: 100%;
-  height: 170px;
+  height: 175px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: row;
   text-decoration: none;
-  border: 1px solid #bababa1c;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -197,6 +195,16 @@ export default {
   margin-bottom: 10px;
 }
 
+.dark-mode .new-box-first,
+.dark-mode .new-box-second {
+  background-color: #1e202c;
+}
+
+.light-mode .new-box-first,
+.light-mode .new-box-second {
+  background-color: #ffffff;
+}
+
 .img-news {
   width: 100%;
   height: 200px;
@@ -208,7 +216,7 @@ export default {
 
 .new-box-second .img-news {
   width: 100%;
-  height: 170px;
+  height: 175px;
   border-top-left-radius: 8px;
   border-bottom-left-radius: 8px;
   border-bottom-right-radius: 0px;
@@ -294,6 +302,10 @@ export default {
   color: #828282;
   text-decoration: none;
   margin-bottom: 50px;
+}
+
+.link-button:hover {
+  color: #00a182;
 }
 
 .next-icon {
