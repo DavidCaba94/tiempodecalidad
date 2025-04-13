@@ -1,7 +1,7 @@
 <template>
   <div class="review-card">
     <div class="review-card-img">
-      <div :style="{ backgroundImage: 'url(../assets/img/watches' + review.image + ')' }" class="review-img" :alt="review.title"></div>
+      <div :style="{ backgroundImage: 'url(../assets/img' + review.image + ')' }" class="review-img" :alt="review.title"></div>
     </div>
     <div class="review-card-body">
       <h2>{{ review.title }}</h2>
@@ -23,11 +23,6 @@ export default {
     review() {
       return this.reviewObject;
     }
-  },
-  methods: {
-    readMore() {
-      this.$router.push(this.review.url);
-    }
   }
 }
 </script>
@@ -35,11 +30,17 @@ export default {
 <style scoped>
 .review-card {
   display: flex;
-  border: 1px solid #bababa1c;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  padding: 16px;
   margin-bottom: 20px;
+}
+
+.dark-mode .review-card {
+  background-color: #1e202c;
+}
+
+.light-mode .review-card {
+  background-color: #ffffff;
 }
 
 .review-card:hover {
@@ -51,6 +52,8 @@ export default {
   width: 160px;
   height: 100%;
   border-radius: 8px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
   margin-right: 16px;
   background-size: cover;
   background-position: center;
@@ -59,6 +62,7 @@ export default {
 .review-card-body {
   text-align: left;
   color: #333;
+  padding: 20px;
 }
 
 .dark-mode .review-card-body {
@@ -73,15 +77,24 @@ export default {
 .review-card-body p {
   font-size: 15px;
   margin-top: 8px;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 @media (max-width: 768px) {
-  .review-card-body h2 {
-  font-size: 16px;
-}
+  .review-img {
+    width: 120px;
+  }
 
-.review-card-body p {
-  font-size: 14px;
-}
+  .review-card-body h2 {
+    font-size: 16px;
+  }
+
+  .review-card-body p {
+    font-size: 14px;
+  }
 }
 </style>
