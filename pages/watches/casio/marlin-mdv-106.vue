@@ -24,7 +24,7 @@
       El Casio Marlin Duro MDV-106 está equipado con el movimiento automático Calibre 7S26, que es conocido por su precisión y fiabilidad. Este movimiento tiene una reserva de marcha de aproximadamente 40 horas y cuenta con una frecuencia de 21,600 alternancias por hora. Además, el Calibre 7S26 es un movimiento robusto y duradero, lo que lo convierte en una excelente opción para un reloj de buceo.
     </p>
     <div class="post-image-container">
-      <img src="../../../public/assets/img/watches/casio/marlin.avif" alt="Calibre Casio Marlin Duro MDV-106" class="post-image">
+      <img src="../../../public/assets/img/watches/casio/marlin.png" alt="Calibre Casio Marlin Duro MDV-106" class="post-image">
     </div>
     <h2 class="post-header">Materiales</h2>
     <p class="post-paragraph">

@@ -14,7 +14,7 @@
     "colors": ["black", "blue", "green", "gold"],
     "country": "Japan",
     "url": "/watches/casio/marlin-mdv-106",
-    "image": "/casio/marlin.avif"
+    "image": "/casio/marlin.png"
   },
   {
     "id": 2,
@@ -31,7 +31,7 @@
     "colors": ["black", "orangered", "silver"],
     "country": "China",
     "url": "/watches/pagani-design/yatch-master-pd1651",
-    "image": "/pagani-design/yatch-master.webp"
+    "image": "/pagani-design/yatch-master.png"
   },
   {
     "id": 3,
@@ -48,6 +48,6 @@
     "colors": ["black"],
     "country": "China",
     "url": "/watches/tandorio/cusn8-flieger-b",
-    "image": "/tandorio/flieger-b.avif"
+    "image": "/tandorio/flieger-b.png"
   }
 ]

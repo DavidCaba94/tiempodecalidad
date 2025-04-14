@@ -4,20 +4,20 @@
     "title": "Casio Marlin Duro MDV-106, adiós al pez vela",
     "description": "The Casio Marlin is a classic dive watch known for its durability and water resistance. It features a stainless steel case, a rotating bezel, and a reliable quartz movement.",
     "url": "/watches/casio/marlin-mdv-106",
-    "image": "/watches/casio/marlin.avif"
+    "image": "/watches/casio/marlin.png"
   },
   {
     "id": 2,
     "title": "Pagani Design PD-1651, el Rolex Yatch-Master barato",
     "description": "The Pagani Design Yatch Master is a stylish and affordable dive watch. It features a stainless steel case, a sapphire crystal, and a reliable automatic movement.",
     "url": "/watches/pagani-design/yatch-master-pd1651",
-    "image": "/watches/pagani-design/yatch-master.webp"
+    "image": "/watches/pagani-design/yatch-master.png"
   },
   {
     "id": 3,
     "title": "Tandorio Flieger Tipo B, diseño y calidad a precio reducido",
     "description": "The Tandorio Flieger B is a classic pilot's watch with a clean and legible dial. It features a stainless steel case, a sapphire crystal, and an automatic movement.",
     "url": "/watches/tandorio/cusn8-flieger-b",
-    "image": "/watches/tandorio/flieger-b.avif"
+    "image": "/watches/tandorio/flieger-b.png"
   }
 ]
