@@ -463,6 +463,7 @@ input {
   height: 35px;
   border-radius: 50px;
   margin-right: 10px;
+  margin-bottom: 5px;
   border: 1px solid #868686;
   cursor: pointer;
 }
