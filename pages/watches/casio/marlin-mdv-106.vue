@@ -41,7 +41,7 @@
       La caja tiene un ligero cepillado por la parte superior y un acabado pulido tanto en los laterales como en el canto que une las asas. Es una caja con formas suaves y redondeadas creando una armonía que se percibe totalmente orgánica. Un lujo para la muñeca y una gran comodidad a la hora de llevar puesto el reloj, por lo menos para mi gusto.
     </p>
     <div class="post-image-container">
-      <img src="../../../public/assets/img/watches/casio/marlin.png" alt="Calibre Casio Marlin Duro MDV-106" class="post-image">
+      <img src="../../../public/assets/img/watches/casio/marlin.png" alt="Casio Marlin Duro MDV-106" class="post-image">
     </div>
     <h2 class="post-header">Corona</h2>
     <p class="post-paragraph">
@@ -115,6 +115,10 @@ export default {
   margin: 0 auto;
   padding: 20px;
   margin-top: 100px;
+}
+
+strong {
+  font-weight: bold;
 }
 
 .post-title {

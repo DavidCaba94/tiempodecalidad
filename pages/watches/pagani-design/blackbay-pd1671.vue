@@ -117,6 +117,10 @@ export default {
   margin-top: 100px;
 }
 
+strong {
+  font-weight: bold;
+}
+
 .post-title {
   font-size: 32px;
   font-weight: bold;
