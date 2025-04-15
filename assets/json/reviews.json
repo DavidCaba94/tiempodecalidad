@@ -16,8 +16,15 @@
   {
     "id": 3,
     "title": "Tandorio Flieger Tipo B, diseño y calidad a precio reducido",
-    "description": "The Tandorio Flieger B is a classic pilot's watch with a clean and legible dial. It features a stainless steel case, a sapphire crystal, and an automatic movement.",
+    "description": "El Tandorio CUSN8 es un flieger tipo B fiel a sus raíces, pero adaptado al uso diario con mejoras modernas como el cristal de zafiro y la gran resistencia al agua. Aunque algunos detalles pueden no gustar a todos, el conjunto ofrece una gran relación calidad-precio. Ideal para quienes valoran el legado histórico de los relojes de aviador y quieren una pieza funcional y visualmente impactante.",
     "url": "/watches/tandorio/cusn8-flieger-b",
     "image": "/watches/tandorio/flieger-b.png"
+  },
+  {
+    "id": 4,
+    "title": "Cadisen C-8200G, el Royal Oak imbatible",
+    "description": "Hay relojes que entran por los ojos y luego sorprenden por dentro. El Cadisen C-8200G es uno de esos casos. Un diver que la propia marca describe como de diseño alemán, pero que en cuanto lo ves te recuerda inmediatamente al icónico Royal Oak de Audemars Piguet. Esta fusión estética entre lo deportivo y lo refinado es una de sus principales bazas, aunque desde luego no la única.",
+    "url": "/watches/cadisen/c8200-royal-oak",
+    "image": "/watches/cadisen/royal-oak.png"
   }
 ]
