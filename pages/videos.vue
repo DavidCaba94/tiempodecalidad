@@ -1,5 +1,6 @@
 <template>
   <div class="video-page-container">
+    <h1 class="video-page-title">VÍDEOS</h1>
     <div class="video-container">
       <div v-for="(video, index) in videos" :key="index" class="video-card">
         <iframe width="300" height="169" :src="video.url" :title="video.title" class="video-borders" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -22,7 +23,7 @@ export default {
       {
         hid: 'description',
         name: 'description',
-        content: 'Relojería, precisión y calidad en cada review'
+        content: 'Aquí tienes todos los vídeos de Tiempo de Calidad, un canal de YouTube dedicado a la relojería. Encontrarás reseñas y recomendaciones de todo tipo de relojes, desde los más asequibles hasta los más exclusivos.',
       }
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/icon.ico' }]
@@ -66,6 +67,11 @@ export default {
   margin: 0 auto;
   margin-top: 100px;
   padding: 20px;
+}
+
+.video-page-title {
+  font-size: 24px;
+  margin-bottom: 20px;
 }
 
 .video-container {

@@ -1,9 +1,10 @@
 <template>
   <div class="index-container">
-    <h1 class="title">TIEMPO DE CALIDAD</h1>
-    <div class="banner"></div>
+    <div class="banner">
+      <h1 class="title">TIEMPO DE CALIDAD</h1>
+    </div>
     <p class="description">
-      Bienvenido a Tiempo de Calidad, tu fuente confiable para reseñas de relojes. Aquí encontrarás análisis detallados y comparativas de los mejores relojes del mercado. Ya sea que busques un reloj de lujo, deportivo o casual, tenemos la información que necesitas para tomar la mejor decisión. Explora nuestras reseñas y descubre el reloj perfecto para ti.
+      Relojería, precisión y calidad en cada review. Disfruta de esta gran afición con todo el contenido que tienes disponible en Tiempo de Calidad. Aquí encontrarás reseñas de relojes y recomendaciones de todo tipo de modelos.
     </p>
     <h2>Novedades</h2>
     <div class="news-container" v-if="news.length > 0">
@@ -61,7 +62,7 @@ export default {
       {
         hid: 'description',
         name: 'description',
-        content: 'Relojería, precisión y calidad en cada review'
+        content: 'Relojería, precisión y calidad en cada review. Disfruta de esta gran afición con todo el contenido que tienes disponible en Tiempo de Calidad. Aquí encontrarás reseñas de relojes y recomendaciones de todo tipo de modelos.',
       }
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/icon.ico' }]
@@ -113,9 +114,13 @@ export default {
   font-size: 48px;
   font-weight: bold;
   margin-bottom: 40px;
+  color: #ffffff;
 }
 
 .banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100%;
   height: 200px;
   background-image: url('../assets/img/banner/banner.png');
@@ -326,6 +331,10 @@ a {
   .title {
     font-size: 24px;
     margin-bottom: 20px;
+  }
+
+  .banner {
+    height: 150px;
   }
 
   .description {

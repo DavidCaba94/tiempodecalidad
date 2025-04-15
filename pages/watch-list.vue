@@ -1,5 +1,6 @@
 <template>
   <div class='watches-container'>
+    <h1 class="watches-title">RELOJES</h1>
     <div class='filter-container'>
       <div class='filter-button' @click="showFilters()">
         <Icon name="uil:filter" class="next-icon"/>
@@ -123,7 +124,7 @@ export default {
       {
         hid: 'description',
         name: 'description',
-        content: 'Relojería, precisión y calidad en cada review'
+        content: 'Aquí tienes un listado de todos los relojes reseñados en Tiempo de Calidad. En cada uno encontrarás un análisis detallado de sus características, así como una valoración personal. También podrás acceder directamente al enlace de compra de cada uno de ellos.',
       }
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/icon.ico' }]
@@ -289,6 +290,11 @@ export default {
   padding: 20px;
   margin-top: 80px;
   text-align: center;
+}
+
+.watches-title {
+  font-size: 34px;
+  margin-bottom: 20px;
 }
 
 .filter-container {
