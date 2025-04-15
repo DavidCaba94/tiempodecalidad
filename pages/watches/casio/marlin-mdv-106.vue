@@ -28,9 +28,6 @@
     <p class="post-paragraph">
       Equipa un calibre de cuarzo, concretamente el conocido Miyota 2115. Sobre el papel y sobre la práctica, este calibre tiene una desviación de unos 20 segundos al mes. Esto es algo que se espera de todos los calibres de este tipo, pero está bien que lo cumpla. Además de esto, la marca promete una duración de la pila de 3 años.
     </p>
-    <div class="post-image-container">
-      <img src="../../../public/assets/img/watches/casio/marlin.png" alt="Calibre Casio Marlin Duro MDV-106" class="post-image">
-    </div>
     <h2 class="post-header">Materiales</h2>
     <p class="post-paragraph">
       En cuanto a sus materiales tenemos lo que se puede esperar en un reloj de estas características: Acero inoxidable para la caja y, en este caso, resina para la correa. En general y gracias a estos materiales, es un reloj que se siente sólido y bien construido cuando lo llevas puesto.
@@ -43,6 +40,9 @@
     <p class="post-paragraph">
       La caja tiene un ligero cepillado por la parte superior y un acabado pulido tanto en los laterales como en el canto que une las asas. Es una caja con formas suaves y redondeadas creando una armonía que se percibe totalmente orgánica. Un lujo para la muñeca y una gran comodidad a la hora de llevar puesto el reloj, por lo menos para mi gusto.
     </p>
+    <div class="post-image-container">
+      <img src="../../../public/assets/img/watches/casio/marlin.png" alt="Calibre Casio Marlin Duro MDV-106" class="post-image">
+    </div>
     <h2 class="post-header">Corona</h2>
     <p class="post-paragraph">
       Como no podía ser de otra forma, tenemos una corona roscada. Esta característica sirve para asegurar la estanqueidad del reloj a la hora de sumergirlo. Tiene un acabado pulido y está protegida por un guardacoronas que no sobresale en exceso pero que cumple perfectamente su función. Un tema de debate es la firma en la corona, detalle que yo agradezco pero que no a todo el mundo le gusta. En este caso no la lleva, dejando solamente el acabado pulido. En general es una buena corona ya que se opera con facilidad, tracciona bien y transmite perfectamente el movimiento de las agujas.

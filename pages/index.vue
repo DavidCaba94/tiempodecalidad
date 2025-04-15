@@ -289,6 +289,7 @@ export default {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  max-width: 70%;
 }
 
 .card-container {
@@ -401,7 +402,7 @@ a {
     border-top-right-radius: 8px;
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
-}
+  }
 
   .card-container {
     flex-direction: column;
@@ -411,6 +412,10 @@ a {
   .card-width {
     width: 100%;
     max-width: 500px;
+  }
+
+  .new-description-column {
+    max-width: 100%;
   }
 }
 </style>
