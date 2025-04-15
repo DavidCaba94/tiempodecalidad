@@ -1,5 +1,10 @@
 <template>
   <div class="reviews-container">
+    <Head>
+      <Title>Reseñas - Tiempo de Calidad</Title>
+      <Meta name="description" content="Aquí tienes un listado con todas las reseñas de Tiempo de Calidad, ya sean reseñas completas de relojes o recomendaciones de diferentes modelos de todo tipo de marcas. En todas ellas encontrarás información útil y relevante para ayudarte a elegir el reloj que mejor se adapte a tus necesidades, además del enlace de compra." />
+      <link rel="icon" type="image/x-icon" href="/icon.ico" />
+    </Head>
     <div class='filter-container'>
       <div class='filter-button'>
         <h1>RESEÑAS</h1>

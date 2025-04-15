@@ -1,5 +1,10 @@
 <template>
   <div class="index-container">
+    <Head>
+      <Title>Tiempo de Calidad</Title>
+      <Meta name="description" content="Relojería, precisión y calidad en cada review. Disfruta de esta gran afición con todo el contenido que tienes disponible en Tiempo de Calidad. Aquí encontrarás reseñas de relojes y recomendaciones de todo tipo de modelos."/>
+      <link rel="icon" type="image/x-icon" href="/icon.ico" />
+    </Head>
     <div class="banner">
       <h1 class="title">TIEMPO DE CALIDAD</h1>
     </div>

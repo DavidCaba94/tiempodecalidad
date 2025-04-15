@@ -1,5 +1,10 @@
 <template>
   <div class="video-page-container">
+    <Head>
+      <Title>Vídeos - Tiempo de Calidad</Title>
+      <Meta name="description" content="Aquí tienes todos los vídeos de Tiempo de Calidad, un canal de YouTube dedicado a la relojería. Encontrarás reseñas y recomendaciones de todo tipo de relojes, desde los más asequibles hasta los más exclusivos." />
+      <link rel="icon" type="image/x-icon" href="/icon.ico" />
+    </Head>
     <h1 class="video-page-title">VÍDEOS</h1>
     <div class="video-container">
       <div v-for="(video, index) in videos" :key="index" class="video-card">

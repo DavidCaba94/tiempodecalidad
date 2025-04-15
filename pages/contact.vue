@@ -1,5 +1,10 @@
 <template>
   <div class="contact-form">
+    <Head>
+      <Title>Contacto - Tiempo de Calidad</Title>
+      <Meta name="description" content="Formulario de contacto para Tiempo de Calidad" />
+      <link rel="icon" type="image/x-icon" href="/icon.ico" />
+    </Head>
     <h1 class="contact-title">CONTACTO</h1>
     <p class="contact-description">Puedes rellenar el siguiente formulario o enviar un correo a <a href="mailto:tiempodecalidadbusiness@gmail.com">tiempodecalidadbusiness@gmail.com</a></p>
     <div class="form-box">

@@ -1,5 +1,10 @@
 <template>
   <div class='watches-container'>
+    <Head>
+      <Title>Relojes - Tiempo de Calidad</Title>
+      <Meta name="description" content="Aquí tienes un listado de todos los relojes reseñados en Tiempo de Calidad. En cada uno encontrarás un análisis detallado de sus características, así como una valoración personal. También podrás acceder directamente al enlace de compra de cada uno de ellos." />
+      <link rel="icon" type="image/x-icon" href="/icon.ico" />
+    </Head>
     <h1 class="watches-title">RELOJES</h1>
     <div class='filter-container'>
       <div class='filter-button' @click="showFilters()">

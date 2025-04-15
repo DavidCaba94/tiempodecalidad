@@ -1,5 +1,10 @@
 <template>
   <div class="post-container">
+    <Head>
+      <Title>Casio Marlin Duro MDV-106, adiós al pez vela - Tiempo de Calidad</Title>
+      <Meta name="description" content="El Casio Marlin Duro MDV-106 es un reloj de buceo que ha ganado popularidad por su diseño atractivo y funcionalidad. Con una resistencia al agua de hasta 200 metros, este reloj es ideal para actividades acuáticas y deportes extremos. Su movimiento automático garantiza precisión y fiabilidad, mientras que su diseño elegante lo convierte en una opción versátil para el uso diario. En esta reseña, exploraremos las características y especificaciones del Casio Marlin Duro MDV-106, así como su rendimiento en diversas situaciones." />
+      <link rel="icon" type="image/x-icon" href="/icon.ico" />
+    </Head>
     <h1 class="post-title">Casio Marlin Duro MDV-106, adiós al pez vela</h1>
     <p class="post-subtitle">
       El Casio Marlin Duro MDV-106 es un reloj de buceo que ha ganado popularidad por su diseño atractivo y funcionalidad. Con una resistencia al agua de hasta 200 metros, este reloj es ideal para actividades acuáticas y deportes extremos. Su movimiento automático garantiza precisión y fiabilidad, mientras que su diseño elegante lo convierte en una opción versátil para el uso diario. En esta reseña, exploraremos las características y especificaciones del Casio Marlin Duro MDV-106, así como su rendimiento en diversas situaciones.
@@ -92,7 +97,7 @@ export default {
       {
         hid: 'description',
         name: 'description',
-        content: 'Relojería, precisión y calidad en cada review'
+        content: 'El Casio Marlin Duro MDV-106 es un reloj de buceo que ha ganado popularidad por su diseño atractivo y funcionalidad. Con una resistencia al agua de hasta 200 metros, este reloj es ideal para actividades acuáticas y deportes extremos. Su movimiento automático garantiza precisión y fiabilidad, mientras que su diseño elegante lo convierte en una opción versátil para el uso diario. En esta reseña, exploraremos las características y especificaciones del Casio Marlin Duro MDV-106, así como su rendimiento en diversas situaciones.'
       }
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/icon.ico' }]
