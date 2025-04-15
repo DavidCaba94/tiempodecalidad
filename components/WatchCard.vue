@@ -5,6 +5,9 @@
       <p>{{ watchObject.brand }}</p>
     </div>
     <p class="model">{{ watchObject.model }}</p>
+    <div class="color-palette">
+      <div v-for="(color, i) in watchObject.colors" :key="i" class="color-bubble" :style="{ backgroundColor: color }"></div>
+    </div>
   </div>
 </template>
 
@@ -67,12 +70,27 @@ export default {
   color: white;
   text-shadow: 0 0px 6px rgba(0, 0, 0, 1);
   margin: 0;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 .country-icon {
   width: 20px;
   height: 20px;
+}
+
+.color-palette {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.color-bubble {
+  width: 10px;
+  height: 10px;
+  border: 1px solid #c3c3c3;
+  border-radius: 50%;
+  margin: 0 5px;
 }
 
 /* Mobile media query */

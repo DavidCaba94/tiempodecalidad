@@ -140,7 +140,7 @@ export default {
 
 .post-video {
   width: 600px;
-  height: 360px;
+  height: 335px;
   border-radius: 8px;
 }
 
