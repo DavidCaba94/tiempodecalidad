@@ -6,6 +6,11 @@ export default defineNuxtConfig({
     '@nuxt/fonts',
     '@nuxt/icon',
     '@nuxt/image',
-    '@nuxt/scripts'
-  ]
+    '@nuxt/scripts',
+    '@nuxtjs/sitemap'
+  ],
+  site: { 
+    url: 'https://tiempodecalidad.net', 
+    name: 'Tiempo de Calidad' 
+  }
 })
