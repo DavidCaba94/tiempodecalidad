@@ -80,7 +80,7 @@
 
 <script>
 export default {
-  name: 'marlin-mdv-106',
+  name: 'yatch-master-pd1651',
   head: {
     title: 'Pagani Design PD-1651, el Rolex Yatch-Master barato - Tiempo de Calidad',
     meta: [

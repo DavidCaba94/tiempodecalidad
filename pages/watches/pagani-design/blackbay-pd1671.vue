@@ -92,7 +92,7 @@
 
 <script>
 export default {
-  name: 'marlin-mdv-106',
+  name: 'blackbay-pd1671',
   head: {
     title: 'Pagani Design BB58, el Tudor Black Bay de menos de 100$ - Tiempo de Calidad',
     meta: [
