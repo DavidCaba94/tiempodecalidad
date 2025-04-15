@@ -51,6 +51,12 @@
       <p>Ver todos los relojes</p>
       <Icon name="uil:arrow-right" class="next-icon"/>
     </NuxtLink>
+    <h2>Únete a nuestro Telegram</h2>
+    <p class="description">Tenemos una gran comunidad de Telegram donde todos compartimos fotos y experiencias de nuestros relojes, consultamos dudas y nos pasamos ofertas interesantes. Cada día somos más, pero mantenemos un ambiente muy sano y agradable. Únete!</p>
+    <div class="link-container">
+      <img src="../public/assets/img/icons/telegram.png" alt="Telegram link" class="link-icon">
+      <a href="https://t.me/+kttAAJ61LeE1NzE0">Click aquí para unirte a Telegram</a>
+    </div>
   </div>
 </template>
 
@@ -326,6 +332,38 @@ export default {
 
 a {
   text-decoration: none;
+}
+
+.link-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.link-icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.link-container a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.dark-mode .link-container a {
+  color: #ffffff;
+}
+
+.light-mode .link-container a {
+  color: #000000;
+}
+
+.link-container a:hover {
+  color: #00a182;
 }
 
 /* Mobile media query */
