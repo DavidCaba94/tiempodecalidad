@@ -33,5 +33,12 @@
     "description": "El Pagani Design PD-1671 es un reloj que no se anda con rodeos: toma inspiración directa del Tudor Black Bay 58 y la transforma en una propuesta más asequible, sin perder carácter ni atención al detalle. Este diver se presenta como una opción sólida para quien busca diseño, robustez y prestaciones reales a un precio casi simbólico.",
     "url": "/watches/pagani-design/blackbay-pd1671",
     "image": "/watches/pagani-design/blackbay.png"
+  },
+  {
+    "id": 6,
+    "title": "Casio Edifice EFR-S108D, este CasiOak es pura elegancia y diseño",
+    "description": "El Casio Edifice EFR-S108D, apodado por muchos como CasiOak, no es simplemente un reloj económico que recuerda al Royal Oak. Es una reinterpretación accesible y moderna de una estética clásica que, en manos de Casio, toma forma en un reloj delgado, preciso y con un diseño sorprendentemente cuidado. Esta pieza logra aunar diseño, funcionalidad y comodidad con una ejecución que, por su precio, resulta difícil de igualar.",
+    "url": "/watches/casio/edifice-efr-s108d",
+    "image": "/watches/casio/edifice.png"
   }
 ]

@@ -80,7 +80,7 @@
     </p>
     <h2 class="post-header">Relación calidad-precio</h2>
     <p class="post-paragraph">
-      El Pagani Design PD-1671 representa una de esas sorpresas agradables que uno no espera encontrar por menos de 80 euros. Su precio lo coloca en una franja económica, pero sus especificaciones y acabados apuntan bastante más alto. El reloj combina un diseño atractivo y bien ejecutado con una construcción robusta, materiales de calidad como el acero inoxidable y el cristal de zafiro, y un rendimiento técnico fiable gracias al calibre Seiko NH35, una apuesta segura en relojería asequible.
+      El Pagani Design PD-1671 representa una de esas sorpresas agradables que uno no espera encontrar por <strong>menos de 80 euros</strong>. Su precio lo coloca en una franja económica, pero sus especificaciones y acabados apuntan bastante más alto. El reloj combina un diseño atractivo y bien ejecutado con una construcción robusta, materiales de calidad como el acero inoxidable y el cristal de zafiro, y un rendimiento técnico fiable gracias al calibre Seiko NH35, una apuesta segura en relojería asequible.
     </p>
     <p class="post-paragraph">
       Más allá de lo técnico, transmite una sensación de solidez en muñeca y cuida mucho los detalles estéticos. El brazalete se siente bien construido, el bisel tiene un giro firme y preciso, el lumen está por encima de lo que suele encontrarse en esta gama y, además, visualmente es un reloj muy equilibrado.
