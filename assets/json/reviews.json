@@ -47,5 +47,11 @@
     "description": "En el mundo de la relojería, pocos diseños tienen tanta carga histórica como los relojes tipo flieger. Nacidos en plena guerra para satisfacer las necesidades de los pilotos, su legado sigue muy presente en la actualidad. Hoy te presento el segundo flieger de mi colección, un modelo tipo A, reconocible por su diseño centrado en las horas en lugar de los minutos. Un reloj que, sin grandes pretensiones, se gana el respeto por su equilibrio entre funcionalidad, estética y precio.",
     "url": "/watches/tandorio/cusn8-flieger-a",
     "image": "/watches/tandorio/flieger-a.png"
-  }
-]
+  },
+  {
+    "id": 8,
+    "title": "Sugess Deus, cronógrafo mecánico ST1901 a precio de cuarzo",
+    "description": "El Sugess Deus, un homenaje al icónico cronógrafo de Breitling que destaca por su diseño atractivo y su marcado estilo clásico. Un modelo ideal para quienes buscan iniciarse en el mundo de los cronógrafos mecánicos sin renunciar a una estética cuidada y un movimiento con historia.",
+    "url": "/watches/sugess/deus-chronograph",
+    "image": "/sugess/sugess-deus.png"
+  }]

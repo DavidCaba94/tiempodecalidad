@@ -117,5 +117,22 @@
     "country": "China",
     "url": "/watches/tandorio/cusn8-flieger-a",
     "image": "/tandorio/flieger-a.png"
+  },
+  {
+    "id": 8,
+    "brand": "Sugess",
+    "model": "Deus",
+    "price": 200,
+    "movement": "Mechanical",
+    "type": "Chronograph",
+    "water_resistance": 50,
+    "material": "Stainless Steel",
+    "bezel": "",
+    "mirror": "Sapphire",
+    "size": 40,
+    "colors": ["black", "blue", "white", "aqua"],
+    "country": "China",
+    "url": "/watches/sugess/deus-chronograph",
+    "image": "/sugess/sugess-deus.png"
   }
 ]
