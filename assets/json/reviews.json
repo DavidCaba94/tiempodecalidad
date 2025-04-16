@@ -40,5 +40,12 @@
     "description": "El Casio Edifice EFR-S108D, apodado por muchos como CasiOak, no es simplemente un reloj económico que recuerda al Royal Oak. Es una reinterpretación accesible y moderna de una estética clásica que, en manos de Casio, toma forma en un reloj delgado, preciso y con un diseño sorprendentemente cuidado. Esta pieza logra aunar diseño, funcionalidad y comodidad con una ejecución que, por su precio, resulta difícil de igualar.",
     "url": "/watches/casio/edifice-efr-s108d",
     "image": "/watches/casio/edifice.png"
+  },
+  {
+    "id": 7,
+    "title": "Tandorio Flieger Tipo A, impresionante el lumen de este aviador",
+    "description": "En el mundo de la relojería, pocos diseños tienen tanta carga histórica como los relojes tipo flieger. Nacidos en plena guerra para satisfacer las necesidades de los pilotos, su legado sigue muy presente en la actualidad. Hoy te presento el segundo flieger de mi colección, un modelo tipo A, reconocible por su diseño centrado en las horas en lugar de los minutos. Un reloj que, sin grandes pretensiones, se gana el respeto por su equilibrio entre funcionalidad, estética y precio.",
+    "url": "/watches/tandorio/cusn8-flieger-a",
+    "image": "/watches/tandorio/flieger-a.png"
   }
 ]

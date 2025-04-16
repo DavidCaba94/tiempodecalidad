@@ -100,5 +100,22 @@
     "country": "Japan",
     "url": "/watches/casio/edifice-efr-s108d",
     "image": "/casio/edifice.png"
+  },
+  {
+    "id": 7,
+    "brand": "Tandorio",
+    "model": "CUSN8",
+    "price": 70,
+    "movement": "Automatic",
+    "type": "Flieger",
+    "water_resistance": 200,
+    "material": "Stainless Steel",
+    "bezel": "",
+    "mirror": "Sapphire",
+    "size": 39,
+    "colors": ["white"],
+    "country": "China",
+    "url": "/watches/tandorio/cusn8-flieger-a",
+    "image": "/tandorio/flieger-a.png"
   }
 ]
