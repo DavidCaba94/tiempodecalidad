@@ -61,5 +61,12 @@
     "description": "El Pagani Design PD-1672 es un homenaje al icónico Omega Speedmaster, pero con un giro inesperado: su construcción en acero inoxidable y su diseño robusto lo hacen destacar entre otros homenajes. Con un precio asequible y una estética cuidada, este reloj es perfecto para quienes buscan un cronógrafo mecánico sin renunciar a la calidad.",
     "url": "/watches/pagani-design/moonwatch-pd1672",
     "image": "/watches/pagani-design/moonwatch.png"
+  },
+  {
+    "id": 12,
+    "title": "Timex Expedition Scout, reloj de campo para el aventurero moderno",
+    "description": "El Timex Expedition Scout es una de las opciones más populares dentro de los relojes de inspiración militar gracias a su diseño funcional, su resistencia y, sobre todo, su asequibilidad. Con una larga trayectoria en el mundo de la relojería, Timex ha sabido ganarse un lugar entre los entusiastas gracias a modelos como este, que combinan estética clásica, materiales robustos y detalles prácticos como su reconocida iluminación Indiglo.",
+    "url": "/watches/timex/expedition-scout",
+    "image": "/watches/timex/expedition-scout.png"
   }
 ]

@@ -151,5 +151,22 @@
     "country": "China",
     "url": "/watches/pagani-design/moonwatch-pd1701",
     "image": "/pagani-design/moonwatch.png"
+  },
+  {
+    "id": 10,
+    "brand": "Timex",
+    "model": "Expedition Scout",
+    "price": 85,
+    "movement": "Quartz",
+    "type": "Field",
+    "water_resistance": 50,
+    "material": "Brass",
+    "bezel": "",
+    "mirror": "Mineral",
+    "size": 40,
+    "colors": ["black", "white"],
+    "country": "United States",
+    "url": "/watches/timex/expedition-scout",
+    "image": "/timex/expedition-scout.png"
   }
 ]

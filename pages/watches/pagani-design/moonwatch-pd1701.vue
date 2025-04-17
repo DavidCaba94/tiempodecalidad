@@ -63,7 +63,7 @@
       Bajo las 12 aparece el <strong>logotipo de la marca junto con el nombre y la leyenda "Chronograph"</strong>, un añadido que personalmente me parece innecesario y algo recargado. El fechador, ubicado entre las 4 y las 5, está en <strong>negativo</strong> (números blancos sobre fondo negro) e integrado de forma muy limpia.
     </p>
     <div class="post-image-container">
-      <img src="../../../public/assets/img/watches/pagani-design/moonwatch.png" alt="Pagani Design BB58" class="post-image">
+      <img src="../../../public/assets/img/watches/pagani-design/moonwatch.png" alt="Pagani Design Moonwatch" class="post-image">
     </div>
     <h2 class="post-header">Marcadores y manecillas</h2>
     <p class="post-paragraph">

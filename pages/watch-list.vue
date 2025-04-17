@@ -36,7 +36,7 @@
             <div class="input-label">País</div>
             <div class="countries-container">
               <div v-for="country in filtersContent.countries" :key="country" @click="setCountry(country)">
-                <img :src="'../assets/img/flags/' + country + '.png'" :alt="country" class="country-icon" :class="filtersValues.country === country ? ' selected' : ''"/>
+                <img :src="getCountryIcon(country)" :alt="country" class="country-icon" :class="filtersValues.country === country ? ' selected' : ''"/>
               </div>
             </div>
           </div>
@@ -184,7 +184,7 @@ export default {
       this.isShowFilters = !this.isShowFilters;
     },
     getCountryIcon(country) { 
-      return '../assets/img/flags/' + country.toLowerCase() + '.png';
+      return '../assets/img/flags/' + country.replace(' ', '-').toLowerCase() + '.png';
     },
     pageChanged(page) {
       this.currentPage = page;

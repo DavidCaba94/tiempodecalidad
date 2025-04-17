@@ -22,7 +22,7 @@ export default {
   },
   methods: {
     getCountryIcon(country) { 
-      return '../assets/img/flags/' + country.toLowerCase() + '.png';
+      return '../assets/img/flags/' + country.replace(' ', '-').toLowerCase() + '.png';
     }
   }
 }
