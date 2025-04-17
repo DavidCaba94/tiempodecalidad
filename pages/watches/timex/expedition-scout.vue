@@ -79,7 +79,7 @@
 
 <script>
 export default {
-  name: 'marlin-mdv-106',
+  name: 'expedition-scout',
   head: {
     title: 'Timex Expedition Scout, reloj de campo para el aventurero moderno - Tiempo de Calidad',
     meta: [

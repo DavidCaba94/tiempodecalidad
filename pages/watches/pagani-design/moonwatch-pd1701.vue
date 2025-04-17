@@ -93,7 +93,7 @@
 
 <script>
 export default {
-  name: 'marlin-mdv-106',
+  name: 'moonwatch-pd1701',
   head: {
     title: 'Pagani Design Moonwatch, este no es de biocerámica - Tiempo de Calidad',
     meta: [
