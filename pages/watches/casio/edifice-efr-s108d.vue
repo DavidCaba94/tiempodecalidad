@@ -1,7 +1,7 @@
 <template>
   <div class="post-container">
     <Head>
-      <Title>Casio Edifice EFR-S108D, este CasiOak es pura elegancia y diseño</Title>
+      <Title>Casio Edifice EFR-S108D, este CasiOak es pura elegancia y diseño - Tiempo de Calidad</Title>
       <Meta name="description" content="El Casio Edifice EFR-S108D, apodado por muchos como CasiOak, no es simplemente un reloj económico que recuerda al Royal Oak. Es una reinterpretación accesible y moderna de una estética clásica que, en manos de Casio, toma forma en un reloj delgado, preciso y con un diseño sorprendentemente cuidado. Esta pieza logra aunar diseño, funcionalidad y comodidad con una ejecución que, por su precio, resulta difícil de igualar." />
       <link rel="icon" type="image/x-icon" href="/icon.ico" />
     </Head>

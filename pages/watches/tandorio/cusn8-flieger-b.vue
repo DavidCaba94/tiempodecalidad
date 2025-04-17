@@ -1,7 +1,7 @@
 <template>
   <div class="post-container">
     <Head>
-      <Title>Tandorio Flieger Tipo B, diseño y calidad a precio reducido</Title>
+      <Title>Tandorio Flieger Tipo B, diseño y calidad a precio reducido - Tiempo de Calidad</Title>
       <Meta name="description" content="El Tandorio CUSN8 es un flieger tipo B fiel a sus raíces, pero adaptado al uso diario con mejoras modernas como el cristal de zafiro y la gran resistencia al agua. Aunque algunos detalles pueden no gustar a todos, el conjunto ofrece una gran relación calidad-precio. Ideal para quienes valoran el legado histórico de los relojes de aviador y quieren una pieza funcional y visualmente impactante." />
       <link rel="icon" type="image/x-icon" href="/icon.ico" />
     </Head>

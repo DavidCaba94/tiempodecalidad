@@ -1,7 +1,7 @@
 <template>
   <div class="post-container">
     <Head>
-      <Title>Cadisen C-8200G, el Royal Oak imbatible</Title>
+      <Title>Cadisen C-8200G, el Royal Oak imbatible - Tiempo de Calidad</Title>
       <Meta name="description" content="" />
       <link rel="icon" type="image/x-icon" href="/icon.ico" />
     </Head>

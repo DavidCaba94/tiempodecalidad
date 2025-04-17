@@ -54,4 +54,12 @@
     "description": "El Sugess Deus, un homenaje al icónico cronógrafo de Breitling que destaca por su diseño atractivo y su marcado estilo clásico. Un modelo ideal para quienes buscan iniciarse en el mundo de los cronógrafos mecánicos sin renunciar a una estética cuidada y un movimiento con historia.",
     "url": "/watches/sugess/deus-chronograph",
     "image": "/watches/sugess/sugess-deus.png"
-  }]
+  },
+  {
+    "id": 11,
+    "title": "Pagani Design Moonwatch, este no es de biocerámica",
+    "description": "El Pagani Design PD-1672 es un homenaje al icónico Omega Speedmaster, pero con un giro inesperado: su construcción en acero inoxidable y su diseño robusto lo hacen destacar entre otros homenajes. Con un precio asequible y una estética cuidada, este reloj es perfecto para quienes buscan un cronógrafo mecánico sin renunciar a la calidad.",
+    "url": "/watches/pagani-design/moonwatch-pd1672",
+    "image": "/watches/pagani-design/moonwatch.png"
+  }
+]

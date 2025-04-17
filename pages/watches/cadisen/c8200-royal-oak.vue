@@ -1,7 +1,7 @@
 <template>
   <div class="post-container">
     <Head>
-      <Title>Cadisen C-8200G, el Royal Oak imbatible</Title>
+      <Title>Cadisen C-8200G, el Royal Oak imbatible - Tiempo de Calidad</Title>
       <Meta name="description" content="Hay relojes que entran por los ojos y luego sorprenden por dentro. El Cadisen C-8200G es uno de esos casos. Un diver que la propia marca describe como de diseño alemán, pero que en cuanto lo ves te recuerda inmediatamente al icónico Royal Oak de Audemars Piguet. Esta fusión estética entre lo deportivo y lo refinado es una de sus principales bazas, aunque desde luego no la única." />
       <link rel="icon" type="image/x-icon" href="/icon.ico" />
     </Head>

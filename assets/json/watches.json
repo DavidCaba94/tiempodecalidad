@@ -134,5 +134,22 @@
     "country": "China",
     "url": "/watches/sugess/deus-chronograph",
     "image": "/sugess/sugess-deus.png"
+  },
+  {
+    "id": 9,
+    "brand": "Pagani Design",
+    "model": "PD-1701",
+    "price": 80,
+    "movement": "Quartz",
+    "type": "Chronograph",
+    "water_resistance": 100,
+    "material": "Stainless Steel",
+    "bezel": "Ceramic",
+    "mirror": "Sapphire",
+    "size": 40,
+    "colors": ["black", "blue", "red", "gold", "white", "aqua"],
+    "country": "China",
+    "url": "/watches/pagani-design/moonwatch-pd1701",
+    "image": "/pagani-design/moonwatch.png"
   }
 ]

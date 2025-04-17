@@ -1,7 +1,7 @@
 <template>
   <div class="post-container">
     <Head>
-      <Title>Pagani Design PD-1651, el Rolex Yatch-Master barato</Title>
+      <Title>Pagani Design PD-1651, el Rolex Yatch-Master barato - Tiempo de Calidad</Title>
       <Meta name="description" content="El mundo de los homenajes relojeros está lleno de opciones más o menos inspiradas, pero pocas tan equilibradas como este Pagani Design PD-1651. Inspirado en el icónico Rolex Yacht-Master, este diver económico no solo sorprende por su estética elegante y deportiva, sino también por su construcción y especificaciones. Con un precio que ronda los 60 euros, se convierte en una de las mejores opciones si quieres un reloj automático con presencia y carácter sin romper la hucha." />
       <link rel="icon" type="image/x-icon" href="/icon.ico" />
     </Head>

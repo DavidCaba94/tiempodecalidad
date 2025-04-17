@@ -1,7 +1,7 @@
 <template>
   <div class="post-container">
     <Head>
-      <Title>Tandorio Flieger Tipo A, impresionante el lumen de este aviador</Title>
+      <Title>Tandorio Flieger Tipo A, impresionante el lumen de este aviador - Tiempo de Calidad</Title>
       <Meta name="description" content="En el mundo de la relojería, pocos diseños tienen tanta carga histórica como los relojes tipo flieger. Nacidos en plena guerra para satisfacer las necesidades de los pilotos, su legado sigue muy presente en la actualidad. Hoy te presento el segundo flieger de mi colección, un modelo tipo A, reconocible por su diseño centrado en las horas en lugar de los minutos. Un reloj que, sin grandes pretensiones, se gana el respeto por su equilibrio entre funcionalidad, estética y precio." />
       <link rel="icon" type="image/x-icon" href="/icon.ico" />
     </Head>

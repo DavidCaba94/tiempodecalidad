@@ -1,7 +1,7 @@
 <template>
   <div class="post-container">
     <Head>
-      <Title>Sugess Deus, cronógrafo mecánico ST1901 a precio de cuarzo</Title>
+      <Title>Sugess Deus, cronógrafo mecánico ST1901 a precio de cuarzo - Tiempo de Calidad</Title>
       <Meta name="description" content="El Sugess Deus, un homenaje al icónico cronógrafo de Breitling que destaca por su diseño atractivo y su marcado estilo clásico. Un modelo ideal para quienes buscan iniciarse en el mundo de los cronógrafos mecánicos sin renunciar a una estética cuidada y un movimiento con historia." />
       <link rel="icon" type="image/x-icon" href="/icon.ico" />
     </Head>
