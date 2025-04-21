@@ -24,6 +24,10 @@
       <img src="../../../public/assets/img/icons/aliexpress.png" alt="Aliexpress link" class="link-icon">
       <a href="https://s.click.aliexpress.com/e/_EvSiDxS">Click aquí para comprarlo en Aliexpress</a>
     </div>
+    <div class="link-container">
+      <img src="../../../public/assets/img/icons/amazon.png" alt="Amazon link" class="link-icon">
+      <a href="https://amzn.to/4irkqgz">Click aquí para comprarlo en Amazon</a>
+    </div>
     <p class="post-paragraph">
       Pagani Design ya se ha hecho un nombre dentro del mundo de la relojería asequible. Sus modelos ofrecen especificaciones sorprendentes para el precio que cuestan, y el PD-1701 no es la excepción. Con una estética claramente inspirada en el Moonwatch y un conjunto de características que no solemos ver por debajo de los 100 euros, este reloj se presenta como una opción muy interesante para quienes buscan un cronógrafo atractivo, robusto y funcional sin romper la hucha.
     </p>

@@ -18,6 +18,10 @@
             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </div>
     <div class="link-container">
+      <img src="../../../public/assets/img/icons/amazon.png" alt="Amazon link" class="link-icon">
+      <a href="https://amzn.to/3RXDtUT">Click aquí para comprarlo en Amazon</a>
+    </div>
+    <div class="link-container">
       <img src="../../../public/assets/img/icons/internet.png" alt="Miravia link" class="link-icon">
       <a href="https://s.miravia.es/s.Z9VmQ">Click aquí para comprarlo en Miravia</a>
     </div>
