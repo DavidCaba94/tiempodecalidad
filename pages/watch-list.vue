@@ -167,7 +167,7 @@ export default {
   },
   computed: {
     totalItems() {
-      return watchesList?.length;
+      return this.searchText === '' ? watchesList?.length : this.watches?.length;
     }
   },
   mounted() {

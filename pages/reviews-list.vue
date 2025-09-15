@@ -54,7 +54,7 @@ export default {
   },
   computed: {
     totalItems() {
-      return reviewsList?.length;
+      return this.searchText === '' ? reviewsList?.length : this.reviews?.length;
     }
   },
   mounted() {
