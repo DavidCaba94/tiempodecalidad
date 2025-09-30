@@ -5,8 +5,19 @@
       <Meta name="description" content="Aquí tienes todos los vídeos de Tiempo de Calidad, un canal de YouTube dedicado a la relojería. Encontrarás reseñas y recomendaciones de todo tipo de relojes, desde los más asequibles hasta los más exclusivos." />
       <link rel="icon" type="image/x-icon" href="/icon.ico" />
     </Head>
-    <h1 class="video-page-title">VÍDEOS</h1>
-    <div class="video-container">
+    <div class="filter-container">
+      <div class="filter-button">
+        <h1 class="video-page-title">VÍDEOS</h1>
+      </div>
+      <div class='filter-button'>
+        <input v-model="searchText" type="text" placeholder="Buscar" class="input-search" @keyup="filterBySearch()"/>
+        <Icon name="mi:search" class="next-icon"/>
+      </div>
+    </div>
+    <div v-if="videos.length === 0" class="no-data">
+      <p>No hay datos para mostrar</p>
+    </div>
+    <div class="video-container" v-if="videos.length > 0">
       <div v-for="(video, index) in videos" :key="index" class="video-card">
         <iframe width="300" height="169" :src="video.url" :title="video.title" class="video-borders" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         <h3 class="video-title">{{ video.title }}</h3>
@@ -37,12 +48,13 @@ export default {
     return {
       videos: [],
       currentPage: 1,
-      itemsPerPage: 9
+      itemsPerPage: 9,
+      searchText: ''
     }
   },
   computed: {
     totalItems() {
-      return videosList?.length;
+      return this.searchText === '' ? videosList?.length : this.videos?.length;
     }
   },
   mounted() {
@@ -53,6 +65,15 @@ export default {
       const start = (this.currentPage - 1) * this.itemsPerPage;
       const end = start + this.itemsPerPage;
       this.videos = [...videosList].reverse().slice(start, end);
+    },
+    filterBySearch() {
+      if (this.searchText.length > 2) {
+        this.videos = videosList.filter(video => {
+          return video.title.toLowerCase().includes(this.searchText.toLowerCase());
+        });
+      } else {
+        this.getVideos();
+      }
     },
     pageChanged(page) {
       this.currentPage = page;
@@ -72,6 +93,53 @@ export default {
   margin: 0 auto;
   margin-top: 100px;
   padding: 20px;
+}
+
+.filter-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+  margin-bottom: 20px;
+}
+
+.filter-button {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.filter-button:hover {
+  color: #00a182;
+}
+
+.filter-button h1 {
+  font-size: 28px;
+}
+
+.filter-button p {
+  margin-left: 10px;
+}
+
+input {
+  border-radius: 0px;
+}
+
+.input-search {
+  width: 150px;
+  padding: 5px;
+  border: none;
+  border-bottom: 1px solid #7b7b7b;
+  background-color: #00000000;
+  font-size: 14px;
+  outline: none;
+}
+
+.dark-mode .input-search {
+  color: #ffffff;
+  border-bottom: 1px solid #ccc;
 }
 
 .video-page-title {
@@ -100,9 +168,22 @@ export default {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
+.no-data {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  font-size: 20px;
+  color: #7b7b7b;
+}
+
 @media (max-width: 768px) {
   .video-page-container {
     margin-top: 50px;
+  }
+
+  .filter-button h1 {
+    font-size: 22px;
   }
 }
 </style>
