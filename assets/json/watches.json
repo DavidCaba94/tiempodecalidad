@@ -168,5 +168,22 @@
     "country": "United States",
     "url": "/watches/timex/expedition-scout",
     "image": "/timex/expedition-scout.png"
+  },
+  {
+    "id": 11,
+    "brand": "Berny",
+    "model": "Compressor V4",
+    "price": 120,
+    "movement": "Automatic",
+    "type": "Diver",
+    "water_resistance": 200,
+    "material": "Stainless Steel",
+    "bezel": "Stainless Steel",
+    "mirror": "Sapphire",
+    "size": 42,
+    "colors": ["black", "blue", "green", "yellow"],
+    "country": "China",
+    "url": "/watches/berny/compressor-V4-am439m",
+    "image": "/berny/compressor-v4.png"
   }
 ]
