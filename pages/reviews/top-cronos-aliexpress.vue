@@ -21,7 +21,7 @@
       <p class="post-paragraph">
         Muchos de estos modelos los tengo en mi colección personal, o al menos he probado relojes con los mismos calibres, así que te puedo hablar desde la experiencia. Como siempre digo, no soy un experto, solo un aficionado más con ganas de compartir sus descubrimientos.
       </p>
-      <h2 class="post-header">Cadisen C7063</h2>
+      <h2 class="post-header">Cadisen C7063</h2> <!-- falla enlace -->
       <div class="post-image-container">
         <img src="../../public/assets/img/reviews/top-cronos-aliexpress/cadisen-c7063.png" alt="Cadisen C7063" class="post-image">
       </div>
@@ -38,12 +38,12 @@
       </div>
       <div class="link-container">
         <img src="../../public/assets/img/icons/aliexpress.png" alt="Aliexpress link" class="link-icon">
-        <a href="https://s.click.aliexpress.com/e/_Ey9NH4k">Click aquí para comprarlo en Aliexpress</a>
+        <a href="https://s.click.aliexpress.com/e/_EHcKocU">Click aquí para comprarlo en Aliexpress</a>
       </div>
       <p class="post-paragraph">
         Este cronógrafo de Pagani Design es todo un homenaje al Rolex Daytona, y por unos 50 euros puedes lucir en la muñeca un diseño icónico. La marca ya ha demostrado en múltiples ocasiones que ofrece una gran calidad en sus relojes económicos. Este modelo lleva el calibre VK63 de Seiko, caja de acero inoxidable de 40 mm, cristal de zafiro y resistencia al agua de 100 metros (algo poco común en cronógrafos de este precio). Tiene multitud de colores y opciones con correa de goma o armis.
       </p>
-      <h2 class="post-header">Addiesdive AD2034</h2>
+      <h2 class="post-header">Addiesdive AD2034</h2> <!-- falla enlace -->
       <div class="post-image-container">
         <img src="../../public/assets/img/reviews/top-cronos-aliexpress/addiesdive-ad2034.png" alt="Addiesdive AD2034" class="post-image">
       </div>
@@ -60,7 +60,7 @@
       </div>
       <div class="link-container">
         <img src="../../public/assets/img/icons/aliexpress.png" alt="Aliexpress link" class="link-icon">
-        <a href="https://s.click.aliexpress.com/e/_EzdbvgU">Click aquí para comprarlo en Aliexpress</a>
+        <a href="https://s.click.aliexpress.com/e/_EQ5VklA">Click aquí para comprarlo en Aliexpress</a>
       </div>
       <p class="post-paragraph">
         Inspirado en el Tudor Black Bay Chrono Pink, este modelo de Bliger cuesta unos 80 euros y monta el fiable VK64 de Seiko. Aunque no tengo relojes de esta marca, sí tengo otros que usan este mismo calibre. Caja de 39 mm, cristal de zafiro, corona roscada y una resistencia al agua un poco confusa: la marca indica 50 metros, pero el dial muestra 200. En cualquier caso, por los colores disponibles y el diseño, es una opción interesante para quienes busquen un homenaje a Tudor.
@@ -71,7 +71,7 @@
       </div>
       <div class="link-container">
         <img src="../../public/assets/img/icons/aliexpress.png" alt="Aliexpress link" class="link-icon">
-        <a href="https://s.click.aliexpress.com/e/_EwZ2jte">Click aquí para comprarlo en Aliexpress</a>
+        <a href="https://s.click.aliexpress.com/e/_EJ3eBFI">Click aquí para comprarlo en Aliexpress</a>
       </div>
       <p class="post-paragraph">
         Este cronógrafo con estética de reloj de campo (field watch) me parece muy completo por los 87 euros que cuesta. Monta un calibre VK67 de Seiko dentro de una caja de acero de 39 mm, cristal de zafiro, corona roscada y 100 metros de resistencia al agua. Un punto positivo es su lumen, que supera lo habitual en esta gama. Está disponible con correa de nylon en varios colores, con diferentes configuraciones de subdiales y fechador.
@@ -82,7 +82,7 @@
       </div>
       <div class="link-container">
         <img src="../../public/assets/img/icons/aliexpress.png" alt="Aliexpress link" class="link-icon">
-        <a href="https://s.click.aliexpress.com/e/_EuKe7fS">Click aquí para comprarlo en Aliexpress</a>
+        <a href="https://s.click.aliexpress.com/e/_Ew1IIis">Click aquí para comprarlo en Aliexpress</a>
       </div>
       <p class="post-paragraph">
         Otro Pagani Design en la lista, esta vez inspirado en el Omega Speedmaster. Yo lo tengo en mi colección y es uno de los relojes que más disfruto. Lleva el calibre VK63 de Seiko, caja de 40 mm, cristal de zafiro abovedado, corona roscada y 100 metros de resistencia al agua. Uno de sus puntos fuertes es el bisel cerámico, algo que no suele verse en relojes de este precio. Detalles como el fechador en negativo lo hacen aún más especial. Por 87 euros, difícil pedir más.
@@ -93,7 +93,7 @@
       </div>
       <div class="link-container">
         <img src="../../public/assets/img/icons/aliexpress.png" alt="Aliexpress link" class="link-icon">
-        <a href="https://s.click.aliexpress.com/e/_EzbFp9O">Click aquí para comprarlo en Aliexpress</a>
+        <a href="https://s.click.aliexpress.com/e/_EvJCxey">Click aquí para comprarlo en Aliexpress</a>
       </div>
       <p class="post-paragraph">
         Este Berny es uno de los pocos de la lista que no lleva taquímetro. Su diseño es más atrevido, con colores llamativos y una caja más grande de 43 mm. Equipa el VK63 de Seiko, tiene cristal de zafiro y bisel bidireccional, aunque su resistencia al agua se queda en unos escasos 30 metros. Aun así, por 97 euros puede ser una buena opción si buscas un reloj diferente y llamativo.
@@ -104,7 +104,7 @@
       </div>
       <div class="link-container">
         <img src="../../public/assets/img/icons/aliexpress.png" alt="Aliexpress link" class="link-icon">
-        <a href="https://s.click.aliexpress.com/e/_Evf5mw4">Click aquí para comprarlo en Aliexpress</a>
+        <a href="https://s.click.aliexpress.com/e/_ExtOuja">Click aquí para comprarlo en Aliexpress</a>
       </div>
       <p class="post-paragraph">
         El único reloj cuadrado de esta selección. Este Próxima tiene una estética claramente inspirada en los años 70, y eso lo hace destacar entre los demás. Lleva el VK64 de Seiko, caja de acero de 39 mm, cristal de zafiro, corona a presión y 100 metros de resistencia al agua. Está disponible en rojo o verde, con correa de cuero. Por 115 euros es una opción diferente y de muy buena calidad.
@@ -126,7 +126,7 @@
       </div>
       <div class="link-container">
         <img src="../../public/assets/img/icons/aliexpress.png" alt="Aliexpress link" class="link-icon">
-        <a href="https://s.click.aliexpress.com/e/_EyPt1as">Click aquí para comprarlo en Aliexpress</a>
+        <a href="https://s.click.aliexpress.com/e/_Ey4wiO0">Click aquí para comprarlo en Aliexpress</a>
       </div>
       <p class="post-paragraph">
         Cerramos la lista con el Sugess Deus, también con el calibre ST1901 de Seagull. Es un homenaje a Breitling, con caja de acero, cristal de zafiro curvado, corona a presión, buen lumen y 50 metros de resistencia al agua. Tiene tapa trasera con expositor y detalles muy cuidados. Su precio ronda los 170 euros en la versión con cuello de cisne, y en mi experiencia, es un reloj del que cuesta despegarse. Totalmente recomendable.

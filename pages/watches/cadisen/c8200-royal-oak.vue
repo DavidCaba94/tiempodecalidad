@@ -19,11 +19,11 @@
     </div>
     <div class="link-container">
       <img src="../../../public/assets/img/icons/aliexpress.png" alt="Aliexpress link" class="link-icon">
-      <a href="https://s.click.aliexpress.com/e/_EzoTmSc">Click aquí para comprarlo en Aliexpress</a>
+      <a href="https://s.click.aliexpress.com/e/_EyoViSo">Click aquí para comprarlo en Aliexpress</a>
     </div>
     <div class="link-container">
       <img src="../../../public/assets/img/icons/amazon.png" alt="Amazon link" class="link-icon">
-      <a href="https://amzn.to/42EY3yp">Click aquí para comprarlo en Amazon</a>
+      <a href="https://amzn.to/4bpMTUd">Click aquí para comprarlo en Amazon</a>
     </div>
     <p class="post-paragraph">
       Lo primero que llama la atención en el C-8200G es su diseño. Con una caja de acero inoxidable completamente cepillada y líneas angulosas, presenta una estética limpia, robusta y moderna. Aunque la forma de la caja es redondeada para adaptarse mejor a la muñeca, todo en él está pensado para jugar visualmente con las formas octogonales. El bisel, por ejemplo, es un anillo circular con ocho bordes marcados, interrumpidos por cuatro hendiduras en forma de “X” que refuerzan esa geometría tan característica.

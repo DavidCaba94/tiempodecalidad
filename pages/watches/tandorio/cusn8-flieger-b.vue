@@ -19,7 +19,7 @@
     </div>
     <div class="link-container">
       <img src="../../../public/assets/img/icons/aliexpress.png" alt="Aliexpress link" class="link-icon">
-      <a href="https://s.click.aliexpress.com/e/_EH0t4wk">Click aquí para comprarlo en Aliexpress</a>
+      <a href="https://s.click.aliexpress.com/e/_Ewz2liM">Click aquí para comprarlo en Aliexpress</a>
     </div>
     <p class="post-paragraph">
       Los relojes de aviador, o Flieger, tienen una historia profundamente ligada a la aviación militar del siglo XX. El tipo B, en particular, fue concebido en la década de 1940 como una herramienta de navegación aérea precisa. A diferencia del tipo A, más simétrico y sencillo, el diseño tipo B prioriza la lectura rápida de los minutos, elemento esencial para cálculos en pleno vuelo. Por eso, su distribución característica coloca los minutos en el anillo exterior de la esfera, resaltados en grandes cifras arábigas blancas, mientras que las horas quedan relegadas a un anillo interior más pequeño, normalmente en otro color o tono. Esta disposición no solo permitía a los aviadores leer el tiempo de forma más eficiente, sino que también respondía a una lógica puramente funcional: en el aire, los minutos lo son todo. El Tandorio CUSN8 es un tributo moderno a este legado, reinterpretando con fidelidad y ciertos matices contemporáneos uno de los diseños más emblemáticos del mundo relojero.

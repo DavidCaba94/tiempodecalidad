@@ -19,7 +19,7 @@
     </div>
     <div class="link-container">
       <img src="../../../public/assets/img/icons/aliexpress.png" alt="Aliexpress link" class="link-icon">
-      <a href="https://s.click.aliexpress.com/e/_EH0t4wk">Click aquí para comprarlo en Aliexpress</a>
+      <a href="https://s.click.aliexpress.com/e/_Ev7P8ZW">Click aquí para comprarlo en Aliexpress</a>
     </div>
     <h2 class="post-header">Calibre</h2>
     <p class="post-paragraph">

@@ -19,7 +19,7 @@
     </div>
     <div class="link-container">
       <img src="../../../public/assets/img/icons/amazon.png" alt="Aliexpress link" class="link-icon">
-      <a href="https://amzn.to/3GkEKTs">Click aquí para comprarlo en Amazon</a>
+      <a href="https://amzn.to/46i0V6T">Click aquí para comprarlo en Amazon</a>
     </div>
     <p class="post-paragraph">
       Timex es una de esas marcas con solera. Su origen se remonta nada menos que a <strong>1854 en EE.UU.</strong>, cuando se fundó bajo el nombre de <strong>Waterbury Clock Company</strong>. A lo largo de los años fue evolucionando y en los años 40 adoptó el nombre que hoy todos conocemos. <strong>En los 80 lanzaron la línea Expedition</strong>, inspirada en los relojes militares clásicos y pensada para el aventurero moderno. El modelo que hoy reseñamos forma parte de esa misma serie, y aunque es de los más sencillos de la gama, mantiene el <strong>espíritu robusto y funcional</strong> de sus hermanos mayores.

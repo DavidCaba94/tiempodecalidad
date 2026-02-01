@@ -19,7 +19,7 @@
     </div>
     <div class="link-container">
       <img src="../../../public/assets/img/icons/aliexpress.png" alt="Aliexpress link" class="link-icon">
-      <a href="https://s.click.aliexpress.com/e/_EID4s8Y">Click aquí para comprarlo en Aliexpress</a>
+      <a href="https://s.click.aliexpress.com/e/_EuOmQaY">Click aquí para comprarlo en Aliexpress</a>
     </div>
     <p class="post-paragraph">
       Nos encontramos ante un <strong>cronógrafo mecánico</strong> con función de <strong>taquímetro</strong>, una herramienta clásica pensada originalmente para <strong>medir la velocidad</strong> a la que se recorre una milla. El funcionamiento es simple: al accionar el pulsador, la aguja del crono comienza su carrera, y al detenerla, el dial indica los segundos transcurridos, mientras que el anillo taquimétrico muestra la velocidad en <strong>millas por hora</strong>. Si necesitas medir más de un minuto, el subdial derecho lo cuenta hasta media hora.

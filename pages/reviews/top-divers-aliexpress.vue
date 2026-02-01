@@ -27,7 +27,7 @@
       </div>
       <div class="link-container">
         <img src="../../public/assets/img/icons/aliexpress.png" alt="Aliexpress link" class="link-icon">
-        <a href="https://s.click.aliexpress.com/e/_Eue6bws">Click aquí para comprarlo en Aliexpress</a>
+        <a href="https://s.click.aliexpress.com/e/_EG7fdIy">Click aquí para comprarlo en Aliexpress</a>
       </div>
       <p class="post-paragraph">
         Abrimos la lista con un modelo de Cadisen, una marca que nunca decepciona en la gama económica. Este reloj, con un <strong>diámetro de 38 mm</strong>, es compacto pero robusto. Su corazón late gracias al conocido <strong>calibre Seiko NH35</strong>, y cuenta con una caja de <strong>acero inoxidable</strong> que se complementa con un <strong>cristal de zafiro</strong> y una resistencia al agua de hasta <strong>200 metros</strong>. El <strong>bisel, unidireccional, tiene 90 clicks</strong>, y la <strong>corona es roscada</strong>, asegurando una buena estanqueidad. Está disponible en tres colores diferentes, y puedes elegir entre un <strong>brazalete de acero o una correa de goma</strong>. Por unos <strong>55 euros</strong>, ofrece mucho más de lo que se podría esperar.
@@ -38,7 +38,7 @@
       </div>
       <div class="link-container">
         <img src="../../public/assets/img/icons/aliexpress.png" alt="Aliexpress link" class="link-icon">
-        <a href="https://s.click.aliexpress.com/e/_EznJ7eY">Click aquí para comprarlo en Aliexpress</a>
+        <a href="https://s.click.aliexpress.com/e/_EwqbNwG">Click aquí para comprarlo en Aliexpress</a>
       </div>
       <p class="post-paragraph">
         La marca Welly Merck quizá no sea tan conocida, pero poco a poco se va ganando un sitio entre los relojes económicos con buenas prestaciones. Este modelo, por unos <strong>70 euros</strong>, viene con un <strong>calibre Miyota 8215</strong> en su interior, y presenta una <strong>caja de 42 mm de acero inoxidable</strong>. El cristal también es de <strong>zafiro</strong>, el <strong>bisel unidireccional tiene 120 clics</strong>, y la <strong>corona roscada</strong> incorpora incluso una <strong>válvula de helio</strong>, un detalle poco habitual en este rango de precios. Ofrece <strong>200 metros de resistencia al agua</strong> y un cierre mariposa con buen ajuste. Disponible en color verde o negro, se puede adquirir tanto con <strong>armis</strong> como con <strong>correa de cuero</strong>.
@@ -49,7 +49,7 @@
       </div>
       <div class="link-container">
         <img src="../../public/assets/img/icons/aliexpress.png" alt="Aliexpress link" class="link-icon">
-        <a href="https://s.click.aliexpress.com/e/_EzwMO9a">Click aquí para comprarlo en Aliexpress</a>
+        <a href="https://s.click.aliexpress.com/e/_EyAwMLi">Click aquí para comprarlo en Aliexpress</a>
       </div>
       <p class="post-paragraph">
         Pagani Design es una de las marcas más presentes en mi colección, y el modelo PD1685 es un ejemplo perfecto de por qué. Equipado con el fiable <strong>NH35 de Seiko</strong>, este reloj se construye sobre una <strong>caja de 42 mm en acero inoxidable</strong>. Incluye <strong>cristal de zafiro, bisel unidireccional con 120 clics y corona roscada</strong>. Su resistencia al agua llega también a los <strong>200 metros</strong>. Uno de los aspectos más interesantes es el diseño del dial, con un relieve que <strong>recuerda al Omega Seamaster</strong>, lo que le da un toque muy especial. Puedes encontrarlo en varios colores y elegir entre brazalete de acero o correa de nylon. Todo esto por menos de <strong>75 euros</strong>.
@@ -60,12 +60,12 @@
       </div>
       <div class="link-container">
         <img src="../../public/assets/img/icons/aliexpress.png" alt="Aliexpress link" class="link-icon">
-        <a href="https://s.click.aliexpress.com/e/_ExzSeLQ">Click aquí para comprarlo en Aliexpress</a>
+        <a href="https://s.click.aliexpress.com/e/_EHHKd1w">Click aquí para comprarlo en Aliexpress</a>
       </div>
       <p class="post-paragraph">
         Este Tandorio ronda los <strong>80 euros</strong> y no pasa desapercibido. Ya conocía la marca por sus flieger, y con este diver mantienen el nivel. El movimiento elegido es el <strong>NH36 de Seiko</strong>, que <strong>además de la fecha, muestra el día de la semana</strong>. Tiene una <strong>caja de 41 mm, fabricada en acero inoxidable</strong>, y el cristal es de <strong>zafiro</strong>. El bisel, como en modelos más caros, ofrece <strong>120 clics</strong>, y la corona está situada a las 4, también <strong>roscada</strong>. Su resistencia al agua es de <strong>200 metros</strong>, pero lo más llamativo es su dial: <strong>completamente pintado de color naranja</strong>, recordando al modelo de Seiko. Está disponible con bisel negro o naranja, y puedes elegir entre diferentes tipos de brazalete. Personalmente, estoy seguro de que acabará en mi colección.
       </p>
-      <h2 class="post-header">Steeldive Cap. Willard</h2>
+      <h2 class="post-header">Steeldive Cap. Willard</h2> <!-- falla enlace -->
       <div class="post-image-container">
         <img src="../../public/assets/img/reviews/top-divers-aliexpress/capi-willard.jpg" alt="Steeldive Cap. Willard" class="post-image">
       </div>
@@ -82,7 +82,7 @@
       </div>
       <div class="link-container">
         <img src="../../public/assets/img/icons/aliexpress.png" alt="Aliexpress link" class="link-icon">
-        <a href="https://s.click.aliexpress.com/e/_Evf9zhW">Click aquí para comprarlo en Aliexpress</a>
+        <a href="https://s.click.aliexpress.com/e/_EJsqvwk">Click aquí para comprarlo en Aliexpress</a>
       </div>
       <p class="post-paragraph">
         Por unos <strong>100 euros</strong>, este modelo de Addiesdive destaca principalmente por su diseño. El dial tiene un color azul profundo con textura de olas y la silueta de tiburones, lo que le aporta una personalidad única. Monta el fiable <strong>NH35 de Seiko</strong>, y se presenta en una <strong>caja de acero de 45 mm</strong>. El cristal es de <strong>zafiro</strong>, la corona es <strong>roscada</strong>, el <strong>bisel cerámico tiene 120 clicks</strong> y su resistencia al agua llega también a los <strong>200 metros</strong>. Las opciones de correa son variadas: puedes elegir entre <strong>brazalete de acero, correa NATO o una de tipo submarinista</strong>. Una pieza llamativa que se sale de lo habitual.
@@ -93,7 +93,7 @@
       </div>
       <div class="link-container">
         <img src="../../public/assets/img/icons/aliexpress.png" alt="Aliexpress link" class="link-icon">
-        <a href="https://s.click.aliexpress.com/e/_Ez4ncM0">Click aquí para comprarlo en Aliexpress</a>
+        <a href="https://s.click.aliexpress.com/e/_EwW2cJ6">Click aquí para comprarlo en Aliexpress</a>
       </div>
       <p class="post-paragraph">
         Este Berny, por unos <strong>125 euros</strong>, me parece uno de los más completos en esta gama. Equipado con el calibre <strong>Miyota 8215</strong>, se aleja un poco del dominio del NH35 y aporta variedad a la colección. Tiene una <strong>caja de 42 mm, cristal de zafiro</strong> y una resistencia al agua de <strong>200 metros</strong>. Lo más interesante es que cuenta con <strong>dos coronas roscadas</strong>: una a las 4 para ajustar la hora y la fecha, y otra a las 2 que sirve para controlar un bisel interno, ubicado bajo el cristal. Esta configuración le da un toque muy especial, y su diseño general es atractivo en todos sus colores.
@@ -104,7 +104,7 @@
       </div>
       <div class="link-container">
         <img src="../../public/assets/img/icons/aliexpress.png" alt="Aliexpress link" class="link-icon">
-        <a href="https://s.click.aliexpress.com/e/_EyNzty8">Click aquí para comprarlo en Aliexpress</a>
+        <a href="https://s.click.aliexpress.com/e/_EQ6YUCy">Click aquí para comprarlo en Aliexpress</a>
       </div>
       <p class="post-paragraph">
         Con una estética que recuerda al modelo de Doxa y a los relojes industriales de los <strong>años 70</strong>, este modelo de Seestern aporta algo distinto a la colección. Tiene una caja más compacta, de <strong>40 mm</strong>, y su diseño destaca tanto por su forma como por la variedad de colores en los que está disponible. Como muchos otros modelos de esta lista, monta el <strong>NH35 de Seiko</strong>, y cuenta con <strong>cristal de zafiro, bisel unidireccional, corona roscada</strong> a las 4 y <strong>200 metros de resistencia al agua</strong>. Un detalle interesante es su cierre, que permite hasta <strong>seis posiciones de microajuste</strong>, lo que mejora considerablemente la comodidad en la muñeca.
@@ -115,7 +115,7 @@
       </div>
       <div class="link-container">
         <img src="../../public/assets/img/icons/aliexpress.png" alt="Aliexpress link" class="link-icon">
-        <a href="https://s.click.aliexpress.com/e/_EwPqCq0">Click aquí para comprarlo en Aliexpress</a>
+        <a href="https://s.click.aliexpress.com/e/_EHeMCLS">Click aquí para comprarlo en Aliexpress</a>
       </div>
       <p class="post-paragraph">
         Cuando se menciona San Martin, se piensa automáticamente en <strong>calidad</strong>. Aunque sus precios son algo más elevados, este modelo se mantiene alrededor de los 150 euros, y vale cada céntimo. Su diseño es un claro homenaje al <strong>Rolex Submariner</strong>, algo que puede gustar o no, dependiendo de los gustos personales. A nivel técnico, encontramos un <strong>calibre NH35</strong>, una <strong>caja de 40 mm, cristal de zafiro, bisel unidireccional cerámico de 120 clics, corona roscada y una resistencia al agua de 200 metros</strong>. Los colores disponibles hacen también referencia a Rolex: el clásico negro, el "Starbucks" y el "Hulk".
@@ -126,7 +126,7 @@
       </div>
       <div class="link-container">
         <img src="../../public/assets/img/icons/aliexpress.png" alt="Aliexpress link" class="link-icon">
-        <a href="https://s.click.aliexpress.com/e/_EyzV3R6">Click aquí para comprarlo en Aliexpress</a>
+        <a href="https://s.click.aliexpress.com/e/_EusujFe">Click aquí para comprarlo en Aliexpress</a>
       </div>
       <p class="post-paragraph">
         Cerramos la lista con una propuesta curiosa por parte de Lige, marca que suele asociarse a relojes económicos sin muchas pretensiones. Este modelo, llamado FeelNever, destaca por una especificación que sorprende: una supuesta <strong>resistencia al agua de 1000 metros</strong>. No se especifica el movimiento automático que lleva, pero el resto de características son interesantes. Su caja es de <strong>acero inoxidable y mide 46 mm</strong>, incorpora un <strong>cristal mineral muy resistente</strong> y una <strong>corona roscada</strong> ubicada en el lado izquierdo de la caja. Se vende con <strong>dos correas incluidas</strong>, una milanesa y otra de caucho, y está disponible en cuatro colores diferentes. Por unos <strong>120 euros</strong>, puede ser una apuesta atrevida, aunque solo sea por su estética contundente.

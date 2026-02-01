@@ -19,7 +19,7 @@
     </div>
     <div class="link-container">
       <img src="../../../public/assets/img/icons/amazon.png" alt="Amazon link" class="link-icon">
-      <a href="https://amzn.to/42msrP7">Click aquí para comprarlo en Amazon</a>
+      <a href="https://amzn.to/3LZG9Ce">Click aquí para comprarlo en Amazon</a>
     </div>
     <div class="link-container">
       <img src="../../../public/assets/img/icons/internet.png" alt="Miravia link" class="link-icon">
