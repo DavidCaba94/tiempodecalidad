@@ -8,7 +8,7 @@ export default defineNuxtConfig({
     '@nuxt/image',
     '@nuxt/scripts',
     '@nuxtjs/robots',
-    'nuxt-simple-sitemap'
+    '@nuxtjs/sitemap',
   ],
   site: { 
     url: 'https://tiempodecalidad.net', 
