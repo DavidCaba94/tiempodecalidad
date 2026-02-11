@@ -65,13 +65,13 @@
       <p class="post-paragraph">
         Este Tandorio ronda los <strong>80 euros</strong> y no pasa desapercibido. Ya conocía la marca por sus flieger, y con este diver mantienen el nivel. El movimiento elegido es el <strong>NH36 de Seiko</strong>, que <strong>además de la fecha, muestra el día de la semana</strong>. Tiene una <strong>caja de 41 mm, fabricada en acero inoxidable</strong>, y el cristal es de <strong>zafiro</strong>. El bisel, como en modelos más caros, ofrece <strong>120 clics</strong>, y la corona está situada a las 4, también <strong>roscada</strong>. Su resistencia al agua es de <strong>200 metros</strong>, pero lo más llamativo es su dial: <strong>completamente pintado de color naranja</strong>, recordando al modelo de Seiko. Está disponible con bisel negro o naranja, y puedes elegir entre diferentes tipos de brazalete. Personalmente, estoy seguro de que acabará en mi colección.
       </p>
-      <h2 class="post-header">Steeldive Cap. Willard</h2> <!-- falla enlace -->
+      <h2 class="post-header">Steeldive Cap. Willard</h2>
       <div class="post-image-container">
         <img src="../../public/assets/img/reviews/top-divers-aliexpress/capi-willard.jpg" alt="Steeldive Cap. Willard" class="post-image">
       </div>
       <div class="link-container">
         <img src="../../public/assets/img/icons/aliexpress.png" alt="Aliexpress link" class="link-icon">
-        <a href="https://s.click.aliexpress.com/e/_ExTSMO8">Click aquí para comprarlo en Aliexpress</a>
+        <a href="https://s.click.aliexpress.com/e/_Ev66Vde">Click aquí para comprarlo en Aliexpress</a>
       </div>
       <p class="post-paragraph">
         Inspirado en el mítico Seiko que aparece en la película <i>Apocalypse Now</i>, este modelo de Steeldive es un <strong>homenaje muy bien logrado</strong>. Por apenas <strong>80 euros</strong>, ofrece una experiencia muy cercana a la del original, que cuesta más de 1.500 euros. Cuenta con el archiconocido <strong>NH35</strong>, caja de <strong>acero inoxidable de 44 mm, cristal de zafiro, y una corona roscada</strong> ubicada a las 4. La resistencia al agua es de <strong>200 metros</strong>, y el <strong>bisel cerámico de 120 clicks</strong> es un detalle que no se suele ver en este rango de precio. Puedes elegir entre tres colores diferentes y varios tipos de correa. Un diver icónico que todo coleccionista debería tener.

@@ -21,13 +21,13 @@
       <p class="post-paragraph">
         Muchos de estos modelos los tengo en mi colección personal, o al menos he probado relojes con los mismos calibres, así que te puedo hablar desde la experiencia. Como siempre digo, no soy un experto, solo un aficionado más con ganas de compartir sus descubrimientos.
       </p>
-      <h2 class="post-header">Cadisen C7063</h2> <!-- falla enlace -->
+      <h2 class="post-header">Cadisen C7063</h2>
       <div class="post-image-container">
         <img src="../../public/assets/img/reviews/top-cronos-aliexpress/cadisen-c7063.png" alt="Cadisen C7063" class="post-image">
       </div>
       <div class="link-container">
         <img src="../../public/assets/img/icons/aliexpress.png" alt="Aliexpress link" class="link-icon">
-        <a href="https://s.click.aliexpress.com/e/_EuypX4G">Click aquí para comprarlo en Aliexpress</a>
+        <a href="https://s.click.aliexpress.com/e/_EzlfVpW">Click aquí para comprarlo en Aliexpress</a>
       </div>
       <p class="post-paragraph">
         Empezamos con una marca que ya he mencionado varias veces: Cadisen. Este modelo es una auténtica ganga por poco más de 40 euros. Monta un fiable calibre de cuarzo VD53 de Seiko, viene con caja de acero inoxidable, cristal de zafiro y mide 42 mm de diámetro. Pesa 140 gramos y, aunque tiene corona roscada, la resistencia al agua es de solo 50 metros, algo justo, pero habitual en esta gama. Está disponible en tres colores distintos y, por el precio, no se le puede pedir mucho más.
@@ -43,13 +43,13 @@
       <p class="post-paragraph">
         Este cronógrafo de Pagani Design es todo un homenaje al Rolex Daytona, y por unos 50 euros puedes lucir en la muñeca un diseño icónico. La marca ya ha demostrado en múltiples ocasiones que ofrece una gran calidad en sus relojes económicos. Este modelo lleva el calibre VK63 de Seiko, caja de acero inoxidable de 40 mm, cristal de zafiro y resistencia al agua de 100 metros (algo poco común en cronógrafos de este precio). Tiene multitud de colores y opciones con correa de goma o armis.
       </p>
-      <h2 class="post-header">Addiesdive AD2034</h2> <!-- falla enlace -->
+      <h2 class="post-header">Addiesdive AD2034</h2>
       <div class="post-image-container">
         <img src="../../public/assets/img/reviews/top-cronos-aliexpress/addiesdive-ad2034.png" alt="Addiesdive AD2034" class="post-image">
       </div>
       <div class="link-container">
         <img src="../../public/assets/img/icons/aliexpress.png" alt="Aliexpress link" class="link-icon">
-        <a href="https://s.click.aliexpress.com/e/_Exmdeog">Click aquí para comprarlo en Aliexpress</a>
+        <a href="https://s.click.aliexpress.com/e/_EIt2Xwk">Click aquí para comprarlo en Aliexpress</a>
       </div>
       <p class="post-paragraph">
         Aunque Addiesdive es más conocida por sus divers, este cronógrafo demuestra que la marca también sabe hacer otras cosas muy bien. Por unos 75 euros, ofrece un reloj robusto, con alma de diver, pero funciones de cronógrafo gracias al calibre VK64 de Seiko. Caja de 41 mm en acero, cristal de zafiro abovedado, bisel unidireccional de 120 clics, corona roscada y 200 metros de resistencia al agua. Disponible en blanco o negro con armis de acero. Muy recomendable.

@@ -17,9 +17,9 @@
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </div>
-    <div class="link-container"> <!-- falla enlace -->
+    <div class="link-container">
       <img src="../../../public/assets/img/icons/aliexpress.png" alt="Aliexpress link" class="link-icon">
-      <a href="https://s.click.aliexpress.com/e/_EGxhFvw">Click aquí para comprarlo en Aliexpress</a>
+      <a href="https://s.click.aliexpress.com/e/_EyDDdw8">Click aquí para comprarlo en Aliexpress</a>
     </div>
     <p class="post-paragraph">
       El Pagani PD-1651 es un reloj tipo <strong>diver</strong>, con resistencia al agua de <strong>100 metros</strong>, lo que lo hace apto para duchas, natación o actividades acuáticas recreativas, aunque no para buceo profesional. Aun así, está claro que este modelo está diseñado para transmitir ese espíritu de herramienta robusta de buceo con un toque de lujo gracias a su <strong>acabado en oro rosa</strong>.

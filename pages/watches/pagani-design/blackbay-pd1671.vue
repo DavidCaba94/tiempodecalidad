@@ -17,9 +17,9 @@
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </div>
-    <div class="link-container"> <!-- falla enlace -->
+    <div class="link-container">
       <img src="../../../public/assets/img/icons/aliexpress.png" alt="Aliexpress link" class="link-icon">
-      <a href="https://s.click.aliexpress.com/e/_ExC6oXQ">Click aquí para comprarlo en Aliexpress</a>
+      <a href="https://s.click.aliexpress.com/e/_EyDDdw8">Click aquí para comprarlo en Aliexpress</a>
     </div>
     <p class="post-paragraph">
       Desde que se tiene en mano, el PD-1671 transmite sensación de solidez. La caja está fabricada completamente en <strong>acero inoxidable</strong>, con un acabado <strong>cepillado integral</strong> y un bonito contraste en el <strong>bisel pulido del canto</strong>, que le da un aire más refinado.

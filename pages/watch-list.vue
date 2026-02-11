@@ -437,6 +437,11 @@ input {
   border-bottom: 1px solid #ccc;
 }
 
+.dark-mode .input-select option {
+  background-color: #020618;
+  color: #ffffff;
+}
+
 .countries-container {
   display: flex;
   justify-content: flex-start;
