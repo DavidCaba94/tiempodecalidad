@@ -185,5 +185,22 @@
     "country": "China",
     "url": "/watches/berny/compressor-V4-am439m",
     "image": "/berny/compressor-v4.png"
+  },
+  {
+    "id": 12,
+    "brand": "Steeldive",
+    "model": "Captain Willard",
+    "price": 120,
+    "movement": "Automatic",
+    "type": "Diver",
+    "water_resistance": 200,
+    "material": "Stainless Steel",
+    "bezel": "Ceramic",
+    "mirror": "Sapphire",
+    "size": 43.8,
+    "colors": ["black", "blue", "green"],
+    "country": "China",
+    "url": "/watches/steeldive/captain-willard",
+    "image": "/steeldive/captain-willard.png"
   }
 ]
