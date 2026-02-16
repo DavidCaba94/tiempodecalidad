@@ -202,5 +202,22 @@
     "country": "China",
     "url": "/watches/steeldive/captain-willard",
     "image": "/steeldive/captain-willard.png"
+  },
+  {
+    "id": 13,
+    "brand": "Feice",
+    "model": "Galactic Skeleton FM019HOT",
+    "price": 180,
+    "movement": "Automatic",
+    "type": "Skeleton",
+    "water_resistance": 30,
+    "material": "Stainless Steel",
+    "bezel": "Stainless Steel",
+    "mirror": "Sapphire",
+    "size": 42,
+    "colors": ["black", "silver", "blue"],
+    "country": "China",
+    "url": "/watches/feice/galactic-skeleton",
+    "image": "/feice/galactic-skeleton.png"
   }
 ]
