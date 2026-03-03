@@ -236,5 +236,22 @@
     "country": "Japan",
     "url": "/watches/casio/royale-ae-1200wh",
     "image": "/casio/royale-ae-1200wh.png"
+  },
+  {
+    "id": 15,
+    "brand": "Northedge",
+    "model": "Gavia 2",
+    "price": 140,
+    "movement": "Digital",
+    "type": "Outdoor / Hybrid Diver",
+    "water_resistance": 200,
+    "material": "Stainless Steel",
+    "bezel": "Stainless Steel",
+    "mirror": "Mineral",
+    "size": 48,
+    "colors": ["black", "silver", "green", "orange", "blue"],
+    "country": "China",
+    "url": "/watches/northedge/gavia-2",
+    "image": "/northedge/gavia-2.png"
   }
 ]
