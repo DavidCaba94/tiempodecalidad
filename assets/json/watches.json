@@ -219,5 +219,22 @@
     "country": "China",
     "url": "/watches/feice/galactic-skeleton",
     "image": "/feice/galactic-skeleton.png"
+  },
+  {
+    "id": 14,
+    "brand": "Casio",
+    "model": "Royale AE-1200WH",
+    "price": 50,
+    "movement": "Quartz",
+    "type": "Digital",
+    "water_resistance": 100,
+    "material": "Resin",
+    "bezel": "Resin",
+    "mirror": "Resin Glass",
+    "size": 42,
+    "colors": ["black", "silver", "blue", "green"],
+    "country": "Japan",
+    "url": "/watches/casio/royale-ae-1200wh",
+    "image": "/casio/royale-ae-1200wh.png"
   }
 ]

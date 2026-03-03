@@ -39,7 +39,7 @@
 
     <div class="link-container">
       <img src="../../../public/assets/img/icons/internet.png" alt="Miravia link" class="link-icon">
-      <a href="https://feicewatch.com/es-ES/products/galactic-skeleton---fm019-series">Click aquí para comprarlo en la web de Feice</a>
+      <a href="https://feicewatch.com/es-ES/products/new-arrival-fm019-skeleton-luminous-automatic-watch-limited-edition">Click aquí para comprarlo en la web de Feice</a>
     </div>
 
     <p class="post-paragraph">
