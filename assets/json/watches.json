@@ -249,9 +249,26 @@
     "bezel": "Stainless Steel",
     "mirror": "Mineral",
     "size": 48,
-    "colors": ["black", "silver", "green", "orange", "blue"],
+    "colors": ["silver"],
     "country": "China",
     "url": "/watches/northedge/gavia-2",
     "image": "/northedge/gavia-2.png"
+  },
+  {
+    "id": 16,
+    "brand": "San Martin",
+    "model": "62MAS",
+    "price": 190,
+    "movement": "Automatic",
+    "type": "Diver",
+    "water_resistance": 200,
+    "material": "Stainless Steel",
+    "bezel": "Ceramic",
+    "mirror": "Sapphire",
+    "size": 39,
+    "colors": ["gun gray", "blue", "green"],
+    "country": "China",
+    "url": "/watches/san-martin/62mas",
+    "image": "/san-martin/62mas.png"
   }
 ]
