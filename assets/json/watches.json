@@ -270,5 +270,23 @@
     "country": "China",
     "url": "/watches/san-martin/62mas",
     "image": "/san-martin/62mas.png"
+  },
+  {
+    "id": 17,
+    "brand": "Wishdoit",
+    "model": "WSD-9007 GMT",
+    "price": 137,
+    "movement": "Automatic",
+    "type": "Diver",
+    "water_resistance": 150,
+    "material": "Stainless Steel",
+    "bezel": "Ceramic",
+    "mirror": "Sapphire",
+    "size": 40,
+    "colors": ["black", "green", "blue", "orange"],
+    "country": "China",
+    "url": "/watches/wishdoit/wsd-9007-gmt",
+    "image": "/wishdoit/wsd-9007-gmt.png"
   }
+
 ]
