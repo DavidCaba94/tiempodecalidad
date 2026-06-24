@@ -3,7 +3,7 @@
       <Head>
         <Title>TOP 10 Cronógrafos baratos de Aliexpress - Tiempo de Calidad</Title>
         <Meta name="description" content="Si estás buscando un cronógrafo asequible que ofrezca buenas prestaciones y un diseño atractivo, esta lista es para ti. Aquí tienes una selección de 10 cronógrafos que puedes encontrar en Aliexpress, con precios que oscilan entre los 40 y los 170 euros. Ocho de ellos funcionan con calibres de cuarzo o mecaquartz, mientras que los dos últimos son cronógrafos mecánicos que destacan por su gran relación calidad-precio." />
-        <link rel="icon" type="image/x-icon" href="/icon.ico" />
+        <link rel="icon" type="image/x-icon" href="/favicon.ico" />
       </Head>
       <h1 class="post-title">TOP 10 Cronógrafos baratos de Aliexpress</h1>
       <p class="post-subtitle">
@@ -23,10 +23,10 @@
       </p>
       <h2 class="post-header">Cadisen C7063</h2>
       <div class="post-image-container">
-        <img src="../../public/assets/img/reviews/top-cronos-aliexpress/cadisen-c7063.png" alt="Cadisen C7063" class="post-image">
+        <img src="/assets/img/reviews/top-cronos-aliexpress/cadisen-c7063.png" alt="Cadisen C7063" class="post-image">
       </div>
       <div class="link-container">
-        <img src="../../public/assets/img/icons/aliexpress.png" alt="Aliexpress link" class="link-icon">
+        <img src="/assets/img/icons/aliexpress.png" alt="Aliexpress link" class="link-icon">
         <a href="https://s.click.aliexpress.com/e/_EzlfVpW">Click aquí para comprarlo en Aliexpress</a>
       </div>
       <p class="post-paragraph">
@@ -34,10 +34,10 @@
       </p>
       <h2 class="post-header">Pagani Design Daytona</h2>
       <div class="post-image-container">
-        <img src="../../public/assets/img/reviews/top-cronos-aliexpress/pagani-daytona.png" alt="Pagani Design Daytona" class="post-image">
+        <img src="/assets/img/reviews/top-cronos-aliexpress/pagani-daytona.png" alt="Pagani Design Daytona" class="post-image">
       </div>
       <div class="link-container">
-        <img src="../../public/assets/img/icons/aliexpress.png" alt="Aliexpress link" class="link-icon">
+        <img src="/assets/img/icons/aliexpress.png" alt="Aliexpress link" class="link-icon">
         <a href="https://s.click.aliexpress.com/e/_EHcKocU">Click aquí para comprarlo en Aliexpress</a>
       </div>
       <p class="post-paragraph">
@@ -45,10 +45,10 @@
       </p>
       <h2 class="post-header">Addiesdive AD2034</h2>
       <div class="post-image-container">
-        <img src="../../public/assets/img/reviews/top-cronos-aliexpress/addiesdive-ad2034.png" alt="Addiesdive AD2034" class="post-image">
+        <img src="/assets/img/reviews/top-cronos-aliexpress/addiesdive-ad2034.png" alt="Addiesdive AD2034" class="post-image">
       </div>
       <div class="link-container">
-        <img src="../../public/assets/img/icons/aliexpress.png" alt="Aliexpress link" class="link-icon">
+        <img src="/assets/img/icons/aliexpress.png" alt="Aliexpress link" class="link-icon">
         <a href="https://s.click.aliexpress.com/e/_EIt2Xwk">Click aquí para comprarlo en Aliexpress</a>
       </div>
       <p class="post-paragraph">
@@ -56,10 +56,10 @@
       </p>
       <h2 class="post-header">Bliger Chrono Pink</h2>
       <div class="post-image-container">
-        <img src="../../public/assets/img/reviews/top-cronos-aliexpress/bliger-pink.png" alt="Bliger Chrono Pink" class="post-image">
+        <img src="/assets/img/reviews/top-cronos-aliexpress/bliger-pink.png" alt="Bliger Chrono Pink" class="post-image">
       </div>
       <div class="link-container">
-        <img src="../../public/assets/img/icons/aliexpress.png" alt="Aliexpress link" class="link-icon">
+        <img src="/assets/img/icons/aliexpress.png" alt="Aliexpress link" class="link-icon">
         <a href="https://s.click.aliexpress.com/e/_EQ5VklA">Click aquí para comprarlo en Aliexpress</a>
       </div>
       <p class="post-paragraph">
@@ -67,10 +67,10 @@
       </p>
       <h2 class="post-header">Militado ML1868-2</h2>
       <div class="post-image-container">
-        <img src="../../public/assets/img/reviews/top-cronos-aliexpress/militado-field.png" alt="Militado ML1868-2" class="post-image">
+        <img src="/assets/img/reviews/top-cronos-aliexpress/militado-field.png" alt="Militado ML1868-2" class="post-image">
       </div>
       <div class="link-container">
-        <img src="../../public/assets/img/icons/aliexpress.png" alt="Aliexpress link" class="link-icon">
+        <img src="/assets/img/icons/aliexpress.png" alt="Aliexpress link" class="link-icon">
         <a href="https://s.click.aliexpress.com/e/_EJ3eBFI">Click aquí para comprarlo en Aliexpress</a>
       </div>
       <p class="post-paragraph">
@@ -78,10 +78,10 @@
       </p>
       <h2 class="post-header">Pagani Design Moonwatch</h2>
       <div class="post-image-container">
-        <img src="../../public/assets/img/reviews/top-cronos-aliexpress/pagani-moonwatch.png" alt="Pagani Design Moonwatch" class="post-image">
+        <img src="/assets/img/reviews/top-cronos-aliexpress/pagani-moonwatch.png" alt="Pagani Design Moonwatch" class="post-image">
       </div>
       <div class="link-container">
-        <img src="../../public/assets/img/icons/aliexpress.png" alt="Aliexpress link" class="link-icon">
+        <img src="/assets/img/icons/aliexpress.png" alt="Aliexpress link" class="link-icon">
         <a href="https://s.click.aliexpress.com/e/_Ew1IIis">Click aquí para comprarlo en Aliexpress</a>
       </div>
       <p class="post-paragraph">
@@ -89,10 +89,10 @@
       </p>
       <h2 class="post-header">Berny 2845M</h2>
       <div class="post-image-container">
-        <img src="../../public/assets/img/reviews/top-cronos-aliexpress/berny-2845m.png" alt="Berny 2845M" class="post-image">
+        <img src="/assets/img/reviews/top-cronos-aliexpress/berny-2845m.png" alt="Berny 2845M" class="post-image">
       </div>
       <div class="link-container">
-        <img src="../../public/assets/img/icons/aliexpress.png" alt="Aliexpress link" class="link-icon">
+        <img src="/assets/img/icons/aliexpress.png" alt="Aliexpress link" class="link-icon">
         <a href="https://s.click.aliexpress.com/e/_EvJCxey">Click aquí para comprarlo en Aliexpress</a>
       </div>
       <p class="post-paragraph">
@@ -100,10 +100,10 @@
       </p>
       <h2 class="post-header">Proxima PX1707</h2>
       <div class="post-image-container">
-        <img src="../../public/assets/img/reviews/top-cronos-aliexpress/proxima-px1707.png" alt="Proxima PX1707" class="post-image">
+        <img src="/assets/img/reviews/top-cronos-aliexpress/proxima-px1707.png" alt="Proxima PX1707" class="post-image">
       </div>
       <div class="link-container">
-        <img src="../../public/assets/img/icons/aliexpress.png" alt="Aliexpress link" class="link-icon">
+        <img src="/assets/img/icons/aliexpress.png" alt="Aliexpress link" class="link-icon">
         <a href="https://s.click.aliexpress.com/e/_ExtOuja">Click aquí para comprarlo en Aliexpress</a>
       </div>
       <p class="post-paragraph">
@@ -111,10 +111,10 @@
       </p>
       <h2 class="post-header">Red Star ST1901</h2>
       <div class="post-image-container">
-        <img src="../../public/assets/img/reviews/top-cronos-aliexpress/redstar-st1901.png" alt="Red Star ST1901" class="post-image">
+        <img src="/assets/img/reviews/top-cronos-aliexpress/redstar-st1901.png" alt="Red Star ST1901" class="post-image">
       </div>
       <div class="link-container">
-        <img src="../../public/assets/img/icons/aliexpress.png" alt="Aliexpress link" class="link-icon">
+        <img src="/assets/img/icons/aliexpress.png" alt="Aliexpress link" class="link-icon">
         <a href="https://s.click.aliexpress.com/e/_EvV1ZGM">Click aquí para comprarlo en Aliexpress</a>
       </div>
       <p class="post-paragraph">
@@ -122,10 +122,10 @@
       </p>
       <h2 class="post-header">Sugess Deus</h2>
       <div class="post-image-container">
-        <img src="../../public/assets/img/reviews/top-cronos-aliexpress/sugess-deus.png" alt="Sugess Deus" class="post-image">
+        <img src="/assets/img/reviews/top-cronos-aliexpress/sugess-deus.png" alt="Sugess Deus" class="post-image">
       </div>
       <div class="link-container">
-        <img src="../../public/assets/img/icons/aliexpress.png" alt="Aliexpress link" class="link-icon">
+        <img src="/assets/img/icons/aliexpress.png" alt="Aliexpress link" class="link-icon">
         <a href="https://s.click.aliexpress.com/e/_Ey4wiO0">Click aquí para comprarlo en Aliexpress</a>
       </div>
       <p class="post-paragraph">
@@ -152,7 +152,7 @@
           content: 'Si estás buscando un cronógrafo asequible que ofrezca buenas prestaciones y un diseño atractivo, esta lista es para ti. Aquí tienes una selección de 10 cronógrafos que puedes encontrar en Aliexpress, con precios que oscilan entre los 40 y los 170 euros. Ocho de ellos funcionan con calibres de cuarzo o mecaquartz, mientras que los dos últimos son cronógrafos mecánicos que destacan por su gran relación calidad-precio.'
         }
       ],
-      link: [{ rel: 'icon', type: 'image/x-icon', href: '/icon.ico' }]
+      link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
     }
   }
   </script>

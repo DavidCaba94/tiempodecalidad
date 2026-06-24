@@ -3,7 +3,7 @@
     <Head>
       <Title>Casio Marlin Duro MDV-106, adiós al pez vela - Tiempo de Calidad</Title>
       <Meta name="description" content="Con la fiabilidad de esta gran marca japonesa por bandera y luciendo el pez vela en su dial, estamos ante un modelo de Casio en peligro de extinción. En el año 2021 perdieron los derechos de imagen sobre este pez vela y se vieron obligados a descontinuar este modelo, presentando su sucesor exactamente igual pero sin el logo del Marlin en el dial." />
-      <link rel="icon" type="image/x-icon" href="/icon.ico" />
+      <link rel="icon" type="image/x-icon" href="/favicon.ico" />
     </Head>
     <h1 class="post-title">Casio Marlin Duro MDV-106, adiós al pez vela</h1>
     <p class="post-subtitle">
@@ -18,11 +18,11 @@
             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </div>
     <div class="link-container">
-      <img src="../../../public/assets/img/icons/amazon.png" alt="Amazon link" class="link-icon">
+      <img src="/assets/img/icons/amazon.png" alt="Amazon link" class="link-icon">
       <a href="https://amzn.to/3NP7mIh">Click aquí para comprarlo en Amazon</a>
     </div>
     <div class="link-container">
-      <img src="../../../public/assets/img/icons/internet.png" alt="Miravia link" class="link-icon">
+      <img src="/assets/img/icons/internet.png" alt="Miravia link" class="link-icon">
       <a href="https://s.miravia.es/s.Z9VmQ">Click aquí para comprarlo en Miravia</a>
     </div>
     <p class="post-paragraph">
@@ -45,7 +45,7 @@
       La caja tiene un ligero cepillado por la parte superior y un acabado pulido tanto en los laterales como en el canto que une las asas. Es una caja con formas suaves y redondeadas creando una armonía que se percibe totalmente orgánica. Un lujo para la muñeca y una gran comodidad a la hora de llevar puesto el reloj, por lo menos para mi gusto.
     </p>
     <div class="post-image-container">
-      <img src="../../../public/assets/img/watches/casio/marlin.png" alt="Casio Marlin Duro MDV-106" class="post-image">
+      <img src="/assets/img/watches/casio/marlin.png" alt="Casio Marlin Duro MDV-106" class="post-image">
     </div>
     <h2 class="post-header">Corona</h2>
     <p class="post-paragraph">
@@ -108,7 +108,7 @@ export default {
         content: 'Con la fiabilidad de esta gran marca japonesa por bandera y luciendo el pez vela en su dial, estamos ante un modelo de Casio en peligro de extinción. En el año 2021 perdieron los derechos de imagen sobre este pez vela y se vieron obligados a descontinuar este modelo, presentando su sucesor exactamente igual pero sin el logo del Marlin en el dial.'
       }
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/icon.ico' }]
+    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
   }
 }
 </script>

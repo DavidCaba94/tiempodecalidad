@@ -11,10 +11,17 @@
     "bezel": "Pepsi",
     "mirror": "Mineral",
     "size": 44,
-    "colors": ["black", "blue", "green", "gold"],
+    "colors": [
+      "black",
+      "blue",
+      "green",
+      "gold"
+    ],
     "country": "Japan",
     "url": "/watches/casio/marlin-mdv-106",
-    "image": "/casio/marlin.png"
+    "image": "/casio/marlin.png",
+    "rating": 4,
+    "publishedAt": "2025-04-09"
   },
   {
     "id": 2,
@@ -28,10 +35,16 @@
     "bezel": "Black",
     "mirror": "Sapphire",
     "size": 40,
-    "colors": ["black", "orangered", "silver"],
+    "colors": [
+      "black",
+      "orangered",
+      "silver"
+    ],
     "country": "China",
     "url": "/watches/pagani-design/yatch-master-pd1651",
-    "image": "/pagani-design/yatch-master.png"
+    "image": "/pagani-design/yatch-master.png",
+    "rating": 4,
+    "publishedAt": "2025-04-09"
   },
   {
     "id": 3,
@@ -45,10 +58,14 @@
     "bezel": "",
     "mirror": "Sapphire",
     "size": 39,
-    "colors": ["black"],
+    "colors": [
+      "black"
+    ],
     "country": "China",
     "url": "/watches/tandorio/cusn8-flieger-b",
-    "image": "/tandorio/flieger-b.png"
+    "image": "/tandorio/flieger-b.png",
+    "rating": 4,
+    "publishedAt": "2025-04-10"
   },
   {
     "id": 4,
@@ -62,10 +79,17 @@
     "bezel": "Stainless Steel",
     "mirror": "Sapphire",
     "size": 40,
-    "colors": ["black", "blue", "green", "aqua"],
+    "colors": [
+      "black",
+      "blue",
+      "green",
+      "aqua"
+    ],
     "country": "China",
     "url": "/watches/cadisen/c8200-royal-oak",
-    "image": "/cadisen/royal-oak.png"
+    "image": "/cadisen/royal-oak.png",
+    "rating": 4.5,
+    "publishedAt": "2025-04-09"
   },
   {
     "id": 5,
@@ -79,10 +103,16 @@
     "bezel": "Ceramic",
     "mirror": "Sapphire",
     "size": 42,
-    "colors": ["black", "blue", "red"],
+    "colors": [
+      "black",
+      "blue",
+      "red"
+    ],
     "country": "China",
     "url": "/watches/pagani-design/blackbay-pd1671",
-    "image": "/pagani-design/blackbay.png"
+    "image": "/pagani-design/blackbay.png",
+    "rating": 4.5,
+    "publishedAt": "2025-04-09"
   },
   {
     "id": 6,
@@ -96,10 +126,18 @@
     "bezel": "Stainless Steel",
     "mirror": "Sapphire",
     "size": 39,
-    "colors": ["black", "blue", "green", "aqua", "white"],
+    "colors": [
+      "black",
+      "blue",
+      "green",
+      "aqua",
+      "white"
+    ],
     "country": "Japan",
     "url": "/watches/casio/edifice-efr-s108d",
-    "image": "/casio/edifice.png"
+    "image": "/casio/edifice.png",
+    "rating": 4.5,
+    "publishedAt": "2025-04-09"
   },
   {
     "id": 7,
@@ -113,10 +151,14 @@
     "bezel": "",
     "mirror": "Sapphire",
     "size": 39,
-    "colors": ["white"],
+    "colors": [
+      "white"
+    ],
     "country": "China",
     "url": "/watches/tandorio/cusn8-flieger-a",
-    "image": "/tandorio/flieger-a.png"
+    "image": "/tandorio/flieger-a.png",
+    "rating": 4,
+    "publishedAt": "2025-04-16"
   },
   {
     "id": 8,
@@ -130,10 +172,17 @@
     "bezel": "",
     "mirror": "Sapphire",
     "size": 40,
-    "colors": ["black", "blue", "white", "aqua"],
+    "colors": [
+      "black",
+      "blue",
+      "white",
+      "aqua"
+    ],
     "country": "China",
     "url": "/watches/sugess/deus-chronograph",
-    "image": "/sugess/sugess-deus.png"
+    "image": "/sugess/sugess-deus.png",
+    "rating": 4,
+    "publishedAt": "2025-04-16"
   },
   {
     "id": 9,
@@ -147,10 +196,19 @@
     "bezel": "Ceramic",
     "mirror": "Sapphire",
     "size": 40,
-    "colors": ["black", "blue", "red", "gold", "white", "aqua"],
+    "colors": [
+      "black",
+      "blue",
+      "red",
+      "gold",
+      "white",
+      "aqua"
+    ],
     "country": "China",
     "url": "/watches/pagani-design/moonwatch-pd1701",
-    "image": "/pagani-design/moonwatch.png"
+    "image": "/pagani-design/moonwatch.png",
+    "rating": 4,
+    "publishedAt": "2025-04-17"
   },
   {
     "id": 10,
@@ -164,10 +222,15 @@
     "bezel": "",
     "mirror": "Mineral",
     "size": 40,
-    "colors": ["black", "white"],
+    "colors": [
+      "black",
+      "white"
+    ],
     "country": "United States",
     "url": "/watches/timex/expedition-scout",
-    "image": "/timex/expedition-scout.png"
+    "image": "/timex/expedition-scout.png",
+    "rating": 3.5,
+    "publishedAt": "2025-04-17"
   },
   {
     "id": 11,
@@ -181,10 +244,17 @@
     "bezel": "Stainless Steel",
     "mirror": "Sapphire",
     "size": 42,
-    "colors": ["black", "blue", "green", "yellow"],
+    "colors": [
+      "black",
+      "blue",
+      "green",
+      "yellow"
+    ],
     "country": "China",
     "url": "/watches/berny/compressor-V4-am439m",
-    "image": "/berny/compressor-v4.png"
+    "image": "/berny/compressor-v4.png",
+    "rating": 4,
+    "publishedAt": "2026-02-01"
   },
   {
     "id": 12,
@@ -198,10 +268,16 @@
     "bezel": "Ceramic",
     "mirror": "Sapphire",
     "size": 43.8,
-    "colors": ["black", "blue", "green"],
+    "colors": [
+      "black",
+      "blue",
+      "green"
+    ],
     "country": "China",
     "url": "/watches/steeldive/captain-willard",
-    "image": "/steeldive/captain-willard.png"
+    "image": "/steeldive/captain-willard.png",
+    "rating": 4.5,
+    "publishedAt": "2026-02-11"
   },
   {
     "id": 13,
@@ -215,10 +291,16 @@
     "bezel": "Stainless Steel",
     "mirror": "Sapphire",
     "size": 42,
-    "colors": ["black", "silver", "blue"],
+    "colors": [
+      "black",
+      "silver",
+      "blue"
+    ],
     "country": "China",
     "url": "/watches/feice/galactic-skeleton",
-    "image": "/feice/galactic-skeleton.png"
+    "image": "/feice/galactic-skeleton.png",
+    "rating": 4,
+    "publishedAt": "2026-02-16"
   },
   {
     "id": 14,
@@ -232,10 +314,17 @@
     "bezel": "Resin",
     "mirror": "Resin Glass",
     "size": 42,
-    "colors": ["black", "silver", "blue", "green"],
+    "colors": [
+      "black",
+      "silver",
+      "blue",
+      "green"
+    ],
     "country": "Japan",
     "url": "/watches/casio/royale-ae-1200wh",
-    "image": "/casio/royale-ae-1200wh.png"
+    "image": "/casio/royale-ae-1200wh.png",
+    "rating": 4,
+    "publishedAt": "2026-03-03"
   },
   {
     "id": 15,
@@ -249,10 +338,14 @@
     "bezel": "Stainless Steel",
     "mirror": "Mineral",
     "size": 48,
-    "colors": ["silver"],
+    "colors": [
+      "silver"
+    ],
     "country": "China",
     "url": "/watches/northedge/gavia-2",
-    "image": "/northedge/gavia-2.png"
+    "image": "/northedge/gavia-2.png",
+    "rating": 3.5,
+    "publishedAt": "2026-03-03"
   },
   {
     "id": 16,
@@ -266,10 +359,16 @@
     "bezel": "Ceramic",
     "mirror": "Sapphire",
     "size": 39,
-    "colors": ["gun gray", "blue", "green"],
+    "colors": [
+      "gun gray",
+      "blue",
+      "green"
+    ],
     "country": "China",
     "url": "/watches/san-martin/62mas",
-    "image": "/san-martin/62mas.png"
+    "image": "/san-martin/62mas.png",
+    "rating": 4.5,
+    "publishedAt": "2026-03-05"
   },
   {
     "id": 17,
@@ -283,10 +382,16 @@
     "bezel": "Ceramic",
     "mirror": "Sapphire",
     "size": 40,
-    "colors": ["black", "green", "blue", "orange"],
+    "colors": [
+      "black",
+      "green",
+      "blue",
+      "orange"
+    ],
     "country": "China",
     "url": "/watches/wishdoit/wsd-9007-gmt",
-    "image": "/wishdoit/wsd-9007-gmt.png"
+    "image": "/wishdoit/wsd-9007-gmt.png",
+    "rating": 4,
+    "publishedAt": "2026-03-05"
   }
-
 ]

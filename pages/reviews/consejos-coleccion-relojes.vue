@@ -3,7 +3,7 @@
     <Head>
       <Title>Guía para empezar tu colección de relojes, esto es lo que me habría gustado saber antes - Tiempo de Calidad</Title>
       <Meta name="description" content="Quiero compartir con vosotros una pequeña guía con algunas de las cosas que me habría gustado saber cuando empecé mi colección de relojes. No pretendo sentar cátedra ni dar una verdad absoluta, simplemente voy a contaros lo que he aprendido con el tiempo, basado en mi experiencia personal. Así que si pensáis diferente en algún punto, os invito a debatirlo en el grupo de Telegram —entre todos siempre aprendemos más." />
-      <link rel="icon" type="image/x-icon" href="/icon.ico" />
+      <link rel="icon" type="image/x-icon" href="/favicon.ico" />
     </Head>
     <h1 class="post-title">Guía para empezar tu colección de relojes, esto es lo que me habría gustado saber antes</h1>
     <p class="post-subtitle">
@@ -72,7 +72,7 @@
       Es cierto que algunas marcas chinas copian diseños, pero muchas lo hacen muy bien y lo compensan con una gran calidad/precio. Si estás empezando y te gusta, por ejemplo, el Tudor Black Bay, ¿por qué no probar primero con un Pagani Design por 80 euros? Si la afición te dura, ya llegará el momento del Tudor original.
     </p>
     <div class="post-image-container">
-      <img src="../../public/assets/img/reviews/consejos-coleccion-relojes/consejos-coleccion-relojes.png" alt="Colección de relojes" class="post-image">
+      <img src="/assets/img/reviews/consejos-coleccion-relojes/consejos-coleccion-relojes.png" alt="Colección de relojes" class="post-image">
     </div>
     <h2 class="post-header">5. ¿Cuánto gastarte? Depende de ti</h2>
     <p class="post-paragraph">
@@ -133,7 +133,7 @@ export default {
         content: 'Quiero compartir con vosotros una pequeña guía con algunas de las cosas que me habría gustado saber cuando empecé mi colección de relojes. No pretendo sentar cátedra ni dar una verdad absoluta, simplemente voy a contaros lo que he aprendido con el tiempo, basado en mi experiencia personal. Así que si pensáis diferente en algún punto, os invito a debatirlo en el grupo de Telegram —entre todos siempre aprendemos más.'
       }
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/icon.ico' }]
+    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
   }
 }
 </script>

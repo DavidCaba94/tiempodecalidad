@@ -6,7 +6,7 @@
         name="description"
         content="El Casio AE-1200WH, conocido como Casio Royale, es uno de los relojes digitales más icónicos y completos de Casio. Con hora mundial, 100 metros de resistencia al agua, autonomía de 10 años y un diseño retro inspirado en los años 80, es una de las mejores opciones calidad-precio del mercado."
       />
-      <link rel="icon" type="image/x-icon" href="/icon.ico" />
+      <link rel="icon" type="image/x-icon" href="/favicon.ico" />
     </Head>
 
     <h1 class="post-title">
@@ -33,12 +33,12 @@
     </div>
 
     <div class="link-container">
-      <img src="../../../public/assets/img/icons/aliexpress.png" alt="Aliexpress link" class="link-icon">
+      <img src="/assets/img/icons/aliexpress.png" alt="Aliexpress link" class="link-icon">
       <a href="https://s.click.aliexpress.com/e/_EIhXyoY">Click aquí para comprarlo en Aliexpress</a>
     </div>
 
     <div class="link-container">
-      <img src="../../../public/assets/img/icons/amazon.png" alt="Amazon link" class="link-icon">
+      <img src="/assets/img/icons/amazon.png" alt="Amazon link" class="link-icon">
       <a href="https://amzn.to/4rOl8K6">Click aquí para comprarlo en Amazon</a>
     </div>
 
@@ -136,7 +136,7 @@
     </p>
 
     <div class="post-image-container">
-      <img src="../../../public/assets/img/watches/casio/royale-ae-1200wh.png" alt="Casio Royale AE-1200WH" class="post-image">
+      <img src="/assets/img/watches/casio/royale-ae-1200wh.png" alt="Casio Royale AE-1200WH" class="post-image">
     </div>
 
     <h2 class="post-header">Retroiluminación LED funcional</h2>
@@ -213,7 +213,7 @@ export default {
           'El Casio AE-1200WH Casio Royale es uno de los relojes digitales más completos y económicos del mercado, con hora mundial, 100 metros de resistencia al agua, autonomía de 10 años y diseño retro icónico.'
       }
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/icon.ico' }]
+    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
   }
 }
 </script>

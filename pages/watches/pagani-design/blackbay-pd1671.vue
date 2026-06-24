@@ -3,7 +3,7 @@
     <Head>
       <Title>Pagani Design BB58, el Tudor Black Bay de menos de 100$ - Tiempo de Calidad</Title>
       <Meta name="description" content="El Pagani Design PD-1671 es un reloj que no se anda con rodeos: toma inspiración directa del Tudor Black Bay 58 y la transforma en una propuesta más asequible, sin perder carácter ni atención al detalle. Este diver se presenta como una opción sólida para quien busca diseño, robustez y prestaciones reales a un precio casi simbólico." />
-      <link rel="icon" type="image/x-icon" href="/icon.ico" />
+      <link rel="icon" type="image/x-icon" href="/favicon.ico" />
     </Head>
     <h1 class="post-title">Pagani Design BB58, el Tudor Black Bay de menos de 100$</h1>
     <p class="post-subtitle">
@@ -18,7 +18,7 @@
             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </div>
     <div class="link-container">
-      <img src="../../../public/assets/img/icons/aliexpress.png" alt="Aliexpress link" class="link-icon">
+      <img src="/assets/img/icons/aliexpress.png" alt="Aliexpress link" class="link-icon">
       <a href="https://s.click.aliexpress.com/e/_EyDDdw8">Click aquí para comprarlo en Aliexpress</a>
     </div>
     <p class="post-paragraph">
@@ -53,7 +53,7 @@
       Los índices son <strong>aplicados</strong> y tienen distintos formatos: cuadrados en la mayoría de posiciones, rectangulares a las 6 y 9, y un triángulo isósceles a las 12, todos con <strong>borde dorado y lumen en el interior</strong>.
     </p>
     <div class="post-image-container">
-      <img src="../../../public/assets/img/watches/pagani-design/blackbay.png" alt="Pagani Design BB58" class="post-image">
+      <img src="/assets/img/watches/pagani-design/blackbay.png" alt="Pagani Design BB58" class="post-image">
     </div>
     <h2 class="post-header">Fechador integrado</h2>
     <p class="post-paragraph">
@@ -105,7 +105,7 @@ export default {
         content: 'El Pagani Design PD-1671 es un reloj que no se anda con rodeos: toma inspiración directa del Tudor Black Bay 58 y la transforma en una propuesta más asequible, sin perder carácter ni atención al detalle. Este diver se presenta como una opción sólida para quien busca diseño, robustez y prestaciones reales a un precio casi simbólico.'
       }
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/icon.ico' }]
+    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
   }
 }
 </script>

@@ -6,22 +6,56 @@
   </div>
 </template>
 
+<script setup>
+// SEO global aplicado a todas las páginas.
+// El título por página se define con <Title> y aquí solo añadimos el sufijo
+// de marca cuando aún no está presente (evita duplicar "Tiempo de Calidad").
+const SITE_URL = 'https://tiempodecalidad.net'
+const route = useRoute()
+
+useHead({
+  htmlAttrs: { lang: 'es' },
+  titleTemplate: (title) =>
+    !title
+      ? 'Tiempo de Calidad'
+      : title.includes('Tiempo de Calidad')
+        ? title
+        : `${title} · Tiempo de Calidad`,
+  link: [
+    { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+    { rel: 'canonical', href: () => `${SITE_URL}${route.path}` }
+  ]
+})
+
+useSeoMeta({
+  ogSiteName: 'Tiempo de Calidad',
+  ogType: 'website',
+  ogLocale: 'es_ES',
+  ogUrl: () => `${SITE_URL}${route.path}`,
+  ogImage: `${SITE_URL}/assets/img/banner/banner.png`,
+  twitterCard: 'summary_large_image'
+})
+
+// Datos estructurados (JSON-LD) según la ruta. Reactivo a la navegación.
+useHead(() => {
+  const data = buildStructuredData(route.path)
+  return {
+    script: data.length
+      ? [
+          {
+            type: 'application/ld+json',
+            // Escapa "<" para evitar romper el bloque <script>.
+            innerHTML: JSON.stringify(data).replace(/</g, '\\u003c')
+          }
+        ]
+      : []
+  }
+})
+</script>
+
 <script>
 export default {
   name: 'Index',
-  head: {
-    title: 'Tiempo de Calidad',
-    meta: [
-      { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      {
-        hid: 'description',
-        name: 'description',
-        content: 'Relojería, precisión y calidad en cada review'
-      }
-    ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/icon.ico' }]
-  },
   data() {
     return {
       darkMode: true

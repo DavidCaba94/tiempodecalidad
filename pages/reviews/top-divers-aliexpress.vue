@@ -3,7 +3,7 @@
       <Head>
         <Title>TOP 10 Divers automáticos baratos de Aliexpress - Tiempo de Calidad</Title>
         <Meta name="description" content="Si estás pensando en iniciarte en el mundo de los relojes automáticos tipo diver sin gastar demasiado, en este artículo encontrarás una selección de 10 modelos disponibles en Aliexpress que destacan por su excelente relación calidad-precio. Todos ellos se encuentran en un rango de precios que va desde los 50 hasta los 150 euros, y muchos cuentan con características que sorprenden en esta gama." />
-        <link rel="icon" type="image/x-icon" href="/icon.ico" />
+        <link rel="icon" type="image/x-icon" href="/favicon.ico" />
       </Head>
       <h1 class="post-title">TOP 10 Divers automáticos baratos de Aliexpress</h1>
       <p class="post-subtitle">
@@ -23,10 +23,10 @@
       </p>
       <h2 class="post-header">Cadisen C8207M</h2>
       <div class="post-image-container">
-        <img src="../../public/assets/img/reviews/top-divers-aliexpress/cadisen.jpg" alt="Cadisen C8207M" class="post-image">
+        <img src="/assets/img/reviews/top-divers-aliexpress/cadisen.jpg" alt="Cadisen C8207M" class="post-image">
       </div>
       <div class="link-container">
-        <img src="../../public/assets/img/icons/aliexpress.png" alt="Aliexpress link" class="link-icon">
+        <img src="/assets/img/icons/aliexpress.png" alt="Aliexpress link" class="link-icon">
         <a href="https://s.click.aliexpress.com/e/_EG7fdIy">Click aquí para comprarlo en Aliexpress</a>
       </div>
       <p class="post-paragraph">
@@ -34,10 +34,10 @@
       </p>
       <h2 class="post-header">Welly Merc Ocean</h2>
       <div class="post-image-container">
-        <img src="../../public/assets/img/reviews/top-divers-aliexpress/welly-merc.jpg" alt="Welly Merc Ocean" class="post-image">
+        <img src="/assets/img/reviews/top-divers-aliexpress/welly-merc.jpg" alt="Welly Merc Ocean" class="post-image">
       </div>
       <div class="link-container">
-        <img src="../../public/assets/img/icons/aliexpress.png" alt="Aliexpress link" class="link-icon">
+        <img src="/assets/img/icons/aliexpress.png" alt="Aliexpress link" class="link-icon">
         <a href="https://s.click.aliexpress.com/e/_EwqbNwG">Click aquí para comprarlo en Aliexpress</a>
       </div>
       <p class="post-paragraph">
@@ -45,10 +45,10 @@
       </p>
       <h2 class="post-header">Pagani Design Seamaster PD-1685</h2>
       <div class="post-image-container">
-        <img src="../../public/assets/img/reviews/top-divers-aliexpress/pagani-seamaster.jpg" alt="Pagani Design Seamaster PD-1685" class="post-image">
+        <img src="/assets/img/reviews/top-divers-aliexpress/pagani-seamaster.jpg" alt="Pagani Design Seamaster PD-1685" class="post-image">
       </div>
       <div class="link-container">
-        <img src="../../public/assets/img/icons/aliexpress.png" alt="Aliexpress link" class="link-icon">
+        <img src="/assets/img/icons/aliexpress.png" alt="Aliexpress link" class="link-icon">
         <a href="https://s.click.aliexpress.com/e/_EyAwMLi">Click aquí para comprarlo en Aliexpress</a>
       </div>
       <p class="post-paragraph">
@@ -56,10 +56,10 @@
       </p>
       <h2 class="post-header">Tandorio 5 Sports</h2>
       <div class="post-image-container">
-        <img src="../../public/assets/img/reviews/top-divers-aliexpress/tandorio.jpg" alt="Tandorio 5 Sports" class="post-image">
+        <img src="/assets/img/reviews/top-divers-aliexpress/tandorio.jpg" alt="Tandorio 5 Sports" class="post-image">
       </div>
       <div class="link-container">
-        <img src="../../public/assets/img/icons/aliexpress.png" alt="Aliexpress link" class="link-icon">
+        <img src="/assets/img/icons/aliexpress.png" alt="Aliexpress link" class="link-icon">
         <a href="https://s.click.aliexpress.com/e/_EHHKd1w">Click aquí para comprarlo en Aliexpress</a>
       </div>
       <p class="post-paragraph">
@@ -67,10 +67,10 @@
       </p>
       <h2 class="post-header">Steeldive Cap. Willard</h2>
       <div class="post-image-container">
-        <img src="../../public/assets/img/reviews/top-divers-aliexpress/capi-willard.jpg" alt="Steeldive Cap. Willard" class="post-image">
+        <img src="/assets/img/reviews/top-divers-aliexpress/capi-willard.jpg" alt="Steeldive Cap. Willard" class="post-image">
       </div>
       <div class="link-container">
-        <img src="../../public/assets/img/icons/aliexpress.png" alt="Aliexpress link" class="link-icon">
+        <img src="/assets/img/icons/aliexpress.png" alt="Aliexpress link" class="link-icon">
         <a href="https://s.click.aliexpress.com/e/_Ev66Vde">Click aquí para comprarlo en Aliexpress</a>
       </div>
       <p class="post-paragraph">
@@ -78,10 +78,10 @@
       </p>
       <h2 class="post-header">Addiesdive Mantarraya</h2>
       <div class="post-image-container">
-        <img src="../../public/assets/img/reviews/top-divers-aliexpress/mantarraya.jpg" alt="Addiesdive Mantarraya" class="post-image">
+        <img src="/assets/img/reviews/top-divers-aliexpress/mantarraya.jpg" alt="Addiesdive Mantarraya" class="post-image">
       </div>
       <div class="link-container">
-        <img src="../../public/assets/img/icons/aliexpress.png" alt="Aliexpress link" class="link-icon">
+        <img src="/assets/img/icons/aliexpress.png" alt="Aliexpress link" class="link-icon">
         <a href="https://s.click.aliexpress.com/e/_EJsqvwk">Click aquí para comprarlo en Aliexpress</a>
       </div>
       <p class="post-paragraph">
@@ -89,10 +89,10 @@
       </p>
       <h2 class="post-header">Berny Compressor</h2>
       <div class="post-image-container">
-        <img src="../../public/assets/img/reviews/top-divers-aliexpress/berny.jpg" alt="Berny Compressor" class="post-image">
+        <img src="/assets/img/reviews/top-divers-aliexpress/berny.jpg" alt="Berny Compressor" class="post-image">
       </div>
       <div class="link-container">
-        <img src="../../public/assets/img/icons/aliexpress.png" alt="Aliexpress link" class="link-icon">
+        <img src="/assets/img/icons/aliexpress.png" alt="Aliexpress link" class="link-icon">
         <a href="https://s.click.aliexpress.com/e/_EwW2cJ6">Click aquí para comprarlo en Aliexpress</a>
       </div>
       <p class="post-paragraph">
@@ -100,10 +100,10 @@
       </p>
       <h2 class="post-header">Seestern SUB 600T</h2>
       <div class="post-image-container">
-        <img src="../../public/assets/img/reviews/top-divers-aliexpress/seestern.jpg" alt="Seestern SUB 600T" class="post-image">
+        <img src="/assets/img/reviews/top-divers-aliexpress/seestern.jpg" alt="Seestern SUB 600T" class="post-image">
       </div>
       <div class="link-container">
-        <img src="../../public/assets/img/icons/aliexpress.png" alt="Aliexpress link" class="link-icon">
+        <img src="/assets/img/icons/aliexpress.png" alt="Aliexpress link" class="link-icon">
         <a href="https://s.click.aliexpress.com/e/_EQ6YUCy">Click aquí para comprarlo en Aliexpress</a>
       </div>
       <p class="post-paragraph">
@@ -111,10 +111,10 @@
       </p>
       <h2 class="post-header">San Martin 62Mas</h2>
       <div class="post-image-container">
-        <img src="../../public/assets/img/reviews/top-divers-aliexpress/sanmartin.jpg" alt="San Martin 62Mas" class="post-image">
+        <img src="/assets/img/reviews/top-divers-aliexpress/sanmartin.jpg" alt="San Martin 62Mas" class="post-image">
       </div>
       <div class="link-container">
-        <img src="../../public/assets/img/icons/aliexpress.png" alt="Aliexpress link" class="link-icon">
+        <img src="/assets/img/icons/aliexpress.png" alt="Aliexpress link" class="link-icon">
         <a href="https://s.click.aliexpress.com/e/_EHeMCLS">Click aquí para comprarlo en Aliexpress</a>
       </div>
       <p class="post-paragraph">
@@ -122,10 +122,10 @@
       </p>
       <h2 class="post-header">Feelnever 1000m</h2>
       <div class="post-image-container">
-        <img src="../../public/assets/img/reviews/top-divers-aliexpress/feelnever.jpg" alt="Feelnever 1000m" class="post-image">
+        <img src="/assets/img/reviews/top-divers-aliexpress/feelnever.jpg" alt="Feelnever 1000m" class="post-image">
       </div>
       <div class="link-container">
-        <img src="../../public/assets/img/icons/aliexpress.png" alt="Aliexpress link" class="link-icon">
+        <img src="/assets/img/icons/aliexpress.png" alt="Aliexpress link" class="link-icon">
         <a href="https://s.click.aliexpress.com/e/_EusujFe">Click aquí para comprarlo en Aliexpress</a>
       </div>
       <p class="post-paragraph">
@@ -155,7 +155,7 @@
           content: 'Si estás pensando en iniciarte en el mundo de los relojes automáticos tipo diver sin gastar demasiado, en este artículo encontrarás una selección de 10 modelos disponibles en Aliexpress que destacan por su excelente relación calidad-precio. Todos ellos se encuentran en un rango de precios que va desde los 50 hasta los 150 euros, y muchos cuentan con características que sorprenden en esta gama.'
         }
       ],
-      link: [{ rel: 'icon', type: 'image/x-icon', href: '/icon.ico' }]
+      link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
     }
   }
   </script>

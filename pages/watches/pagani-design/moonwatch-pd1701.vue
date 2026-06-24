@@ -3,7 +3,7 @@
     <Head>
       <Title>Pagani Design Moonwatch, este no es de biocerámica - Tiempo de Calidad</Title>
       <Meta name="description" content="Hay relojes que no necesitan presentación, piezas que se han ganado su lugar en la historia por méritos propios y por las hazañas que acompañaron su camino. El Omega Speedmaster, también conocido como “Moonwatch”, es uno de ellos. No solo por su diseño atemporal, sino por haber sido testigo del mayor logro de la humanidad: la llegada a la Luna. Pero, como suele ocurrir con este tipo de iconos, su precio lo mantiene fuera del alcance de muchos aficionados." />
-      <link rel="icon" type="image/x-icon" href="/icon.ico" />
+      <link rel="icon" type="image/x-icon" href="/favicon.ico" />
     </Head>
     <h1 class="post-title">Pagani Design Moonwatch, este no es de biocerámica</h1>
     <p class="post-subtitle">
@@ -21,11 +21,11 @@
             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </div>
     <div class="link-container">
-      <img src="../../../public/assets/img/icons/aliexpress.png" alt="Aliexpress link" class="link-icon">
+      <img src="/assets/img/icons/aliexpress.png" alt="Aliexpress link" class="link-icon">
       <a href="https://s.click.aliexpress.com/e/_EIzBHVE">Click aquí para comprarlo en Aliexpress</a>
     </div>
     <div class="link-container">
-      <img src="../../../public/assets/img/icons/amazon.png" alt="Amazon link" class="link-icon">
+      <img src="/assets/img/icons/amazon.png" alt="Amazon link" class="link-icon">
       <a href="https://amzn.to/4bZojd2">Click aquí para comprarlo en Amazon</a>
     </div>
     <p class="post-paragraph">
@@ -67,7 +67,7 @@
       Bajo las 12 aparece el <strong>logotipo de la marca junto con el nombre y la leyenda "Chronograph"</strong>, un añadido que personalmente me parece innecesario y algo recargado. El fechador, ubicado entre las 4 y las 5, está en <strong>negativo</strong> (números blancos sobre fondo negro) e integrado de forma muy limpia.
     </p>
     <div class="post-image-container">
-      <img src="../../../public/assets/img/watches/pagani-design/moonwatch.png" alt="Pagani Design Moonwatch" class="post-image">
+      <img src="/assets/img/watches/pagani-design/moonwatch.png" alt="Pagani Design Moonwatch" class="post-image">
     </div>
     <h2 class="post-header">Marcadores y manecillas</h2>
     <p class="post-paragraph">
@@ -109,7 +109,7 @@ export default {
         content: 'Hay relojes que no necesitan presentación, piezas que se han ganado su lugar en la historia por méritos propios y por las hazañas que acompañaron su camino. El Omega Speedmaster, también conocido como “Moonwatch”, es uno de ellos. No solo por su diseño atemporal, sino por haber sido testigo del mayor logro de la humanidad: la llegada a la Luna. Pero, como suele ocurrir con este tipo de iconos, su precio lo mantiene fuera del alcance de muchos aficionados.'
       }
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/icon.ico' }]
+    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
   }
 }
 </script>

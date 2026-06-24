@@ -6,7 +6,7 @@
         name="description"
         content="El Steeldive SD1970 Capitán Willard es uno de los mejores relojes diver automáticos en relación calidad precio. Con calibre NH35 de Seiko, cristal de zafiro y bisel cerámico, este homenaje al mítico Seiko Willard ofrece prestaciones de relojes mucho más caros."
       />
-      <link rel="icon" type="image/x-icon" href="/icon.ico" />
+      <link rel="icon" type="image/x-icon" href="/favicon.ico" />
     </Head>
 
     <h1 class="post-title">
@@ -32,7 +32,7 @@
     </div>
 
     <div class="link-container">
-      <img src="../../../public/assets/img/icons/aliexpress.png" alt="Aliexpress link" class="link-icon">
+      <img src="/assets/img/icons/aliexpress.png" alt="Aliexpress link" class="link-icon">
       <a href="https://s.click.aliexpress.com/e/_Ev66Vde">Click aquí para comprarlo en Aliexpress</a>
     </div>
 
@@ -89,7 +89,7 @@
     </p>
 
     <div class="post-image-container">
-      <img src="../../../public/assets/img/watches/steeldive/captain-willard.png" alt="Captain Willard SD1970" class="post-image">
+      <img src="/assets/img/watches/steeldive/captain-willard.png" alt="Captain Willard SD1970" class="post-image">
     </div>
 
     <h2 class="post-header">Dial limpio y muy equilibrado</h2>
@@ -164,7 +164,7 @@ export default {
           'El Steeldive SD1970 Capitán Willard es uno de los mejores relojes diver automáticos en relación calidad precio, con calibre NH35, cristal de zafiro y bisel cerámico.'
       }
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/icon.ico' }]
+    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
   }
 }
 </script>

@@ -60,14 +60,16 @@
     "title": "TOP 10 Divers automáticos baratos de Aliexpress",
     "description": "Si estás pensando en iniciarte en el mundo de los relojes automáticos tipo diver sin gastar demasiado, en este artículo encontrarás una selección de 10 modelos disponibles en Aliexpress que destacan por su excelente relación calidad-precio. Todos ellos se encuentran en un rango de precios que va desde los 50 hasta los 150 euros, y muchos cuentan con características que sorprenden en esta gama.",
     "url": "/reviews/top-divers-aliexpress",
-    "image": "/reviews/top-divers-aliexpress/top-divers-aliexpress.png"
+    "image": "/reviews/top-divers-aliexpress/top-divers-aliexpress.png",
+    "publishedAt": "2025-04-17"
   },
   {
     "id": 10,
     "title": "TOP 10 Cronógrafos baratos de Aliexpress",
     "description": "Si estás buscando un cronógrafo asequible que ofrezca buenas prestaciones y un diseño atractivo, esta lista es para ti. Aquí tienes una selección de 10 cronógrafos que puedes encontrar en Aliexpress, con precios que oscilan entre los 40 y los 170 euros. Ocho de ellos funcionan con calibres de cuarzo o mecaquartz, mientras que los dos últimos son cronógrafos mecánicos que destacan por su gran relación calidad-precio.",
     "url": "/reviews/top-cronos-aliexpress",
-    "image": "/reviews/top-cronos-aliexpress/top-cronos-aliexpress.png"
+    "image": "/reviews/top-cronos-aliexpress/top-cronos-aliexpress.png",
+    "publishedAt": "2025-05-14"
   },
   {
     "id": 11,
@@ -88,13 +90,15 @@
     "title": "Guía para empezar tu colección de relojes, esto es lo que me habría gustado saber antes",
     "description": "Quiero compartir con vosotros una pequeña guía con algunas de las cosas que me habría gustado saber cuando empecé mi colección de relojes. No pretendo sentar cátedra ni dar una verdad absoluta, simplemente voy a contaros lo que he aprendido con el tiempo, basado en mi experiencia personal. Así que si pensáis diferente en algún punto, os invito a debatirlo en el grupo de Telegram —entre todos siempre aprendemos más.",
     "url": "/reviews/consejos-coleccion-relojes",
-    "image": "/reviews/consejos-coleccion-relojes/consejos-coleccion-relojes.png"
+    "image": "/reviews/consejos-coleccion-relojes/consejos-coleccion-relojes.png",
+    "publishedAt": "2025-05-19"
   },
   {
     "id": 14,
     "title": "Falsificaciones Seiko en Aliexpress, ¿merecen la pena?",
     "description": "En el apasionante mundo de la relojería, hay algo que todos compartimos: la tentación. Y si navegas por AliExpress con cierta frecuencia, probablemente te habrás topado con relojes que, a primera vista, parecen auténticas gangas. Marcas reconocidas, diseños icónicos… y precios que rozan el absurdo. ¿Un Seiko Prospex por 20 euros? Suena demasiado bien para ser cierto, y ¿lo es?.",
     "url": "/reviews/seiko-falso-aliexpress",
-    "image": "/reviews/seiko-falso-aliexpress/seiko-falso-aliexpress.png"
+    "image": "/reviews/seiko-falso-aliexpress/seiko-falso-aliexpress.png",
+    "publishedAt": "2025-05-19"
   }
 ]

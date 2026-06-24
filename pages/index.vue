@@ -3,7 +3,7 @@
     <Head>
       <Title>Tiempo de Calidad</Title>
       <Meta name="description" content="Relojería, precisión y calidad en cada review. Disfruta de esta gran afición con todo el contenido que tienes disponible en Tiempo de Calidad. Aquí encontrarás reseñas de relojes y recomendaciones de todo tipo de modelos."/>
-      <link rel="icon" type="image/x-icon" href="/icon.ico" />
+      <link rel="icon" type="image/x-icon" href="/favicon.ico" />
     </Head>
     <div class="banner">
       <h1 class="title">TIEMPO DE CALIDAD</h1>
@@ -15,21 +15,21 @@
     <div class="news-container" v-if="news.length > 0">
       <div class="news-first-column">
         <NuxtLink :to="news[0]?.url" class="new-box-first">
-          <div :style="{backgroundImage: 'url(../assets/img' + news[0]?.image + ')'}" class="img-news"></div>
+          <div :style="{backgroundImage: 'url(/assets/img' + news[0]?.image + ')'}" class="img-news"></div>
           <h3 class="title-news">{{ news[0]?.title }}</h3>
           <p class="description-news">{{ news[0]?.description }}</p>
         </NuxtLink>
       </div>
       <div class="news-second-column">
         <NuxtLink :to="news[1]?.url" class="new-box-second">
-          <div :style="{backgroundImage: 'url(../assets/img' + news[1]?.image + ')'}" class="img-news"></div>
+          <div :style="{backgroundImage: 'url(/assets/img' + news[1]?.image + ')'}" class="img-news"></div>
           <div class="new-description-column">
             <h3 class="title-news">{{ news[1]?.title }}</h3>
             <p class="description-news">{{ news[1]?.description }}</p>
           </div>
         </NuxtLink>
         <NuxtLink :to="news[2]?.url" class="new-box-second">
-          <div :style="{backgroundImage: 'url(../assets/img' + news[2]?.image + ')'}" class="img-news"></div>
+          <div :style="{backgroundImage: 'url(/assets/img' + news[2]?.image + ')'}" class="img-news"></div>
           <div class="new-description-column">
             <h3 class="title-news">{{ news[2]?.title }}</h3>
             <p class="description-news">{{ news[2]?.description }}</p>
@@ -54,7 +54,7 @@
     <h2>Únete a nuestro Telegram</h2>
     <p class="description">Tenemos una gran comunidad de Telegram donde todos compartimos fotos y experiencias de nuestros relojes, consultamos dudas y nos pasamos ofertas interesantes. Cada día somos más, pero mantenemos un ambiente muy sano y agradable. Únete!</p>
     <div class="link-container">
-      <img src="../public/assets/img/icons/telegram.png" alt="Telegram link" class="link-icon">
+      <img src="/assets/img/icons/telegram.png" alt="Telegram link" class="link-icon">
       <a href="https://t.me/+kttAAJ61LeE1NzE0">Click aquí para unirte a Telegram</a>
     </div>
   </div>
@@ -76,7 +76,7 @@ export default {
         content: 'Relojería, precisión y calidad en cada review. Disfruta de esta gran afición con todo el contenido que tienes disponible en Tiempo de Calidad. Aquí encontrarás reseñas de relojes y recomendaciones de todo tipo de modelos.',
       }
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/icon.ico' }]
+    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
   },
   data() {
     return {
@@ -106,7 +106,7 @@ export default {
       this.watches = randomWatches;
     },
     getCountryIcon(country) { 
-      return '../assets/img/flags/' + country.toLowerCase() + '.png';
+      return '/assets/img/flags/' + country.toLowerCase() + '.png';
     }
   }
 }

@@ -3,7 +3,7 @@
     <Head>
       <Title>Sugess Deus, cronógrafo mecánico ST1901 a precio de cuarzo - Tiempo de Calidad</Title>
       <Meta name="description" content="El Sugess Deus, un homenaje al icónico cronógrafo de Breitling que destaca por su diseño atractivo y su marcado estilo clásico. Un modelo ideal para quienes buscan iniciarse en el mundo de los cronógrafos mecánicos sin renunciar a una estética cuidada y un movimiento con historia." />
-      <link rel="icon" type="image/x-icon" href="/icon.ico" />
+      <link rel="icon" type="image/x-icon" href="/favicon.ico" />
     </Head>
     <h1 class="post-title">Sugess Deus, cronógrafo mecánico ST1901 a precio de cuarzo</h1>
     <p class="post-subtitle">
@@ -18,7 +18,7 @@
             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </div>
     <div class="link-container">
-      <img src="../../../public/assets/img/icons/aliexpress.png" alt="Aliexpress link" class="link-icon">
+      <img src="/assets/img/icons/aliexpress.png" alt="Aliexpress link" class="link-icon">
       <a href="https://s.click.aliexpress.com/e/_EuOmQaY">Click aquí para comprarlo en Aliexpress</a>
     </div>
     <p class="post-paragraph">
@@ -59,7 +59,7 @@
       El <strong>cristal es de zafiro abovedado</strong>, enrasado con el bisel. Sin embargo, parece que <strong>carece de tratamiento antirreflejos</strong>, o al menos no uno de calidad. No es algo que interfiera demasiado, pero conviene tenerlo en cuenta.
     </p>
     <div class="post-image-container">
-      <img src="../../../public/assets/img/watches/sugess/sugess-deus.png" alt="Sugess Deus" class="post-image">
+      <img src="/assets/img/watches/sugess/sugess-deus.png" alt="Sugess Deus" class="post-image">
     </div>
     <h2 class="post-header">Esfera y diseño del dial</h2>
     <p class="post-paragraph">
@@ -108,7 +108,7 @@ export default {
         content: 'El Sugess Deus, un homenaje al icónico cronógrafo de Breitling que destaca por su diseño atractivo y su marcado estilo clásico. Un modelo ideal para quienes buscan iniciarse en el mundo de los cronógrafos mecánicos sin renunciar a una estética cuidada y un movimiento con historia.'
       }
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/icon.ico' }]
+    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
   }
 }
 </script>

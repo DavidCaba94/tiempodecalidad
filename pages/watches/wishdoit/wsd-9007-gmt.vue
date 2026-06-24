@@ -6,7 +6,7 @@
         name="description"
         content="El Wishdoit WSD-9007 es un reloj GMT automático con calibre Seiko NH34, cristal de zafiro y un lumen espectacular. Una propuesta muy completa que combina estética diver, función GMT y una relación calidad-precio difícil de batir."
       />
-      <link rel="icon" type="image/x-icon" href="/icon.ico" />
+      <link rel="icon" type="image/x-icon" href="/favicon.ico" />
     </Head>
 
     <h1 class="post-title">
@@ -34,7 +34,7 @@
     </div>
 
     <div class="link-container">
-      <img src="../../../public/assets/img/icons/aliexpress.png" alt="Aliexpress link" class="link-icon">
+      <img src="/assets/img/icons/aliexpress.png" alt="Aliexpress link" class="link-icon">
       <a href="https://s.click.aliexpress.com/e/_EuQEqDK">Click aquí para comprarlo en Aliexpress</a>
     </div>
 
@@ -84,7 +84,7 @@
     </p>
 
     <div class="post-image-container">
-      <img src="../../../public/assets/img/watches/wishdoit/wsd-9007-gmt.png" alt="Wishdoit WSD-9007 GMT" class="post-image">
+      <img src="/assets/img/watches/wishdoit/wsd-9007-gmt.png" alt="Wishdoit WSD-9007 GMT" class="post-image">
     </div>
 
     <h2 class="post-header">Dial limpio y bien equilibrado</h2>
@@ -141,7 +141,7 @@
     </p>
 
     <div class="post-image-container">
-      <img src="../../../public/assets/img/watches/wishdoit/wsd-9007-gmt.jpeg" alt="Wishdoit WSD-9007 GMT" class="post-image">
+      <img src="/assets/img/watches/wishdoit/wsd-9007-gmt.jpeg" alt="Wishdoit WSD-9007 GMT" class="post-image">
     </div>
 
     <h2 class="post-header">Precio y conclusiones</h2>
@@ -174,7 +174,7 @@ export default {
           'El Wishdoit WSD-9007 es un reloj GMT automático con calibre Seiko NH34, cristal de zafiro y un lumen espectacular. Una opción muy completa y competitiva en su rango de precio.'
       }
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/icon.ico' }]
+    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
   }
 }
 </script>

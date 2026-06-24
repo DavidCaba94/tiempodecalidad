@@ -6,7 +6,7 @@
         name="description"
         content="El Berny Compressor V4 es un reloj diver automático que destaca por su bisel interno, cristal de zafiro, lumen espectacular y movimiento Miyota 8215. Una opción con una relación calidad-precio difícil de igualar dentro de su rango."
       />
-      <link rel="icon" type="image/x-icon" href="/icon.ico" />
+      <link rel="icon" type="image/x-icon" href="/favicon.ico" />
     </Head>
 
     <h1 class="post-title">
@@ -33,12 +33,12 @@
     </div>
 
     <div class="link-container">
-      <img src="../../../public/assets/img/icons/aliexpress.png" alt="Aliexpress link" class="link-icon">
+      <img src="/assets/img/icons/aliexpress.png" alt="Aliexpress link" class="link-icon">
       <a href="https://s.click.aliexpress.com/e/_EzNQdLO">Click aquí para comprarlo en Aliexpress</a>
     </div>
 
     <div class="link-container">
-      <img src="../../../public/assets/img/icons/amazon.png" alt="Amazon link" class="link-icon">
+      <img src="/assets/img/icons/amazon.png" alt="Amazon link" class="link-icon">
       <a href="https://amzn.to/49PLCVi">Click aquí para comprarlo en Amazon</a>
     </div>
 
@@ -101,7 +101,7 @@
     </p>
 
     <div class="post-image-container">
-      <img src="../../../public/assets/img/watches/berny/compressor-v4.png" alt="Berny Compressor V4 AM439M" class="post-image">
+      <img src="/assets/img/watches/berny/compressor-v4.png" alt="Berny Compressor V4 AM439M" class="post-image">
     </div>
 
     <h2 class="post-header">Dial en dos niveles y excelente legibilidad</h2>
@@ -182,7 +182,7 @@ export default {
           'El Berny Compressor V4 es un reloj diver automático con movimiento Miyota 8215, cristal de zafiro, bisel interno y 200 metros de resistencia al agua. Una opción con una relación calidad-precio sobresaliente.'
       }
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/icon.ico' }]
+    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
   }
 }
 </script>

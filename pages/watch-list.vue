@@ -3,7 +3,7 @@
     <Head>
       <Title>Relojes - Tiempo de Calidad</Title>
       <Meta name="description" content="Aquí tienes un listado de todos los relojes reseñados en Tiempo de Calidad. En cada uno encontrarás un análisis detallado de sus características, así como una valoración personal. También podrás acceder directamente al enlace de compra de cada uno de ellos." />
-      <link rel="icon" type="image/x-icon" href="/icon.ico" />
+      <link rel="icon" type="image/x-icon" href="/favicon.ico" />
     </Head>
     <h1 class="watches-title">RELOJES</h1>
     <div class='filter-container'>
@@ -132,7 +132,7 @@ export default {
         content: 'Aquí tienes un listado de todos los relojes reseñados en Tiempo de Calidad. En cada uno encontrarás un análisis detallado de sus características, así como una valoración personal. También podrás acceder directamente al enlace de compra de cada uno de ellos.',
       }
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/icon.ico' }]
+    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
   },
   data() {
     return {
@@ -184,7 +184,7 @@ export default {
       this.isShowFilters = !this.isShowFilters;
     },
     getCountryIcon(country) { 
-      return '../assets/img/flags/' + country.replace(' ', '-').toLowerCase() + '.png';
+      return '/assets/img/flags/' + country.replace(' ', '-').toLowerCase() + '.png';
     },
     pageChanged(page) {
       this.currentPage = page;

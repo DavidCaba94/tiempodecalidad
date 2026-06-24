@@ -6,7 +6,7 @@
         name="description"
         content="El Feice Galactic Skeleton es un reloj automático de diseño industrial con estética inspirada en el Royal Oak. Equipa el calibre Hangzhou 7500A, ofrece una cuidada construcción en acero inoxidable y un armis de gran calidad por debajo de los 200 euros."
       />
-      <link rel="icon" type="image/x-icon" href="/icon.ico" />
+      <link rel="icon" type="image/x-icon" href="/favicon.ico" />
     </Head>
 
     <h1 class="post-title">
@@ -33,12 +33,12 @@
     </div>
 
     <div class="link-container">
-      <img src="../../../public/assets/img/icons/aliexpress.png" alt="Aliexpress link" class="link-icon">
+      <img src="/assets/img/icons/aliexpress.png" alt="Aliexpress link" class="link-icon">
       <a href="https://s.click.aliexpress.com/e/_EvRoRzQ">Click aquí para comprarlo en Aliexpress</a>
     </div>
 
     <div class="link-container">
-      <img src="../../../public/assets/img/icons/internet.png" alt="Miravia link" class="link-icon">
+      <img src="/assets/img/icons/internet.png" alt="Miravia link" class="link-icon">
       <a href="https://feicewatch.com/es-ES/products/new-arrival-fm019-skeleton-luminous-automatic-watch-limited-edition">Click aquí para comprarlo en la web de Feice</a>
     </div>
 
@@ -95,7 +95,7 @@
     </p>
 
     <div class="post-image-container">
-      <img src="../../../public/assets/img/watches/feice/galactic-skeleton.png" alt="Feice Galactic Skeleton" class="post-image">
+      <img src="/assets/img/watches/feice/galactic-skeleton.png" alt="Feice Galactic Skeleton" class="post-image">
     </div>
 
     <h2 class="post-header">Un dial que no es un dial</h2>
@@ -145,7 +145,7 @@
     </p>
 
     <div class="post-image-container">
-      <img src="../../../public/assets/img/watches/feice/galactic-skeleton.jpeg" alt="Feice Galactic Skeleton" class="post-image">
+      <img src="/assets/img/watches/feice/galactic-skeleton.jpeg" alt="Feice Galactic Skeleton" class="post-image">
     </div>
 
     <h2 class="post-header">Precio y valoración final</h2>
@@ -175,7 +175,7 @@ export default {
           'El Feice Galactic Skeleton es un reloj automático de diseño industrial con estética Royal Oak, calibre Hangzhou 7500A, cristal de zafiro y armis de acero inoxidable por debajo de los 200 euros.'
       }
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/icon.ico' }]
+    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
   }
 }
 </script>

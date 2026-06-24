@@ -1,5 +1,5 @@
 <template>
-  <div class="news-card" :style="{ backgroundImage: 'url(../assets/img/watches' + watchObject.image + ')' }">
+  <div class="news-card" :style="{ backgroundImage: 'url(/assets/img/watches' + watchObject.image + ')' }">
     <div class="brand">
       <img :src="getCountryIcon(watchObject.country)" :alt="watchObject.country" class="country-icon"/>
       <p>{{ watchObject.brand }}</p>
@@ -22,7 +22,7 @@ export default {
   },
   methods: {
     getCountryIcon(country) { 
-      return '../assets/img/flags/' + country.replace(' ', '-').toLowerCase() + '.png';
+      return '/assets/img/flags/' + country.replace(' ', '-').toLowerCase() + '.png';
     }
   }
 }

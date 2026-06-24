@@ -6,7 +6,7 @@
         name="description"
         content="El San Martin 62MAS es uno de los mejores divers automáticos por debajo de los 200€. Inspirado en el mítico Seiko 62MAS, combina acabados premium, cristal de zafiro, bisel cerámico y calibre NH35 en un reloj con una relación calidad-precio sobresaliente."
       />
-      <link rel="icon" type="image/x-icon" href="/icon.ico" />
+      <link rel="icon" type="image/x-icon" href="/favicon.ico" />
     </Head>
 
     <h1 class="post-title">
@@ -33,7 +33,7 @@
     </div>
 
     <div class="link-container">
-      <img src="../../../public/assets/img/icons/aliexpress.png" alt="Aliexpress link" class="link-icon">
+      <img src="/assets/img/icons/aliexpress.png" alt="Aliexpress link" class="link-icon">
       <a href="https://s.click.aliexpress.com/e/_EGLpdF6">Click aquí para comprarlo en Aliexpress</a>
     </div>
 
@@ -92,7 +92,7 @@
     </p>
 
     <div class="post-image-container">
-      <img src="../../../public/assets/img/watches/san-martin/62mas.png" alt="San Martin 62MAS" class="post-image">
+      <img src="/assets/img/watches/san-martin/62mas.png" alt="San Martin 62MAS" class="post-image">
     </div>
 
     <h2 class="post-header">Manecillas y fechador bien integrados</h2>
@@ -133,7 +133,7 @@
     </p>
 
     <div class="post-image-container">
-      <img src="../../../public/assets/img/watches/san-martin/62mas.jpeg" alt="San Martin 62MAS" class="post-image">
+      <img src="/assets/img/watches/san-martin/62mas.jpeg" alt="San Martin 62MAS" class="post-image">
     </div>
 
     <h2 class="post-header">Precio y conclusión</h2>
@@ -162,7 +162,7 @@ export default {
           'El San Martin 62MAS es un reloj diver automático inspirado en el mítico Seiko 62MAS. Equipa calibre NH35, cristal de zafiro, bisel cerámico y ofrece acabados premium con una excelente relación calidad-precio por debajo de los 200 euros.'
       }
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/icon.ico' }]
+    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
   }
 }
 </script>

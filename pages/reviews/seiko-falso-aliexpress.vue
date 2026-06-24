@@ -3,7 +3,7 @@
     <Head>
       <Title>Falsificaciones Seiko en Aliexpress, ¿merecen la pena? - Tiempo de Calidad</Title>
       <Meta name="description" content="En el apasionante mundo de la relojería, hay algo que todos compartimos: la tentación. Y si navegas por AliExpress con cierta frecuencia, probablemente te habrás topado con relojes que, a primera vista, parecen auténticas gangas. Marcas reconocidas, diseños icónicos… y precios que rozan el absurdo. ¿Un Seiko Prospex por 20 euros? Suena demasiado bien para ser cierto, y ¿lo es?." />
-      <link rel="icon" type="image/x-icon" href="/icon.ico" />
+      <link rel="icon" type="image/x-icon" href="/favicon.ico" />
     </Head>
     <h1 class="post-title">Falsificaciones Seiko en Aliexpress, ¿merecen la pena?</h1>
     <p class="post-subtitle">
@@ -44,7 +44,7 @@
       La caja está anunciada como acero inoxidable, y aunque <strong>no hay forma de comprobar la calidad del acero</strong>, al menos parece metálica. Está pulida a espejo y guarda cierta semejanza con el original en líneas generales. Sin embargo, el ajuste entre caja y brazalete deja rendijas visibles, lo que arruina el conjunto.
     </p>
     <div class="post-image-container">
-      <img src="../../public/assets/img/reviews/seiko-falso-aliexpress/seiko-falso-aliexpress.png" alt="Falsificación Seiko Prospex Speedtimer" class="post-image">
+      <img src="/assets/img/reviews/seiko-falso-aliexpress/seiko-falso-aliexpress.png" alt="Falsificación Seiko Prospex Speedtimer" class="post-image">
     </div>
     <h2 class="post-header">Corona y pulsadores</h2>
     <p class="post-paragraph">
@@ -108,7 +108,7 @@ export default {
         content: 'En el apasionante mundo de la relojería, hay algo que todos compartimos: la tentación. Y si navegas por AliExpress con cierta frecuencia, probablemente te habrás topado con relojes que, a primera vista, parecen auténticas gangas. Marcas reconocidas, diseños icónicos… y precios que rozan el absurdo. ¿Un Seiko Prospex por 20 euros? Suena demasiado bien para ser cierto, y ¿lo es?.'
       }
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/icon.ico' }]
+    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
   }
 }
 </script>

@@ -8,7 +8,7 @@
         name="description"
         content="El North Edge Gavia 2 es un reloj híbrido que combina estética analógica con una potente pantalla digital. Con funciones como altímetro, barómetro, brújula, podómetro y resistencia al agua de hasta 200 metros, es una de las opciones más completas por menos de 100 euros."
       />
-      <link rel="icon" type="image/x-icon" href="/icon.ico" />
+      <link rel="icon" type="image/x-icon" href="/favicon.ico" />
     </Head>
 
     <h1 class="post-title">
@@ -36,7 +36,7 @@
     </div>
 
     <div class="link-container">
-      <img src="../../../public/assets/img/icons/aliexpress.png" alt="Aliexpress link" class="link-icon">
+      <img src="/assets/img/icons/aliexpress.png" alt="Aliexpress link" class="link-icon">
       <a href="https://s.click.aliexpress.com/e/_EICr3Kg">Click aquí para comprarlo en Aliexpress</a>
     </div>
 
@@ -96,7 +96,7 @@
     </p>
 
     <div class="post-image-container">
-      <img src="../../../public/assets/img/watches/northedge/gavia-2.png" alt="North Edge Gavia 2" class="post-image">
+      <img src="/assets/img/watches/northedge/gavia-2.png" alt="North Edge Gavia 2" class="post-image">
     </div>
 
     <h2 class="post-header">Dial bien organizado y fácil de leer</h2>
@@ -206,7 +206,7 @@ export default {
           'El North Edge Gavia 2 es un reloj híbrido con estética analógica y pantalla digital, equipado con altímetro, barómetro, brújula, podómetro y resistencia al agua, ideal para actividades al aire libre por menos de 100 euros.'
       }
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/icon.ico' }]
+    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
   }
 }
 </script>

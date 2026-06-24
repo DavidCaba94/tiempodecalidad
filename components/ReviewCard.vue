@@ -1,7 +1,7 @@
 <template>
   <div class="review-card">
     <div class="review-card-img">
-      <div :style="{ backgroundImage: 'url(../assets/img' + review.image + ')' }" class="review-img" :alt="review.title"></div>
+      <div :style="{ backgroundImage: 'url(/assets/img' + review.image + ')' }" class="review-img" :alt="review.title"></div>
     </div>
     <div class="review-card-body">
       <h2>{{ review.title }}</h2>

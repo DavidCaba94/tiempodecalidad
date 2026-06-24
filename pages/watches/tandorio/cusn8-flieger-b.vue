@@ -3,7 +3,7 @@
     <Head>
       <Title>Tandorio Flieger Tipo B, diseño y calidad a precio reducido - Tiempo de Calidad</Title>
       <Meta name="description" content="El Tandorio CUSN8 es un flieger tipo B fiel a sus raíces, pero adaptado al uso diario con mejoras modernas como el cristal de zafiro y la gran resistencia al agua. Aunque algunos detalles pueden no gustar a todos, el conjunto ofrece una gran relación calidad-precio. Ideal para quienes valoran el legado histórico de los relojes de aviador y quieren una pieza funcional y visualmente impactante." />
-      <link rel="icon" type="image/x-icon" href="/icon.ico" />
+      <link rel="icon" type="image/x-icon" href="/favicon.ico" />
     </Head>
     <h1 class="post-title">Tandorio Flieger Tipo B, diseño y calidad a precio reducido</h1>
     <p class="post-subtitle">
@@ -18,7 +18,7 @@
             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </div>
     <div class="link-container">
-      <img src="../../../public/assets/img/icons/aliexpress.png" alt="Aliexpress link" class="link-icon">
+      <img src="/assets/img/icons/aliexpress.png" alt="Aliexpress link" class="link-icon">
       <a href="https://s.click.aliexpress.com/e/_Ewz2liM">Click aquí para comprarlo en Aliexpress</a>
     </div>
     <p class="post-paragraph">
@@ -41,7 +41,7 @@
       Las manecillas siguen el <strong>estilo clásico de los relojes de aviador</strong>: grandes, con forma de espada romboidal, perfil negro y rellenas de lumen. Destacan por su contundencia visual y encajan perfectamente con el diseño de la esfera. La trotadora, en cambio, tiene forma de batuta y carece de lumen, detalle que algunos pueden considerar una omisión, pero que mantiene cierta coherencia estética con el resto del conjunto. <strong>El lumen en general es correcto</strong>: no es potente, pero sí suficientemente brillante en la oscuridad y aplicado con cuidado.
     </p>
     <div class="post-image-container">
-      <img src="../../../public/assets/img/watches/tandorio/flieger-b.png" alt="Tandorio Flieger B" class="post-image">
+      <img src="/assets/img/watches/tandorio/flieger-b.png" alt="Tandorio Flieger B" class="post-image">
     </div>
     <h2 class="post-header">Cristal y tapa trasera</h2>
     <p class="post-paragraph">
@@ -76,7 +76,7 @@ export default {
         content: 'El Tandorio CUSN8 es un flieger tipo B fiel a sus raíces, pero adaptado al uso diario con mejoras modernas como el cristal de zafiro y la gran resistencia al agua. Aunque algunos detalles pueden no gustar a todos, el conjunto ofrece una gran relación calidad-precio. Ideal para quienes valoran el legado histórico de los relojes de aviador y quieren una pieza funcional y visualmente impactante.'
       }
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/icon.ico' }]
+    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
   }
 }
 </script>
