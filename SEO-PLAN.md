@@ -206,16 +206,21 @@ Ejemplo JSON-LD ficha (resumen):
 
 > Notas propuestas (editables en `watches.json`): Marlin 4.0 · Yacht PD-1651 4.0 · Flieger B 4.0 · Cadisen Royal Oak 4.5 · BB58 PD-1671 4.5 · CasiOak Edifice 4.5 · Flieger A 4.0 · Sugess Deus 4.0 · Moonwatch PD-1701 4.0 · Timex Scout 3.5 · Berny Compressor 4.0 · Steeldive Willard 4.5 · Feice Skeleton 4.0 · Casio Royale 4.0 · Northedge Gavia 2 3.5 · San Martin 62MAS 4.5 · Wishdoit GMT 4.0.
 
-### Fase 2 — Migración a Markdown (`@nuxt/content`)
-- [ ] Instalar y configurar `@nuxt/content` (definir colecciones + schema con Zod).
-- [ ] Crear `layouts/default.vue` con menú/footer y **CSS de post centralizado**.
-- [ ] Crear `pages/relojes/[slug].vue` y `pages/articulos/[slug].vue` (plantillas únicas).
-- [ ] Migrar los 17 `.vue` de relojes → `content/relojes/*.md` (texto + frontmatter, añadiendo `rating` y `publishedAt`).
-- [ ] Migrar los 4 artículos → `content/articulos/*.md`.
-- [ ] Reescribir `index.vue`, `relojes/index.vue`, `articulos/index.vue` para leer de la colección con `queryCollection` (SSR, sin `mounted()`) → resuelve C2.
-- [ ] Portar filtros y buscador del listado de relojes a datos de la colección.
-- [ ] Borrar los 21 `.vue` hardcodeados de `pages/watches/`+`pages/reviews/`, `watches.json`, `reviews.json` y restos (`.data/content`, `public/content`).
-- [ ] Verificar que cada `path` generado por la colección coincide **exactamente** con la URL antigua (no hacen falta redirecciones, pero hay que comprobarlo URL a URL).
+### Fase 2 — Migración a Markdown (`@nuxt/content`) — ✅ COMPLETADA (2026-06-25)
+- [x] Instalado y configurado `@nuxt/content` (1 colección `content`, schema Zod, `kind: watch|article`).
+- [x] Subido Nuxt 3.16 → 3.21 (requisito de content) + `better-sqlite3@11` + `.npmrc` (legacy-peer-deps).
+- [x] CSS de post centralizado en `assets/css/post.css` (antes duplicado ×21).
+- [x] Plantillas únicas: `pages/watches/[...slug].vue` y `pages/reviews/[slug].vue` (URLs intactas).
+- [x] Componentes MDC: `Youtube.vue` (lazy) y `Affiliate.vue` (**`rel="nofollow sponsored"`**); `ProseImg` plano para estático.
+- [x] Migrados 17 relojes → `content/watches/**/*.md` y 4 artículos → `content/reviews/*.md` (conversor automático).
+- [x] `index.vue`, `watch-list.vue`, `reviews-list.vue` a SSR con `queryCollection` → **resuelve C2**.
+- [x] Filtros y buscador del listado portados a la colección.
+- [x] Borrados los 21 `.vue` antiguos, `watches.json`, `reviews.json`, `public/content`.
+- [x] JSON-LD movido a las plantillas (desde el doc); `app.vue` solo home.
+- [x] **Deploy estático** Netlify (`netlify.toml`: `npm run generate` → `.output/public`).
+- [x] Verificado con `nuxt generate`: 58 rutas, 17 fichas + 4 artículos, listados con enlaces en HTML, JSON-LD OK, sitemap 26 URLs.
+
+> ⚠️ URL: `@nuxt/content` normaliza a minúsculas. Solo afectó a `compressor-V4-am439m` → `compressor-v4-am439m`, con **301** en `netlify.toml`. El resto de URLs idénticas.
 
 ### Fase 3 — Rendimiento / CWV
 - [ ] Sustituir `<img>` y `background-image` por `<NuxtImg>`/`<NuxtPicture>` (WebP/AVIF, lazy, width/height) (P1).

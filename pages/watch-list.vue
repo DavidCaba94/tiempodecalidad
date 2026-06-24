@@ -1,10 +1,5 @@
 <template>
   <div class='watches-container'>
-    <Head>
-      <Title>Relojes - Tiempo de Calidad</Title>
-      <Meta name="description" content="Aquí tienes un listado de todos los relojes reseñados en Tiempo de Calidad. En cada uno encontrarás un análisis detallado de sus características, así como una valoración personal. También podrás acceder directamente al enlace de compra de cada uno de ellos." />
-      <link rel="icon" type="image/x-icon" href="/favicon.ico" />
-    </Head>
     <h1 class="watches-title">RELOJES</h1>
     <div class='filter-container'>
       <div class='filter-button' @click="showFilters()">
@@ -20,7 +15,7 @@
       <p>No hay datos para mostrar</p>
     </div>
     <div class='card-container' v-if="watches.length > 0">
-      <NuxtLink v-for="watch in watches" :key="watch.id" :to="watch.url" class="card-width">
+      <NuxtLink v-for="watch in watches" :key="watch.url" :to="watch.url" class="card-width">
         <WatchCard :watchObject="watch"></WatchCard>
       </NuxtLink>
     </div>
@@ -118,21 +113,25 @@
 </template>
 
 <script>
-import watchesList from '~/assets/json/watches.json'
 export default {
   name: 'Relojes',
-  head: {
-    title: 'Relojes - Tiempo de Calidad',
-    meta: [
-      { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      {
-        hid: 'description',
-        name: 'description',
-        content: 'Aquí tienes un listado de todos los relojes reseñados en Tiempo de Calidad. En cada uno encontrarás un análisis detallado de sus características, así como una valoración personal. También podrás acceder directamente al enlace de compra de cada uno de ellos.',
-      }
-    ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
+  async setup() {
+    // Relojes cargados en SSR desde @nuxt/content (normalizados a la forma
+    // que espera la lógica de filtros: url y water_resistance).
+    const { data } = await useAsyncData('watch-list:all', () =>
+      queryCollection('content').where('kind', '=', 'watch').all()
+    )
+    const watchesList = (data.value || []).map((d) => ({
+      ...d,
+      url: d.path,
+      water_resistance: d.waterResistance
+    }))
+    useSeoMeta({
+      title: 'Relojes',
+      description:
+        'Listado de todos los relojes reseñados en Tiempo de Calidad. En cada uno encontrarás un análisis detallado de sus características, una valoración personal y el enlace de compra.'
+    })
+    return { watchesList }
   },
   data() {
     return {
@@ -167,10 +166,10 @@ export default {
   },
   computed: {
     totalItems() {
-      return this.searchText === '' ? watchesList?.length : this.watches?.length;
+      return this.searchText === '' ? this.watchesList?.length : this.watches?.length;
     }
   },
-  mounted() {
+  created() {
     this.getWatches();
     this.setFiltersContent();
   },
@@ -178,7 +177,7 @@ export default {
     getWatches() {
       const start = (this.currentPage - 1) * this.itemsPerPage;
       const end = start + this.itemsPerPage;
-      this.watches = [...watchesList].reverse().slice(start, end);
+      this.watches = [...this.watchesList].reverse().slice(start, end);
     },
     showFilters() {
       this.isShowFilters = !this.isShowFilters;
@@ -195,18 +194,18 @@ export default {
       });
     },
     setFiltersContent() {
-      this.filtersContent.brands = [...new Set(watchesList.map(watch => watch.brand))];
-      this.filtersContent.movements = [...new Set(watchesList.map(watch => watch.movement))];
-      this.filtersContent.countries = [...new Set(watchesList.map(watch => watch.country))];
-      this.filtersContent.colors = this.getColorsCollection(watchesList);
-      this.filtersContent.prices = [...new Set(watchesList.map(watch => watch.price))];
+      this.filtersContent.brands = [...new Set(this.watchesList.map(watch => watch.brand))];
+      this.filtersContent.movements = [...new Set(this.watchesList.map(watch => watch.movement))];
+      this.filtersContent.countries = [...new Set(this.watchesList.map(watch => watch.country))];
+      this.filtersContent.colors = this.getColorsCollection(this.watchesList);
+      this.filtersContent.prices = [...new Set(this.watchesList.map(watch => watch.price))];
       this.filtersValues.price = this.filtersContent.prices.sort((b, a) => a - b)[0];
-      this.filtersContent.types = [...new Set(watchesList.map(watch => watch.type))];
-      this.filtersContent.sizes = [...new Set(watchesList.map(watch => watch.size))].sort((a, b) => a - b);
-      this.filtersContent.waterResistances = [...new Set(watchesList.map(watch => watch.water_resistance))].sort((a, b) => a - b);
+      this.filtersContent.types = [...new Set(this.watchesList.map(watch => watch.type))];
+      this.filtersContent.sizes = [...new Set(this.watchesList.map(watch => watch.size))].sort((a, b) => a - b);
+      this.filtersContent.waterResistances = [...new Set(this.watchesList.map(watch => watch.water_resistance))].sort((a, b) => a - b);
     },
     setModelsContent() {
-      this.filtersContent.models = [...new Set(watchesList.filter(watch => watch.brand === this.filtersValues.brand).map(watch => watch.model))];
+      this.filtersContent.models = [...new Set(this.watchesList.filter(watch => watch.brand === this.filtersValues.brand).map(watch => watch.model))];
     },
     clearFilters() {
       this.filtersValues = {
@@ -224,8 +223,8 @@ export default {
     },
     setCountry(country) {
       this.filtersValues.country = country;
-      this.filtersContent.brands = [...new Set(watchesList.filter(watch => watch.country === country).map(watch => watch.brand))];
-      this.filtersContent.models = [...new Set(watchesList.filter(watch => watch.country === country).map(watch => watch.model))];
+      this.filtersContent.brands = [...new Set(this.watchesList.filter(watch => watch.country === country).map(watch => watch.brand))];
+      this.filtersContent.models = [...new Set(this.watchesList.filter(watch => watch.country === country).map(watch => watch.model))];
     },
     setColor(color) {
       this.filtersValues.color = color;
@@ -243,7 +242,7 @@ export default {
     },
     filterBySearch() {
       if (this.searchText.length > 2) {
-        this.watches = watchesList.filter(watch => {
+        this.watches = this.watchesList.filter(watch => {
           return watch.brand.toLowerCase().includes(this.searchText.toLowerCase()) ||
                  watch.model.toLowerCase().includes(this.searchText.toLowerCase());
         });

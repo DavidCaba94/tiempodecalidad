@@ -1,10 +1,5 @@
 <template>
   <div class="reviews-container">
-    <Head>
-      <Title>Reseñas - Tiempo de Calidad</Title>
-      <Meta name="description" content="Aquí tienes un listado con todas las reseñas de Tiempo de Calidad, ya sean reseñas completas de relojes o recomendaciones de diferentes modelos de todo tipo de marcas. En todas ellas encontrarás información útil y relevante para ayudarte a elegir el reloj que mejor se adapte a tus necesidades, además del enlace de compra." />
-      <link rel="icon" type="image/x-icon" href="/favicon.ico" />
-    </Head>
     <div class='filter-container'>
       <div class='filter-button'>
         <h1>RESEÑAS</h1>
@@ -18,7 +13,7 @@
       <p>No hay datos para mostrar</p>
     </div>
     <div class='card-container' v-if="reviews.length > 0">
-      <NuxtLink v-for="review in reviews" :key="review.id" :to="review.url" class="card-width">
+      <NuxtLink v-for="review in reviews" :key="review.path" :to="review.path" class="card-width">
         <ReviewCard :reviewObject="review"></ReviewCard>
       </NuxtLink>
     </div>
@@ -26,65 +21,45 @@
   </div>
 </template>
 
-<script>
-import reviewsList from '~/assets/json/reviews.json';
+<script setup>
+// Todas las reseñas (relojes + artículos) por fecha, cargadas en SSR.
+const { data: all } = await useAsyncData('reviews:all', () =>
+  queryCollection('content').order('publishedAt', 'DESC').all()
+)
 
-export default {
-  name: 'Reseñas',
-  head: {
-    title: 'Reseñas - Tiempo de Calidad',
-    meta: [
-      { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      {
-        hid: 'description',
-        name: 'description',
-        content: 'Aquí tienes un listado con todas las reseñas de Tiempo de Calidad, ya sean reseñas completas de relojes o recomendaciones de diferentes modelos de todo tipo de marcas. En todas ellas encontrarás información útil y relevante para ayudarte a elegir el reloj que mejor se adapte a tus necesidades, además del enlace de compra.',
-      }
-    ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
-  },
-  data() {
-    return {
-      reviews: [],
-      currentPage: 1,
-      itemsPerPage: 9,
-      searchText: ''
-    }
-  },
-  computed: {
-    totalItems() {
-      return this.searchText === '' ? reviewsList?.length : this.reviews?.length;
-    }
-  },
-  mounted() {
-    this.getReviews();
-  },
-  methods: {
-    getReviews() {
-      const start = (this.currentPage - 1) * this.itemsPerPage;
-      const end = start + this.itemsPerPage;
-      this.reviews = [...reviewsList].reverse().slice(start, end);
-    },
-    filterBySearch() {
-      if (this.searchText.length > 2) {
-        this.reviews = reviewsList.filter(review => {
-          return review.title.toLowerCase().includes(this.searchText.toLowerCase());
-        });
-      } else {
-        this.getReviews();
-      }
-    },
-    pageChanged(page) {
-      this.currentPage = page;
-      this.getReviews();
-      window.scrollTo({
-        top: 0,
-        behavior: 'smooth'
-      });
-    }
+const itemsPerPage = 9
+const currentPage = ref(1)
+const searchText = ref('')
+
+const filtered = computed(() => {
+  const list = all.value || []
+  if (searchText.value.length > 2) {
+    const q = searchText.value.toLowerCase()
+    return list.filter((r) => r.title.toLowerCase().includes(q))
   }
+  return list
+})
+
+const totalItems = computed(() => filtered.value.length)
+const reviews = computed(() => {
+  const start = (currentPage.value - 1) * itemsPerPage
+  return filtered.value.slice(start, start + itemsPerPage)
+})
+
+function filterBySearch() {
+  currentPage.value = 1
 }
+
+function pageChanged(page) {
+  currentPage.value = page
+  if (import.meta.client) window.scrollTo({ top: 0, behavior: 'smooth' })
+}
+
+useSeoMeta({
+  title: 'Reseñas',
+  description:
+    'Listado con todas las reseñas de Tiempo de Calidad: reseñas completas de relojes y recomendaciones de todo tipo de marcas, con información útil y enlaces de compra.'
+})
 </script>
 
 <style scoped>

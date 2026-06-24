@@ -1,5 +1,5 @@
 <template>
-  <div class="news-card" :style="{ backgroundImage: 'url(/assets/img/watches' + watchObject.image + ')' }">
+  <div class="news-card" :style="{ backgroundImage: 'url(' + watchObject.image + ')' }">
     <div class="brand">
       <img :src="getCountryIcon(watchObject.country)" :alt="watchObject.country" class="country-icon"/>
       <p>{{ watchObject.brand }}</p>

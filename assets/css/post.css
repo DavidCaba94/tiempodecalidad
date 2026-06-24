@@ -1,0 +1,58 @@
+/* Estilos compartidos de artículos (fichas de reloj y guías).
+   Antes estaban duplicados en cada página .vue; ahora centralizados. */
+.post-container {
+  max-width: 750px;
+  margin: 0 auto;
+  padding: 20px;
+  margin-top: 100px;
+}
+
+.post-title {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.post-content strong {
+  font-weight: bold;
+}
+
+.post-content p {
+  font-size: 16px;
+  font-weight: 300;
+  text-align: justify;
+}
+
+/* Primer párrafo = entradilla / subtítulo */
+.post-content > p:first-of-type {
+  margin-bottom: 40px;
+}
+
+.post-content h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.post-content img {
+  display: block;
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  border-radius: 8px;
+  margin: 20px auto;
+}
+
+@media (max-width: 768px) {
+  .post-container {
+    padding: 10px;
+    margin-top: 80px;
+  }
+
+  .post-title {
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+}

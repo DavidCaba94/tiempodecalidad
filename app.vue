@@ -36,21 +36,14 @@ useSeoMeta({
   twitterCard: 'summary_large_image'
 })
 
-// Datos estructurados (JSON-LD) según la ruta. Reactivo a la navegación.
-useHead(() => {
-  const data = buildStructuredData(route.path)
-  return {
-    script: data.length
-      ? [
-          {
-            type: 'application/ld+json',
-            // Escapa "<" para evitar romper el bloque <script>.
-            innerHTML: JSON.stringify(data).replace(/</g, '\\u003c')
-          }
-        ]
+// JSON-LD de la home (WebSite + Organization). Las fichas y artículos
+// inyectan el suyo desde su propia página a partir del doc de contenido.
+useHead(() => ({
+  script:
+    route.path === '/'
+      ? [{ type: 'application/ld+json', innerHTML: jsonLdScript(homeJsonLd()) }]
       : []
-  }
-})
+}))
 </script>
 
 <script>

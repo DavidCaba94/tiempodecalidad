@@ -1,10 +1,5 @@
 <template>
   <div class="index-container">
-    <Head>
-      <Title>Tiempo de Calidad</Title>
-      <Meta name="description" content="Relojería, precisión y calidad en cada review. Disfruta de esta gran afición con todo el contenido que tienes disponible en Tiempo de Calidad. Aquí encontrarás reseñas de relojes y recomendaciones de todo tipo de modelos."/>
-      <link rel="icon" type="image/x-icon" href="/favicon.ico" />
-    </Head>
     <div class="banner">
       <h1 class="title">TIEMPO DE CALIDAD</h1>
     </div>
@@ -14,22 +9,22 @@
     <h2>Novedades</h2>
     <div class="news-container" v-if="news.length > 0">
       <div class="news-first-column">
-        <NuxtLink :to="news[0]?.url" class="new-box-first">
-          <div :style="{backgroundImage: 'url(/assets/img' + news[0]?.image + ')'}" class="img-news"></div>
+        <NuxtLink :to="news[0]?.path" class="new-box-first">
+          <div :style="{backgroundImage: 'url(' + news[0]?.image + ')'}" class="img-news"></div>
           <h3 class="title-news">{{ news[0]?.title }}</h3>
           <p class="description-news">{{ news[0]?.description }}</p>
         </NuxtLink>
       </div>
       <div class="news-second-column">
-        <NuxtLink :to="news[1]?.url" class="new-box-second">
-          <div :style="{backgroundImage: 'url(/assets/img' + news[1]?.image + ')'}" class="img-news"></div>
+        <NuxtLink :to="news[1]?.path" class="new-box-second">
+          <div :style="{backgroundImage: 'url(' + news[1]?.image + ')'}" class="img-news"></div>
           <div class="new-description-column">
             <h3 class="title-news">{{ news[1]?.title }}</h3>
             <p class="description-news">{{ news[1]?.description }}</p>
           </div>
         </NuxtLink>
-        <NuxtLink :to="news[2]?.url" class="new-box-second">
-          <div :style="{backgroundImage: 'url(/assets/img' + news[2]?.image + ')'}" class="img-news"></div>
+        <NuxtLink :to="news[2]?.path" class="new-box-second">
+          <div :style="{backgroundImage: 'url(' + news[2]?.image + ')'}" class="img-news"></div>
           <div class="new-description-column">
             <h3 class="title-news">{{ news[2]?.title }}</h3>
             <p class="description-news">{{ news[2]?.description }}</p>
@@ -43,7 +38,7 @@
     </NuxtLink>
     <h2>Relojes</h2>
     <div class="card-container">
-      <NuxtLink v-for="watch in watches" :key="watch.id" :to="watch.url" class="card-width">
+      <NuxtLink v-for="watch in watches" :key="watch.path" :to="watch.path" class="card-width">
         <WatchCard :watchObject="watch"></WatchCard>
       </NuxtLink>
     </div>
@@ -60,56 +55,32 @@
   </div>
 </template>
 
-<script>
-import watchesList from '~/assets/json/watches.json';
-import reviewsList from '~/assets/json/reviews.json';
-export default {
-  name: 'Index',
-  head: {
-    title: 'Tiempo de Calidad',
-    meta: [
-      { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      {
-        hid: 'description',
-        name: 'description',
-        content: 'Relojería, precisión y calidad en cada review. Disfruta de esta gran afición con todo el contenido que tienes disponible en Tiempo de Calidad. Aquí encontrarás reseñas de relojes y recomendaciones de todo tipo de modelos.',
-      }
-    ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
-  },
-  data() {
-    return {
-      watches: [],
-      news: []
-    }
-  },
-  mounted() {
-    this.setLastNews();
-    this.setRandomWatches();
-  },
-  methods: {
-    setLastNews() {
-      const invertedReviewsList = [...reviewsList].reverse();
-      this.news = invertedReviewsList.slice(0, 3);
-    },
-    setRandomWatches() {
-      const randomWatches = [];
-      const randomIndexes = new Set();
-      while (randomIndexes.size < 3) {
-        const randomIndex = Math.floor(Math.random() * watchesList.length);
-        if (!randomIndexes.has(randomIndex)) {
-          randomIndexes.add(randomIndex);
-          randomWatches.push(watchesList[randomIndex]);
-        }
-      }
-      this.watches = randomWatches;
-    },
-    getCountryIcon(country) { 
-      return '/assets/img/flags/' + country.toLowerCase() + '.png';
-    }
+<script setup>
+// Novedades: últimos 3 contenidos por fecha. Relojes: 3 al azar.
+// Datos en SSR (queryCollection) para que aparezcan en el HTML (SEO).
+const { data: news } = await useAsyncData('home:news', () =>
+  queryCollection('content').order('publishedAt', 'DESC').limit(3).all()
+)
+
+const { data: allWatches } = await useAsyncData('home:watches', () =>
+  queryCollection('content').where('kind', '=', 'watch').all()
+)
+
+const watches = computed(() => {
+  const list = [...(allWatches.value || [])]
+  for (let i = list.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1))
+    ;[list[i], list[j]] = [list[j], list[i]]
   }
-}
+  return list.slice(0, 3)
+})
+
+useSeoMeta({
+  description:
+    'Relojería, precisión y calidad en cada review. Disfruta de esta gran afición con todo el contenido que tienes disponible en Tiempo de Calidad. Aquí encontrarás reseñas de relojes y recomendaciones de todo tipo de modelos.',
+  ogTitle: 'Tiempo de Calidad',
+  ogDescription: 'Relojería, precisión y calidad en cada review.'
+})
 </script>
 
 <style scoped>
