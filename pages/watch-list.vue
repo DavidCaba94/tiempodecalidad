@@ -19,7 +19,7 @@
         <WatchCard :watchObject="watch"></WatchCard>
       </NuxtLink>
     </div>
-    <Pagination :totalItems="totalItems" :itemsPerPage="itemsPerPage" @pageChanged="pageChanged"></Pagination>
+    <Pagination :totalItems="totalItems" :itemsPerPage="itemsPerPage" :currentPage="currentPage" @pageChanged="pageChanged"></Pagination>
     <div v-if="isShowFilters" class="filter-box-container">
       <div class="inputs-container">
         <div class="input-row">
@@ -135,10 +135,10 @@ export default {
   },
   data() {
     return {
-      watches: [],
       currentPage: 1,
       itemsPerPage: 9,
       isShowFilters: false,
+      applied: null,
       filtersContent: {
         brands: [],
         models: [],
@@ -165,20 +165,40 @@ export default {
     }
   },
   computed: {
+    // Lista completa filtrada (búsqueda + filtros aplicados). Newest-first.
+    filteredWatches() {
+      let list = [...this.watchesList].reverse();
+      const f = this.applied;
+      if (f) {
+        if (f.country) list = list.filter(w => w.country === f.country);
+        if (f.brand) list = list.filter(w => w.brand === f.brand);
+        if (f.model) list = list.filter(w => w.model === f.model);
+        if (f.color) list = list.filter(w => w.colors.includes(f.color));
+        if (f.movement) list = list.filter(w => w.movement === f.movement);
+        if (f.price) list = list.filter(w => w.price <= f.price);
+        if (f.type) list = list.filter(w => w.type === f.type);
+        if (f.size) list = list.filter(w => w.size === f.size);
+        if (f.waterResistance) list = list.filter(w => w.water_resistance === f.waterResistance);
+      }
+      if (this.searchText.length > 2) {
+        const q = this.searchText.toLowerCase();
+        list = list.filter(w => w.brand.toLowerCase().includes(q) || w.model.toLowerCase().includes(q));
+      }
+      return list;
+    },
     totalItems() {
-      return this.searchText === '' ? this.watchesList?.length : this.watches?.length;
+      return this.filteredWatches.length;
+    },
+    // Página actual sobre la lista filtrada.
+    watches() {
+      const start = (this.currentPage - 1) * this.itemsPerPage;
+      return this.filteredWatches.slice(start, start + this.itemsPerPage);
     }
   },
   created() {
-    this.getWatches();
     this.setFiltersContent();
   },
   methods: {
-    getWatches() {
-      const start = (this.currentPage - 1) * this.itemsPerPage;
-      const end = start + this.itemsPerPage;
-      this.watches = [...this.watchesList].reverse().slice(start, end);
-    },
     showFilters() {
       this.isShowFilters = !this.isShowFilters;
     },
@@ -187,11 +207,9 @@ export default {
     },
     pageChanged(page) {
       this.currentPage = page;
-      this.getWatches();
-      window.scrollTo({
-        top: 0,
-        behavior: 'smooth'
-      });
+      if (typeof window !== 'undefined') {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      }
     },
     setFiltersContent() {
       this.filtersContent.brands = [...new Set(this.watchesList.map(watch => watch.brand))];
@@ -219,6 +237,8 @@ export default {
         size: null,
         waterResistance: null
       };
+      this.applied = null;
+      this.currentPage = 1;
       this.setFiltersContent();
     },
     setCountry(country) {
@@ -241,47 +261,14 @@ export default {
       return colors;
     },
     filterBySearch() {
-      if (this.searchText.length > 2) {
-        this.watches = this.watchesList.filter(watch => {
-          return watch.brand.toLowerCase().includes(this.searchText.toLowerCase()) ||
-                 watch.model.toLowerCase().includes(this.searchText.toLowerCase());
-        });
-      } else {
-        this.getWatches();
-      }
+      // La búsqueda es reactiva (computed); solo volvemos a la primera página.
+      this.currentPage = 1;
     },
     applyFilters() {
-      this.getWatches();
-      if (this.filtersValues.country) {
-        this.watches = this.watches.filter(watch => watch.country === this.filtersValues.country);
-      }
-      if (this.filtersValues.brand) {
-        this.watches = this.watches.filter(watch => watch.brand === this.filtersValues.brand);
-      }
-      if (this.filtersValues.model) {
-        this.watches = this.watches.filter(watch => watch.model === this.filtersValues.model);
-      }
-      if (this.filtersValues.color) {
-        this.watches = this.watches.filter(watch => watch.colors.includes(this.filtersValues.color));
-      }
-      if (this.filtersValues.movement) {
-        this.watches = this.watches.filter(watch => watch.movement === this.filtersValues.movement);
-      }
-      if (this.filtersValues.price) {
-        this.watches = this.watches.filter(watch => watch.price <= this.filtersValues.price);
-      }
-      if (this.filtersValues.type) {
-        this.watches = this.watches.filter(watch => watch.type === this.filtersValues.type);
-      }
-      if (this.filtersValues.size) {
-        this.watches = this.watches.filter(watch => watch.size === this.filtersValues.size);
-      }
-      if (this.filtersValues.waterResistance) {
-        this.watches = this.watches.filter(watch => watch.water_resistance === this.filtersValues.waterResistance);
-      }
-      this.watches = this.watches.slice((this.currentPage - 1) * this.itemsPerPage, this.currentPage * this.itemsPerPage);
-      this.isShowFilters = false;
+      // Tomamos una instantánea de los filtros; el computed hace el resto.
+      this.applied = { ...this.filtersValues };
       this.currentPage = 1;
+      this.isShowFilters = false;
     }
   }
 }

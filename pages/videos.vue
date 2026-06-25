@@ -23,7 +23,7 @@
         <h3 class="video-title">{{ video.title }}</h3>
       </div>
     </div>
-    <Pagination :totalItems="totalItems" :itemsPerPage="itemsPerPage" @pageChanged="pageChanged"></Pagination>
+    <Pagination :totalItems="totalItems" :itemsPerPage="itemsPerPage" :currentPage="currentPage" @pageChanged="pageChanged"></Pagination>
   </div>
 </template>
 
@@ -46,42 +46,37 @@ export default {
   },
   data() {
     return {
-      videos: [],
       currentPage: 1,
       itemsPerPage: 9,
       searchText: ''
     }
   },
   computed: {
+    filteredVideos() {
+      let list = [...videosList].reverse();
+      if (this.searchText.length > 2) {
+        const q = this.searchText.toLowerCase();
+        list = list.filter(video => video.title.toLowerCase().includes(q));
+      }
+      return list;
+    },
     totalItems() {
-      return this.searchText === '' ? videosList?.length : this.videos?.length;
+      return this.filteredVideos.length;
+    },
+    videos() {
+      const start = (this.currentPage - 1) * this.itemsPerPage;
+      return this.filteredVideos.slice(start, start + this.itemsPerPage);
     }
   },
-  mounted() {
-    this.getVideos()
-  },
   methods: {
-    getVideos() {
-      const start = (this.currentPage - 1) * this.itemsPerPage;
-      const end = start + this.itemsPerPage;
-      this.videos = [...videosList].reverse().slice(start, end);
-    },
     filterBySearch() {
-      if (this.searchText.length > 2) {
-        this.videos = videosList.filter(video => {
-          return video.title.toLowerCase().includes(this.searchText.toLowerCase());
-        });
-      } else {
-        this.getVideos();
-      }
+      this.currentPage = 1;
     },
     pageChanged(page) {
       this.currentPage = page;
-      this.getVideos();
-      window.scrollTo({
-        top: 0,
-        behavior: 'smooth'
-      });
+      if (typeof window !== 'undefined') {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      }
     }
   }
 }

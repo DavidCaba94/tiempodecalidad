@@ -17,7 +17,7 @@
         <ReviewCard :reviewObject="review"></ReviewCard>
       </NuxtLink>
     </div>
-    <Pagination :totalItems="totalItems" :itemsPerPage="itemsPerPage" @pageChanged="pageChanged"></Pagination>
+    <Pagination :totalItems="totalItems" :itemsPerPage="itemsPerPage" :currentPage="currentPage" @pageChanged="pageChanged"></Pagination>
   </div>
 </template>
 

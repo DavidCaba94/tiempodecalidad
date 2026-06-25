@@ -1,63 +1,30 @@
 <template>
-  <div class="pagination">
-    <Icon name="uil:arrow-left" @click="prevPage" class="arrow-icon"/>
-    <div v-for="index in totalPages" :key="index" @click="setPage(index)" :class="currentPage === index ? 'page-number active' : 'page-number'">{{ index }}</div>
-    <Icon name="uil:arrow-right" @click="nextPage" class="arrow-icon"/>
+  <div class="pagination" v-if="totalPages > 1">
+    <Icon name="uil:arrow-left" @click="go(currentPage - 1)" class="arrow-icon" />
+    <div
+      v-for="index in totalPages"
+      :key="index"
+      @click="go(index)"
+      :class="currentPage === index ? 'page-number active' : 'page-number'"
+    >{{ index }}</div>
+    <Icon name="uil:arrow-right" @click="go(currentPage + 1)" class="arrow-icon" />
   </div>
 </template>
 
-<script>
-export default {
-  name: 'Pagination',
-  props: {
-    totalItems: {
-      type: Number,
-      required: true
-    },
-    itemsPerPage: {
-      type: Number,
-      required: true
-    }
-  },
-  data() {
-    return {
-      currentPage: 1,
-      totalPages: 1
-    }
-  },
-  watch: {
-    totalItems: function(newVal, oldVal) {
-      let numPages = 1;
-      numPages = Math.ceil(newVal / this.itemsPerPage);
-      this.totalPages = numPages;
-    },
-    itemsPerPage: function(newVal, oldVal) {
-      let numPages = 1;
-      numPages = Math.ceil(this.totalItems / newVal);
-      this.totalPages = numPages;
-    }
-  },
-  mounted() {
-    this.totalPages = Math.ceil(this.totalItems / this.itemsPerPage);
-  },
-  methods: {
-    prevPage() {
-      if (this.currentPage > 1) {
-        this.currentPage--;
-        this.$emit('pageChanged', this.currentPage);
-      }
-    },
-    nextPage() {
-      if (this.currentPage < this.totalPages) {
-        this.currentPage++;
-        this.$emit('pageChanged', this.currentPage);
-      }
-    },
-    setPage(page) {
-      this.currentPage = page;
-      this.$emit('pageChanged', this.currentPage);
-    }
-  }
+<script setup>
+// Componente controlado: la página activa la marca el padre vía prop.
+const props = defineProps({
+  totalItems: { type: Number, required: true },
+  itemsPerPage: { type: Number, required: true },
+  currentPage: { type: Number, default: 1 }
+})
+const emit = defineEmits(['pageChanged'])
+
+const totalPages = computed(() => Math.max(1, Math.ceil(props.totalItems / props.itemsPerPage)))
+
+function go(page) {
+  if (page < 1 || page > totalPages.value || page === props.currentPage) return
+  emit('pageChanged', page)
 }
 </script>
 
