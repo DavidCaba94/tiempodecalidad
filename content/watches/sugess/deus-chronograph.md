@@ -2,7 +2,7 @@
 kind: "watch"
 title: "Sugess Deus, cronógrafo mecánico ST1901 a precio de cuarzo"
 description: "El Sugess Deus, un homenaje al icónico cronógrafo de Breitling que destaca por su diseño atractivo y su marcado estilo clásico. Un modelo ideal para quienes buscan iniciarse en el mundo de los cronógrafos mecánicos sin renunciar a una estética cuidada y un movimiento con historia."
-image: "/assets/img/watches/sugess/sugess-deus.png"
+image: "/assets/img/watches/sugess/sugess-deus.webp"
 publishedAt: "2025-04-16"
 youtube: "Ck4yxzvHnmw"
 affiliate: "https://s.click.aliexpress.com/e/_EuOmQaY"
@@ -58,7 +58,7 @@ El bisel es un **anillo pulido**, suavemente redondeado en su parte superior y c
 
 El **cristal es de zafiro abovedado**, enrasado con el bisel. Sin embargo, parece que **carece de tratamiento antirreflejos**, o al menos no uno de calidad. No es algo que interfiera demasiado, pero conviene tenerlo en cuenta.
 
-![Sugess Deus](/assets/img/watches/sugess/sugess-deus.png)
+![Sugess Deus](/assets/img/watches/sugess/sugess-deus.webp)
 
 ## Esfera y diseño del dial
 

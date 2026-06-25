@@ -105,7 +105,7 @@ useSeoMeta({
   align-items: center;
   width: 100%;
   height: 200px;
-  background-image: url('../assets/img/banner/banner.png');
+  background-image: url('../assets/img/banner/banner.webp');
   background-size: cover;
   background-position: center;
   margin-bottom: 20px;

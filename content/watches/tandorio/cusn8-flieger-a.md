@@ -2,7 +2,7 @@
 kind: "watch"
 title: "Tandorio Flieger Tipo A, impresionante el lumen de este aviador"
 description: "En el mundo de la relojería, pocos diseños tienen tanta carga histórica como los relojes tipo flieger. Nacidos en plena guerra para satisfacer las necesidades de los pilotos, su legado sigue muy presente en la actualidad. Hoy te presento el segundo flieger de mi colección, un modelo tipo A, reconocible por su diseño centrado en las horas en lugar de los minutos. Un reloj que, sin grandes pretensiones, se gana el respeto por su equilibrio entre funcionalidad, estética y precio."
-image: "/assets/img/watches/tandorio/flieger-a.png"
+image: "/assets/img/watches/tandorio/flieger-a.webp"
 publishedAt: "2025-04-16"
 youtube: "uzdlmLayxHI"
 affiliate: "https://s.click.aliexpress.com/e/_Ev7P8ZW"
@@ -44,7 +44,7 @@ Con un acabado completamente **cepillado** y un **corte recto a 90 grados**, la 
 
 La corona, aunque **roscada y funcional**, no está firmada, lo cual habría sido un bonito detalle estético. Tiene **tres posiciones**: una para el remonte manual, una posición fantasma para la fecha (que este modelo no incorpora) y la última para ajustar la hora. El bisel es un **anillo de acero** con acabado cepillado que encaja con precisión en la caja, formando un conjunto compacto y equilibrado.
 
-![Tandorio CUSN8 Flieger A](/assets/img/watches/tandorio/flieger-a.png)
+![Tandorio CUSN8 Flieger A](/assets/img/watches/tandorio/flieger-a.webp)
 
 ## Dial y marcadores
 

@@ -2,7 +2,7 @@
 kind: "watch"
 title: "Feice Galactic Skeleton, diseño industrial y alma mecánica"
 description: "El Feice Galactic Skeleton es un reloj automático de diseño industrial con estética inspirada en el Royal Oak. Equipa el calibre Hangzhou 7500A, ofrece una cuidada construcción en acero inoxidable y un armis de gran calidad por debajo de los 200 euros."
-image: "/assets/img/watches/feice/galactic-skeleton.png"
+image: "/assets/img/watches/feice/galactic-skeleton.webp"
 publishedAt: "2026-02-16"
 youtube: "m0xZW8QXGDc"
 affiliate: "https://s.click.aliexpress.com/e/_EvRoRzQ"
@@ -58,7 +58,7 @@ La corona sigue el lenguaje de diseño del reloj, con una forma **hexagonal** y 
 
 El bisel octogonal está perfectamente enrasado con la caja, manteniendo una separación uniforme en todo su perímetro. Presenta un **acabado cepillado superior** y tornillos decorativos alineados en cada vértice. El lateral pulido a espejo acompaña al canto de la caja, reforzando el aspecto premium del conjunto.
 
-![Feice Galactic Skeleton](/assets/img/watches/feice/galactic-skeleton.png)
+![Feice Galactic Skeleton](/assets/img/watches/feice/galactic-skeleton.webp)
 
 ## Un dial que no es un dial
 
@@ -84,7 +84,7 @@ La tapa trasera es **roscada y de acero inoxidable**, con un anillo exterior cep
 
 El Feice Galactic Skeleton mide **48mm de largo, 42mm de diámetro y 12mm de grosor**. Sobre el papel puede parecer grande, pero gracias a sus formas redondeadas y su diseño, **se percibe más equilibrado de lo esperado**, incluso en muñecas más bien pequeñas.
 
-![Feice Galactic Skeleton](/assets/img/watches/feice/galactic-skeleton.jpeg)
+![Feice Galactic Skeleton](/assets/img/watches/feice/galactic-skeleton-2.webp)
 
 ## Precio y valoración final
 

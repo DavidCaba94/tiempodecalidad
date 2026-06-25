@@ -2,7 +2,7 @@
 kind: "watch"
 title: "Berny Compressor V4 AM439M, el diver automático que nadie esperaba"
 description: "El Berny Compressor V4 es un reloj diver automático que destaca por su bisel interno, cristal de zafiro, lumen espectacular y movimiento Miyota 8215. Una opción con una relación calidad-precio difícil de igualar dentro de su rango."
-image: "/assets/img/watches/berny/compressor-v4.png"
+image: "/assets/img/watches/berny/compressor-v4.webp"
 publishedAt: "2026-02-01"
 youtube: "65EkdANRFS0"
 affiliate: "https://s.click.aliexpress.com/e/_EzNQdLO"
@@ -62,7 +62,7 @@ El reloj cuenta con **dos coronas roscadas**, ambas con acabado pulido y estriad
 
 La corona superior acciona el **bisel interno**, mientras que la inferior permite dar cuerda, ajustar el fechador y la hora. El tacto es correcto y transmite bien el movimiento tanto del bisel como de las agujas.
 
-![Berny Compressor V4 AM439M](/assets/img/watches/berny/compressor-v4.png)
+![Berny Compressor V4 AM439M](/assets/img/watches/berny/compressor-v4.webp)
 
 ## Dial en dos niveles y excelente legibilidad
 

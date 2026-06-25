@@ -2,7 +2,7 @@
 kind: "article"
 title: "TOP 10 Divers automáticos baratos de Aliexpress"
 description: "Si estás pensando en iniciarte en el mundo de los relojes automáticos tipo diver sin gastar demasiado, en este artículo encontrarás una selección de 10 modelos disponibles en Aliexpress que destacan por su excelente relación calidad-precio. Todos ellos se encuentran en un rango de precios que va desde los 50 hasta los 150 euros, y muchos cuentan con características que sorprenden en esta gama."
-image: "/assets/img/reviews/top-divers-aliexpress/top-divers-aliexpress.png"
+image: "/assets/img/reviews/top-divers-aliexpress/top-divers-aliexpress.webp"
 publishedAt: "2025-04-17"
 youtube: "FrViMECly1o"
 ---
@@ -16,7 +16,7 @@ De casi todas las marcas incluidas, he tenido algún modelo en mi colección, o 
 
 ## Cadisen C8207M
 
-![Cadisen C8207M](/assets/img/reviews/top-divers-aliexpress/cadisen.jpg)
+![Cadisen C8207M](/assets/img/reviews/top-divers-aliexpress/cadisen.webp)
 
 ::affiliate{url="https://s.click.aliexpress.com/e/_EG7fdIy" store="aliexpress" label="Click aquí para comprarlo en Aliexpress"}
 ::
@@ -25,7 +25,7 @@ Abrimos la lista con un modelo de Cadisen, una marca que nunca decepciona en la 
 
 ## Welly Merc Ocean
 
-![Welly Merc Ocean](/assets/img/reviews/top-divers-aliexpress/welly-merc.jpg)
+![Welly Merc Ocean](/assets/img/reviews/top-divers-aliexpress/welly-merc.webp)
 
 ::affiliate{url="https://s.click.aliexpress.com/e/_EwqbNwG" store="aliexpress" label="Click aquí para comprarlo en Aliexpress"}
 ::
@@ -34,7 +34,7 @@ La marca Welly Merck quizá no sea tan conocida, pero poco a poco se va ganando 
 
 ## Pagani Design Seamaster PD-1685
 
-![Pagani Design Seamaster PD-1685](/assets/img/reviews/top-divers-aliexpress/pagani-seamaster.jpg)
+![Pagani Design Seamaster PD-1685](/assets/img/reviews/top-divers-aliexpress/pagani-seamaster.webp)
 
 ::affiliate{url="https://s.click.aliexpress.com/e/_EyAwMLi" store="aliexpress" label="Click aquí para comprarlo en Aliexpress"}
 ::
@@ -43,7 +43,7 @@ Pagani Design es una de las marcas más presentes en mi colección, y el modelo 
 
 ## Tandorio 5 Sports
 
-![Tandorio 5 Sports](/assets/img/reviews/top-divers-aliexpress/tandorio.jpg)
+![Tandorio 5 Sports](/assets/img/reviews/top-divers-aliexpress/tandorio.webp)
 
 ::affiliate{url="https://s.click.aliexpress.com/e/_EHHKd1w" store="aliexpress" label="Click aquí para comprarlo en Aliexpress"}
 ::
@@ -52,7 +52,7 @@ Este Tandorio ronda los **80 euros** y no pasa desapercibido. Ya conocía la mar
 
 ## Steeldive Cap. Willard
 
-![Steeldive Cap. Willard](/assets/img/reviews/top-divers-aliexpress/capi-willard.jpg)
+![Steeldive Cap. Willard](/assets/img/reviews/top-divers-aliexpress/capi-willard.webp)
 
 ::affiliate{url="https://s.click.aliexpress.com/e/_Ev66Vde" store="aliexpress" label="Click aquí para comprarlo en Aliexpress"}
 ::
@@ -61,7 +61,7 @@ Inspirado en el mítico Seiko que aparece en la película *Apocalypse Now*, este
 
 ## Addiesdive Mantarraya
 
-![Addiesdive Mantarraya](/assets/img/reviews/top-divers-aliexpress/mantarraya.jpg)
+![Addiesdive Mantarraya](/assets/img/reviews/top-divers-aliexpress/mantarraya.webp)
 
 ::affiliate{url="https://s.click.aliexpress.com/e/_EJsqvwk" store="aliexpress" label="Click aquí para comprarlo en Aliexpress"}
 ::
@@ -70,7 +70,7 @@ Por unos **100 euros**, este modelo de Addiesdive destaca principalmente por su 
 
 ## Berny Compressor
 
-![Berny Compressor](/assets/img/reviews/top-divers-aliexpress/berny.jpg)
+![Berny Compressor](/assets/img/reviews/top-divers-aliexpress/berny.webp)
 
 ::affiliate{url="https://s.click.aliexpress.com/e/_EwW2cJ6" store="aliexpress" label="Click aquí para comprarlo en Aliexpress"}
 ::
@@ -79,7 +79,7 @@ Este Berny, por unos **125 euros**, me parece uno de los más completos en esta 
 
 ## Seestern SUB 600T
 
-![Seestern SUB 600T](/assets/img/reviews/top-divers-aliexpress/seestern.jpg)
+![Seestern SUB 600T](/assets/img/reviews/top-divers-aliexpress/seestern.webp)
 
 ::affiliate{url="https://s.click.aliexpress.com/e/_EQ6YUCy" store="aliexpress" label="Click aquí para comprarlo en Aliexpress"}
 ::
@@ -88,7 +88,7 @@ Con una estética que recuerda al modelo de Doxa y a los relojes industriales de
 
 ## San Martin 62Mas
 
-![San Martin 62Mas](/assets/img/reviews/top-divers-aliexpress/sanmartin.jpg)
+![San Martin 62Mas](/assets/img/reviews/top-divers-aliexpress/sanmartin.webp)
 
 ::affiliate{url="https://s.click.aliexpress.com/e/_EHeMCLS" store="aliexpress" label="Click aquí para comprarlo en Aliexpress"}
 ::
@@ -97,7 +97,7 @@ Cuando se menciona San Martin, se piensa automáticamente en **calidad**. Aunque
 
 ## Feelnever 1000m
 
-![Feelnever 1000m](/assets/img/reviews/top-divers-aliexpress/feelnever.jpg)
+![Feelnever 1000m](/assets/img/reviews/top-divers-aliexpress/feelnever.webp)
 
 ::affiliate{url="https://s.click.aliexpress.com/e/_EusujFe" store="aliexpress" label="Click aquí para comprarlo en Aliexpress"}
 ::

@@ -222,11 +222,13 @@ Ejemplo JSON-LD ficha (resumen):
 
 > ⚠️ URL: `@nuxt/content` normaliza a minúsculas. Solo afectó a `compressor-V4-am439m` → `compressor-v4-am439m`, con **301** en `netlify.toml`. El resto de URLs idénticas.
 
-### Fase 3 — Rendimiento / CWV
-- [ ] Sustituir `<img>` y `background-image` por `<NuxtImg>`/`<NuxtPicture>` (WebP/AVIF, lazy, width/height) (P1).
-- [ ] Eliminar FOUC de dark mode (inicialización antes del paint, p. ej. plugin/inline script) (P2).
-- [ ] `loading="lazy"` en iframes de YouTube + faceta `lite-youtube` opcional.
-- [ ] Auditar Lighthouse (objetivo: 90+ en SEO y Performance).
+### Fase 3 — Rendimiento / CWV — ✅ COMPLETADA (2026-06-25)
+- [x] **Imágenes optimizadas a WebP** (sharp, redimensionadas a 800px / banner 1280px): **37.7 MB → 1.9 MB** (−95%). Antes eran PNG de 1024² (~1.3MB c/u). Referencias actualizadas; logo a PNG 160px.
+- [x] Resueltas colisiones `.png`+`.jpeg` del mismo nombre (62mas, feice, wishdoit) con sufijo `-2`.
+- [x] **FOUC de dark mode eliminado**: tema fijado en `<html>` por script inline en `<head>` antes del primer pintado; CSS `html.dark-mode`/`html.light-mode`. Corregido también que un visitante nuevo renderizaba en oscuro y saltaba a claro.
+- [x] `loading="lazy"` en iframes de YouTube (componente `Youtube.vue`) e imágenes de contenido (`ProseImg`).
+- [ ] **Pendiente tú/manual:** auditar Lighthouse tras desplegar (no ejecutable en este entorno). Objetivo 90+ SEO/Performance.
+- [ ] Opcional futuro: `width`/`height` o `aspect-ratio` en imágenes de contenido para afinar CLS; optimizar nuevas imágenes al añadirlas (mismo proceso WebP 800px).
 
 ### Fase 4 — Autoridad y enlazado interno
 - [ ] Footer con enlaces (secciones, redes, Telegram, YouTube) (P3).

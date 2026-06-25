@@ -2,7 +2,7 @@
 kind: "watch"
 title: "Wishdoit WSD-9007 GMT automático: lumen brutal y alma viajera"
 description: "El Wishdoit WSD-9007 es un reloj GMT automático con calibre Seiko NH34, cristal de zafiro y un lumen espectacular. Una propuesta muy completa que combina estética diver, función GMT y una relación calidad-precio difícil de batir."
-image: "/assets/img/watches/wishdoit/wsd-9007-gmt.png"
+image: "/assets/img/watches/wishdoit/wsd-9007-gmt.webp"
 publishedAt: "2026-03-05"
 youtube: "uQLyR6ycB-s"
 affiliate: "https://s.click.aliexpress.com/e/_EuQEqDK"
@@ -51,7 +51,7 @@ La corona es **roscada**, de tamaño contenido y está **firmada con el logo de 
 
 El bisel es **unidireccional de 120 clics**, con un canto ranurado que facilita el agarre. En este modelo combina **blanco y azul** con marcadores en negativo, lo que le da un aspecto **muy fresco y veraniego**. El giro es firme, preciso y alinear el marcador a las 12 resulta sencillo.
 
-![Wishdoit WSD-9007 GMT](/assets/img/watches/wishdoit/wsd-9007-gmt.png)
+![Wishdoit WSD-9007 GMT](/assets/img/watches/wishdoit/wsd-9007-gmt.webp)
 
 ## Dial limpio y bien equilibrado
 
@@ -79,7 +79,7 @@ El armis, también en **acero 316L**, tiene un diseño clásico. Aunque en la ma
 
 El Wishdoit WSD-9007 cuenta con **40 mm de diámetro, 48 mm de largo y 12 mm de grosor**. Son medidas equilibradas que se adaptan bien a muñecas medias y grandes, con un buen reparto de pesos que lo hace cómodo para el uso diario.
 
-![Wishdoit WSD-9007 GMT](/assets/img/watches/wishdoit/wsd-9007-gmt.jpeg)
+![Wishdoit WSD-9007 GMT](/assets/img/watches/wishdoit/wsd-9007-gmt-2.webp)
 
 ## Precio y conclusiones
 

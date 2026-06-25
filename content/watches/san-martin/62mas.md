@@ -2,9 +2,9 @@
 kind: watch
 title: "San Martin 62MAS, tiembla Seiko: diver automático premium que desafía su precio"
 description: "El San Martin 62MAS es uno de los mejores divers automáticos por debajo de los 200€. Inspirado en el mítico Seiko 62MAS, combina acabados premium, cristal de zafiro, bisel cerámico y calibre NH35 en un reloj con una relación calidad-precio sobresaliente."
-image: /assets/img/watches/san-martin/62mas.png
+image: /assets/img/watches/san-martin/62mas.webp
 gallery:
-  - /assets/img/watches/san-martin/62mas.jpeg
+  - /assets/img/watches/san-martin/62mas-2.webp
 youtube: oNfNy8G0vP8
 affiliate: https://s.click.aliexpress.com/e/_EGLpdF6
 publishedAt: "2026-03-05"
@@ -60,7 +60,7 @@ El dial es, sin duda, una de las joyas del reloj. A simple vista puede parecer n
 
 Los marcadores son aplicados, con marco cromado y rellenos de lúmen. El de las 3 desaparece para dar paso al fechador, perfectamente integrado gracias a su marco biselado.
 
-![San Martin 62MAS](/assets/img/watches/san-martin/62mas.png)
+![San Martin 62MAS](/assets/img/watches/san-martin/62mas.webp)
 
 ## Manecillas y fechador bien integrados
 
@@ -82,7 +82,7 @@ El brazalete tipo Oyster está completamente fabricado en acero sólido. El cier
 
 Con **39mm de diámetro, 47,7mm entre asas y 13mm de grosor**, este San Martin tiene unas proporciones muy equilibradas. El peso varía entre **93 y 162 gramos** según la correa utilizada, manteniendo siempre una sensación de solidez sin resultar incómodo.
 
-![San Martin 62MAS](/assets/img/watches/san-martin/62mas.jpeg)
+![San Martin 62MAS](/assets/img/watches/san-martin/62mas-2.webp)
 
 ## Precio y conclusión
 

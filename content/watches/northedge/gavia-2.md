@@ -2,7 +2,7 @@
 kind: "watch"
 title: "North Edge Gavia 2, un reloj todoterreno perfecto para cualquier actividad"
 description: "El North Edge Gavia 2 es un reloj híbrido que combina estética analógica con una potente pantalla digital. Con funciones como altímetro, barómetro, brújula, podómetro y resistencia al agua de hasta 200 metros, es una de las opciones más completas por menos de 100 euros."
-image: "/assets/img/watches/northedge/gavia-2.png"
+image: "/assets/img/watches/northedge/gavia-2.webp"
 publishedAt: "2026-03-03"
 youtube: "wieRYi5oYFw"
 affiliate: "https://s.click.aliexpress.com/e/_EICr3Kg"
@@ -53,7 +53,7 @@ Uno de los detalles más llamativos del Gavia 2 es la **ausencia total de corona
 
 No estamos ante un smartwatch, sino ante un **reloj híbrido**. Las agujas funcionan de manera independiente, mostrando la hora analógica con normalidad, mientras que la pantalla digital aporta una enorme cantidad de información.
 
-![North Edge Gavia 2](/assets/img/watches/northedge/gavia-2.png)
+![North Edge Gavia 2](/assets/img/watches/northedge/gavia-2.webp)
 
 ## Dial bien organizado y fácil de leer
 

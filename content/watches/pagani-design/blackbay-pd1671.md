@@ -2,7 +2,7 @@
 kind: "watch"
 title: "Pagani Design BB58, el Tudor Black Bay de menos de 100$"
 description: "El Pagani Design PD-1671 es un reloj que no se anda con rodeos: toma inspiración directa del Tudor Black Bay 58 y la transforma en una propuesta más asequible, sin perder carácter ni atención al detalle. Este diver se presenta como una opción sólida para quien busca diseño, robustez y prestaciones reales a un precio casi simbólico."
-image: "/assets/img/watches/pagani-design/blackbay.png"
+image: "/assets/img/watches/pagani-design/blackbay.webp"
 publishedAt: "2025-04-09"
 youtube: "5mny-aKy1Gw"
 affiliate: "https://s.click.aliexpress.com/e/_EyDDdw8"
@@ -55,7 +55,7 @@ El dial no se limita a copiar, sino que introduce un patrón **texturizado de ti
 
 Los índices son **aplicados** y tienen distintos formatos: cuadrados en la mayoría de posiciones, rectangulares a las 6 y 9, y un triángulo isósceles a las 12, todos con **borde dorado y lumen en el interior**.
 
-![Pagani Design BB58](/assets/img/watches/pagani-design/blackbay.png)
+![Pagani Design BB58](/assets/img/watches/pagani-design/blackbay.webp)
 
 ## Fechador integrado
 

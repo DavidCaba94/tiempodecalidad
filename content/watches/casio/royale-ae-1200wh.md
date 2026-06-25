@@ -2,7 +2,7 @@
 kind: "watch"
 title: "Casio Royale AE-1200WH, el digital retro que se ha convertido en un icono"
 description: "El Casio AE-1200WH, conocido como Casio Royale, es uno de los relojes digitales más icónicos y completos de Casio. Con hora mundial, 100 metros de resistencia al agua, autonomía de 10 años y un diseño retro inspirado en los años 80, es una de las mejores opciones calidad-precio del mercado."
-image: "/assets/img/watches/casio/royale-ae-1200wh.png"
+image: "/assets/img/watches/casio/royale-ae-1200wh.webp"
 publishedAt: "2026-03-03"
 youtube: "0Hc3B7XNME4"
 affiliate: "https://s.click.aliexpress.com/e/_EIhXyoY"
@@ -70,7 +70,7 @@ El dial es, sin duda, uno de los grandes atractivos del Casio Royale. Aquí no h
 
 En la parte superior izquierda encontramos una **subpantalla circular** que imita un reloj analógico. A la derecha, los **indicadores de alarmas** y el mapa del mundo con la zona horaria seleccionada. En el centro inferior, la **hora principal y la fecha**, todo perfectamente legible de un solo vistazo.
 
-![Casio Royale AE-1200WH](/assets/img/watches/casio/royale-ae-1200wh.png)
+![Casio Royale AE-1200WH](/assets/img/watches/casio/royale-ae-1200wh.webp)
 
 ## Retroiluminación LED funcional
 

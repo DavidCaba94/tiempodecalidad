@@ -2,7 +2,7 @@
 kind: "watch"
 title: "Pagani Design Moonwatch, este no es de biocerámica"
 description: "Hay relojes que no necesitan presentación, piezas que se han ganado su lugar en la historia por méritos propios y por las hazañas que acompañaron su camino. El Omega Speedmaster, también conocido como “Moonwatch”, es uno de ellos. No solo por su diseño atemporal, sino por haber sido testigo del mayor logro de la humanidad: la llegada a la Luna. Pero, como suele ocurrir con este tipo de iconos, su precio lo mantiene fuera del alcance de muchos aficionados."
-image: "/assets/img/watches/pagani-design/moonwatch.png"
+image: "/assets/img/watches/pagani-design/moonwatch.webp"
 publishedAt: "2025-04-17"
 youtube: "m5apZsJFFhM"
 affiliate: "https://s.click.aliexpress.com/e/_EIzBHVE"
@@ -66,7 +66,7 @@ El dial es de color **negro mate**, ligeramente elevado sobre los tres subdiales
 
 Bajo las 12 aparece el **logotipo de la marca junto con el nombre y la leyenda "Chronograph"**, un añadido que personalmente me parece innecesario y algo recargado. El fechador, ubicado entre las 4 y las 5, está en **negativo** (números blancos sobre fondo negro) e integrado de forma muy limpia.
 
-![Pagani Design Moonwatch](/assets/img/watches/pagani-design/moonwatch.png)
+![Pagani Design Moonwatch](/assets/img/watches/pagani-design/moonwatch.webp)
 
 ## Marcadores y manecillas
 

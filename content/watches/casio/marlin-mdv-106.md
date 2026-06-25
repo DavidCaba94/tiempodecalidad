@@ -2,7 +2,7 @@
 kind: "watch"
 title: "Casio Marlin Duro MDV-106, adiós al pez vela"
 description: "Con la fiabilidad de esta gran marca japonesa por bandera y luciendo el pez vela en su dial, estamos ante un modelo de Casio en peligro de extinción. En el año 2021 perdieron los derechos de imagen sobre este pez vela y se vieron obligados a descontinuar este modelo, presentando su sucesor exactamente igual pero sin el logo del Marlin en el dial."
-image: "/assets/img/watches/casio/marlin.png"
+image: "/assets/img/watches/casio/marlin.webp"
 publishedAt: "2025-04-09"
 youtube: "MUTM5hP2InU"
 affiliate: "https://amzn.to/3NP7mIh"
@@ -50,7 +50,7 @@ La correa, como ya hemos comentado, es de resina negra. Es cómoda y se ajusta b
 
 La caja tiene un ligero cepillado por la parte superior y un acabado pulido tanto en los laterales como en el canto que une las asas. Es una caja con formas suaves y redondeadas creando una armonía que se percibe totalmente orgánica. Un lujo para la muñeca y una gran comodidad a la hora de llevar puesto el reloj, por lo menos para mi gusto.
 
-![Casio Marlin Duro MDV-106](/assets/img/watches/casio/marlin.png)
+![Casio Marlin Duro MDV-106](/assets/img/watches/casio/marlin.webp)
 
 ## Corona
 

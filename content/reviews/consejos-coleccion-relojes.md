@@ -2,7 +2,7 @@
 kind: "article"
 title: "Guía para empezar tu colección de relojes, esto es lo que me habría gustado saber antes"
 description: "Quiero compartir con vosotros una pequeña guía con algunas de las cosas que me habría gustado saber cuando empecé mi colección de relojes. No pretendo sentar cátedra ni dar una verdad absoluta, simplemente voy a contaros lo que he aprendido con el tiempo, basado en mi experiencia personal. Así que si pensáis diferente en algún punto, os invito a debatirlo en el grupo de Telegram —entre todos siempre aprendemos más."
-image: "/assets/img/reviews/consejos-coleccion-relojes/consejos-coleccion-relojes.png"
+image: "/assets/img/reviews/consejos-coleccion-relojes/consejos-coleccion-relojes.webp"
 publishedAt: "2025-05-19"
 youtube: "BW44euYjvoo"
 ---
@@ -52,7 +52,7 @@ Mi consejo: elijas el tipo que elijas, **asegúrate de que lleve un calibre fiab
 
 Es cierto que algunas marcas chinas copian diseños, pero muchas lo hacen muy bien y lo compensan con una gran calidad/precio. Si estás empezando y te gusta, por ejemplo, el Tudor Black Bay, ¿por qué no probar primero con un Pagani Design por 80 euros? Si la afición te dura, ya llegará el momento del Tudor original.
 
-![Colección de relojes](/assets/img/reviews/consejos-coleccion-relojes/consejos-coleccion-relojes.png)
+![Colección de relojes](/assets/img/reviews/consejos-coleccion-relojes/consejos-coleccion-relojes.webp)
 
 ## 5. ¿Cuánto gastarte? Depende de ti
 

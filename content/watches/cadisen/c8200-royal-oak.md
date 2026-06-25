@@ -2,7 +2,7 @@
 kind: "watch"
 title: "Cadisen C-8200G, el Royal Oak imbatible"
 description: "Hay relojes que entran por los ojos y luego sorprenden por dentro. El Cadisen C-8200G es uno de esos casos. Un diver que la propia marca describe como de diseño alemán, pero que en cuanto lo ves te recuerda inmediatamente al icónico Royal Oak de Audemars Piguet. Esta fusión estética entre lo deportivo y lo refinado es una de sus principales bazas, aunque desde luego no la única."
-image: "/assets/img/watches/cadisen/royal-oak.png"
+image: "/assets/img/watches/cadisen/royal-oak.webp"
 publishedAt: "2025-04-09"
 youtube: "Y30o5FbABg8"
 affiliate: "https://s.click.aliexpress.com/e/_EyoViSo"
@@ -50,7 +50,7 @@ Los **índices aplicados** en forma de bastón están pulidos a los lados y cuen
 
 Las agujas siguen el **estilo espada**, ligeramente contrapesadas, y presentan una línea central de lumen fino. La segundera, en forma de **batuta muy delgada**, no tiene lumen, lo que puede restar algo de visibilidad nocturna, pero mantiene la estética limpia del conjunto. En general, la visibilidad es buena y el lumen ofrece una **duración decente**, con un curioso contraste entre el tono verdoso de las agujas y el azul de los marcadores. No estamos ante un lumen tipo diver profesional, pero cumple más que correctamente en su gama.
 
-![Cadisen C8200 Royal Oak](/assets/img/watches/cadisen/royal-oak.png)
+![Cadisen C8200 Royal Oak](/assets/img/watches/cadisen/royal-oak.webp)
 
 ## Corona y tapa trasera
 

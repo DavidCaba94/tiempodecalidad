@@ -2,7 +2,7 @@
 kind: "article"
 title: "Falsificaciones Seiko en Aliexpress, ¿merecen la pena?"
 description: "En el apasionante mundo de la relojería, hay algo que todos compartimos: la tentación. Y si navegas por AliExpress con cierta frecuencia, probablemente te habrás topado con relojes que, a primera vista, parecen auténticas gangas. Marcas reconocidas, diseños icónicos… y precios que rozan el absurdo. ¿Un Seiko Prospex por 20 euros? Suena demasiado bien para ser cierto, y ¿lo es?."
-image: "/assets/img/reviews/seiko-falso-aliexpress/seiko-falso-aliexpress.png"
+image: "/assets/img/reviews/seiko-falso-aliexpress/seiko-falso-aliexpress.webp"
 publishedAt: "2025-05-19"
 youtube: "n7RVX0Nkr5Q"
 ---
@@ -36,7 +36,7 @@ Según el vendedor, el brazalete es de acero inoxidable. La realidad es otra: ti
 
 La caja está anunciada como acero inoxidable, y aunque **no hay forma de comprobar la calidad del acero**, al menos parece metálica. Está pulida a espejo y guarda cierta semejanza con el original en líneas generales. Sin embargo, el ajuste entre caja y brazalete deja rendijas visibles, lo que arruina el conjunto.
 
-![Falsificación Seiko Prospex Speedtimer](/assets/img/reviews/seiko-falso-aliexpress/seiko-falso-aliexpress.png)
+![Falsificación Seiko Prospex Speedtimer](/assets/img/reviews/seiko-falso-aliexpress/seiko-falso-aliexpress.webp)
 
 ## Corona y pulsadores
 

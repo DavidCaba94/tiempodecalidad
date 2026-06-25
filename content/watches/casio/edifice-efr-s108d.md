@@ -2,7 +2,7 @@
 kind: "watch"
 title: "Casio Edifice EFR-S108D, este CasiOak es pura elegancia y diseño"
 description: "El Casio Edifice EFR-S108D, apodado por muchos como CasiOak, no es simplemente un reloj económico que recuerda al Royal Oak. Es una reinterpretación accesible y moderna de una estética clásica que, en manos de Casio, toma forma en un reloj delgado, preciso y con un diseño sorprendentemente cuidado. Esta pieza logra aunar diseño, funcionalidad y comodidad con una ejecución que, por su precio, resulta difícil de igualar."
-image: "/assets/img/watches/casio/edifice.png"
+image: "/assets/img/watches/casio/edifice.webp"
 publishedAt: "2025-04-09"
 youtube: "2dcA86TIOQc"
 affiliate: "https://amzn.to/3LZG9Ce"
@@ -54,7 +54,7 @@ El bisel, **octogonal y perfectamente integrado** con la caja, está cepillado e
 
 El cristal es otro punto fuerte de este Casio. Se trata de un **zafiro artificial con revestimiento antirreflejos**, que según la marca rinde igual que el zafiro real. Su resistencia a arañazos es muy buena, y su comportamiento ante reflejos, notable. El cristal está perfectamente enrasado con el bisel, lo que ayuda a mantener una estética limpia y un perfil bajo.
 
-![Casio Edifice EFR-S108D](/assets/img/watches/casio/edifice.png)
+![Casio Edifice EFR-S108D](/assets/img/watches/casio/edifice.webp)
 
 ## Dial y legibilidad
 

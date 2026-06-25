@@ -1,5 +1,5 @@
 <template>
-  <div :class="darkMode ? 'dark-mode' : 'light-mode'">
+  <div>
     <Menu :darkMode="darkMode" @onChangeDarkMode="onChangeDarkMode"></Menu>
     <NuxtPage />
     <Footer></Footer>
@@ -24,6 +24,14 @@ useHead({
   link: [
     { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
     { rel: 'canonical', href: () => `${SITE_URL}${route.path}` }
+  ],
+  // Fija el tema en <html> antes del primer pintado (evita el destello/FOUC).
+  script: [
+    {
+      tagPosition: 'head',
+      innerHTML:
+        "(function(){try{var t=localStorage.getItem('darkMode')==='true'?'dark-mode':'light-mode';document.documentElement.classList.add(t)}catch(e){document.documentElement.classList.add('light-mode')}})()"
+    }
   ]
 })
 
@@ -32,7 +40,7 @@ useSeoMeta({
   ogType: 'website',
   ogLocale: 'es_ES',
   ogUrl: () => `${SITE_URL}${route.path}`,
-  ogImage: `${SITE_URL}/assets/img/banner/banner.png`,
+  ogImage: `${SITE_URL}/assets/img/banner/banner.webp`,
   twitterCard: 'summary_large_image'
 })
 
@@ -51,30 +59,24 @@ export default {
   name: 'Index',
   data() {
     return {
-      darkMode: true
+      darkMode: false
     }
   },
   mounted() {
-    if (localStorage.getItem('darkMode') === 'true') {
-      this.darkMode = true;
-      document.body.classList.add('dark-mode');
-    } else {
-      this.darkMode = false;
-      document.body.classList.add('light-mode');
-    }
+    // El script inline ya fijó la clase en <html>; aquí solo sincronizamos
+    // el estado reactivo para el icono del menú (sol/luna).
+    this.darkMode = document.documentElement.classList.contains('dark-mode');
   },
   methods: {
+    setTheme(dark) {
+      const el = document.documentElement;
+      el.classList.toggle('dark-mode', dark);
+      el.classList.toggle('light-mode', !dark);
+      localStorage.setItem('darkMode', dark ? 'true' : 'false');
+    },
     onChangeDarkMode() {
       this.darkMode = !this.darkMode;
-      if (this.darkMode) {
-        document.body.classList.add('dark-mode');
-        document.body.classList.remove('light-mode');
-        localStorage.setItem('darkMode', 'true');
-      } else {
-        document.body.classList.add('light-mode');
-        document.body.classList.remove('dark-mode');
-        localStorage.setItem('darkMode', 'false');
-      }
+      this.setTheme(this.darkMode);
     }
   },
 }
@@ -85,17 +87,30 @@ export default {
   font-family: 'Inter', sans-serif;
 }
 
-body.dark-mode {
+/* Tema fijado en <html> por el script inline (sin FOUC). El color de fondo por
+   defecto es claro, para que coincida con el estado por defecto si no hay JS. */
+html {
+  background-color: #f7f7f7;
+  color: #000000;
+}
+
+html.dark-mode {
   background-color: #111421;
   color: #ffffff;
-  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+html.dark-mode body {
+  color: #ffffff;
   -webkit-font-smoothing: antialiased;
 }
 
-body.light-mode {
-  background-color: #f7f7f7;
+html.light-mode body {
   color: #000000;
-  transition: background-color 0.3s ease, color 0.3s ease;
   -webkit-font-smoothing: antialiased;
+}
+
+html,
+body {
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 </style>

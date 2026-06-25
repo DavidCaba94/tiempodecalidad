@@ -2,7 +2,7 @@
 kind: "watch"
 title: "Steeldive SD1970 Capitán Willard, el diver automático imbatible en calidad precio"
 description: "El Steeldive SD1970 Capitán Willard es uno de los mejores relojes diver automáticos en relación calidad precio. Con calibre NH35 de Seiko, cristal de zafiro y bisel cerámico, este homenaje al mítico Seiko Willard ofrece prestaciones de relojes mucho más caros."
-image: "/assets/img/watches/steeldive/captain-willard.png"
+image: "/assets/img/watches/steeldive/captain-willard.webp"
 publishedAt: "2026-02-11"
 youtube: "5N6bGeXxLn4"
 affiliate: "https://s.click.aliexpress.com/e/_Ev66Vde"
@@ -55,7 +55,7 @@ La corona se sitúa a las **4 en punto**, como en el modelo original de Seiko. E
 
 El bisel es **cerámico, unidireccional y de 120 clics**. Tiene un agarre excelente gracias a su acabado tipo canto de moneda y un alineado perfecto. Los indicadores blancos están rellenos de lumen y ofrecen una lectura clara, con números arábigos para las decenas, bastones para los 5 minutos y la clásica flecha en la posición de las 12.
 
-![Captain Willard SD1970](/assets/img/watches/steeldive/captain-willard.png)
+![Captain Willard SD1970](/assets/img/watches/steeldive/captain-willard.webp)
 
 ## Dial limpio y muy equilibrado
 

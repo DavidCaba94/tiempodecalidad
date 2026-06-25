@@ -2,7 +2,7 @@
 kind: "watch"
 title: "Timex Expedition Scout, reloj de campo para el aventurero moderno"
 description: "El Timex Expedition Scout es una de las opciones más populares dentro de los relojes de inspiración militar gracias a su diseño funcional, su resistencia y, sobre todo, su asequibilidad. Con una larga trayectoria en el mundo de la relojería, Timex ha sabido ganarse un lugar entre los entusiastas gracias a modelos como este, que combinan estética clásica, materiales robustos y detalles prácticos como su reconocida iluminación Indiglo."
-image: "/assets/img/watches/timex/expedition-scout.png"
+image: "/assets/img/watches/timex/expedition-scout.webp"
 publishedAt: "2025-04-17"
 youtube: "hCIP-qdGnIc"
 affiliate: "https://amzn.to/46i0V6T"
@@ -50,7 +50,7 @@ Uno de los elementos más distintivos es su **caja de latón negro con acabado m
 
 La corona no es roscada, sino **a presión, y no está firmada**. Pero a cambio, tiene buen tacto, ofrece un ajuste muy preciso y, lo más interesante: **activa la iluminación Indiglo** si la presionamos. Además, tiene las dos posiciones clásicas para el cambio de fecha y hora. Muy buena implementación para un reloj tan accesible.
 
-![Timex Expedition Scout](/assets/img/watches/timex/expedition-scout.png)
+![Timex Expedition Scout](/assets/img/watches/timex/expedition-scout.webp)
 
 ## Dial funcional con estética militar
 
