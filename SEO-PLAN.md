@@ -230,13 +230,15 @@ Ejemplo JSON-LD ficha (resumen):
 - [ ] **Pendiente tú/manual:** auditar Lighthouse tras desplegar (no ejecutable en este entorno). Objetivo 90+ SEO/Performance.
 - [ ] Opcional futuro: `width`/`height` o `aspect-ratio` en imágenes de contenido para afinar CLS; optimizar nuevas imágenes al añadirlas (mismo proceso WebP 800px).
 
-### Fase 4 — Autoridad y enlazado interno
-- [ ] Footer con enlaces (secciones, redes, Telegram, YouTube) (P3).
-- [ ] Bloque "relojes relacionados" al final de cada ficha (P3).
-- [ ] Breadcrumbs visibles con schema (P4).
-- [ ] Página "Sobre mí"/autor para E-E-A-T (P4).
-- [ ] `404.vue` personalizada (P4).
-- [ ] Enlaces internos contextuales entre artículos y fichas.
+### Fase 4 — Autoridad y enlazado interno — ✅ COMPLETADA (2026-06-25)
+- [x] Footer con enlaces de navegación + Telegram (`Footer.vue`). *(YouTube pendiente de URL del canal.)*
+- [x] Bloque "Relojes relacionados" (misma marca → mismo tipo → resto) al final de cada ficha.
+- [x] Breadcrumbs visibles (`Breadcrumbs.vue`) en fichas y artículos (JSON-LD BreadcrumbList ya existía de Fase 1).
+- [x] Página `/sobre-mi` para E-E-A-T + enlace en menú y footer.
+- [x] `error.vue` (404 personalizada).
+- [x] Verificado con `nuxt generate`: 27 URLs en sitemap, enlazado interno presente en el HTML.
+
+> Mejora futura: añadir URL del canal de YouTube al footer y a `sameAs` de `Organization`; sumar "más reseñas" relacionadas en artículos.
 
 ---
 

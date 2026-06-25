@@ -1,5 +1,6 @@
 <template>
   <div class="post-container">
+    <Breadcrumbs :items="[{ name: 'Inicio', path: '/' }, { name: 'Reseñas', path: '/reviews-list' }, { name: doc.title }]" />
     <h1 class="post-title">{{ doc.title }}</h1>
     <div class="post-content">
       <ContentRenderer :value="doc" />

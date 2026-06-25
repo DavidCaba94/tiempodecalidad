@@ -20,6 +20,7 @@
         <NuxtLink to="/watch-list" :class="activeRoute === '/watch-list' ? 'active' : ''">Relojes</NuxtLink>
         <NuxtLink to="/reviews-list" :class="activeRoute === '/reviews-list' ? 'active' : ''">Reseñas</NuxtLink>
         <NuxtLink to="/videos" :class="activeRoute === '/videos' ? 'active' : ''">Vídeos</NuxtLink>
+        <NuxtLink to="/sobre-mi" :class="activeRoute === '/sobre-mi' ? 'active' : ''">Sobre mí</NuxtLink>
         <NuxtLink to="/contact" :class="activeRoute === '/contact' ? 'active' : ''">Contacto</NuxtLink>
       </div>
     </transition>
