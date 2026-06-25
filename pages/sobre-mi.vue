@@ -24,6 +24,10 @@
     </p>
 
     <div class="link-container">
+      <Icon name="uil:youtube" class="tg-icon" />
+      <a href="https://www.youtube.com/@TiempoDeCalidad" target="_blank" rel="noopener">Mi canal de YouTube</a>
+    </div>
+    <div class="link-container">
       <Icon name="uil:telegram" class="tg-icon" />
       <a href="https://t.me/+kttAAJ61LeE1NzE0" target="_blank" rel="noopener">Únete a la comunidad de Telegram</a>
     </div>

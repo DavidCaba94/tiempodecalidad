@@ -9,6 +9,9 @@
       <NuxtLink to="/contact">Contacto</NuxtLink>
     </nav>
     <div class="footer-social">
+      <a href="https://www.youtube.com/@TiempoDeCalidad" target="_blank" rel="noopener" aria-label="YouTube">
+        <Icon name="uil:youtube" />
+      </a>
       <a href="https://t.me/+kttAAJ61LeE1NzE0" target="_blank" rel="noopener" aria-label="Telegram">
         <Icon name="uil:telegram" />
       </a>
@@ -49,6 +52,9 @@ const currentYear = new Date().getFullYear()
 }
 
 .footer-social {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
   margin-bottom: 16px;
 }
 

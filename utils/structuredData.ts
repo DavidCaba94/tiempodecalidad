@@ -109,7 +109,10 @@ export function homeJsonLd(): object[] {
       name: SITE_NAME,
       url: SITE_URL,
       logo: LOGO_URL,
-      sameAs: ['https://t.me/+kttAAJ61LeE1NzE0']
+      sameAs: [
+        'https://www.youtube.com/@TiempoDeCalidad',
+        'https://t.me/+kttAAJ61LeE1NzE0'
+      ]
     }
   ]
 }
