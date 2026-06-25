@@ -111,6 +111,7 @@ export function homeJsonLd(): object[] {
       logo: LOGO_URL,
       sameAs: [
         'https://www.youtube.com/@TiempoDeCalidad',
+        'https://www.instagram.com/tiempodecalidad_yt/',
         'https://t.me/+kttAAJ61LeE1NzE0'
       ]
     }

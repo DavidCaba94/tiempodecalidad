@@ -28,6 +28,10 @@
       <a href="https://www.youtube.com/@TiempoDeCalidad" target="_blank" rel="noopener">Mi canal de YouTube</a>
     </div>
     <div class="link-container">
+      <Icon name="uil:instagram" class="tg-icon" />
+      <a href="https://www.instagram.com/tiempodecalidad_yt/" target="_blank" rel="noopener">Sígueme en Instagram</a>
+    </div>
+    <div class="link-container">
       <Icon name="uil:telegram" class="tg-icon" />
       <a href="https://t.me/+kttAAJ61LeE1NzE0" target="_blank" rel="noopener">Únete a la comunidad de Telegram</a>
     </div>
