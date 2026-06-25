@@ -1,8 +1,9 @@
 # Despliegue 100% estático (mejor para SEO y sin BD en runtime).
-# nuxt generate prerenderiza todas las rutas a HTML en .output/public.
+# En Netlify, Nitro usa el preset `netlify-static` y publica en `dist`
+# (en local, `nuxt generate` usa el preset `static` -> .output/public).
 [build]
   command = "npm run generate"
-  publish = ".output/public"
+  publish = "dist"
 
 [build.environment]
   NODE_VERSION = "20"
