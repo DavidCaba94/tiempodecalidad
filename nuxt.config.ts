@@ -24,7 +24,10 @@ export default defineNuxtConfig({
   nitro: {
     prerender: {
       crawlLinks: true,
-      routes: contentRoutes()
+      routes: contentRoutes(),
+      // Genera /ruta.html en vez de /ruta/index.html para que el host sirva
+      // las URLs sin barra final (sin redirect) y coincidan con la canonical.
+      autoSubfolderIndex: false
     }
   },
   content: {
