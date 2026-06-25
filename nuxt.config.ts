@@ -27,6 +27,10 @@ export default defineNuxtConfig({
       routes: contentRoutes()
     }
   },
+  content: {
+    // Encabezados como títulos normales (sin envolverlos en un enlace de ancla).
+    renderer: { anchorLinks: false }
+  },
   modules: [
     '@nuxt/content',
     '@nuxt/fonts',

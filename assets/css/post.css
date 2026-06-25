@@ -36,7 +36,9 @@
   margin-bottom: 20px;
 }
 
-.post-content img {
+/* Imágenes del artículo (excluye el icono del enlace de afiliado, que tiene
+   su propio tamaño y no debe centrarse con margin auto). */
+.post-content img:not(.link-icon) {
   display: block;
   width: 100%;
   max-width: 500px;
