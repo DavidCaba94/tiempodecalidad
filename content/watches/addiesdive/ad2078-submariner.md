@@ -4,7 +4,7 @@ title: "Addiesdive AD2078: el homenaje al Submariner con un dial turquesa espect
 description: "El Addiesdive AD2078 es un diver automático homenaje al Rolex Submariner por menos de 100€: calibre NH35, bisel cerámico, cristal de zafiro y un dial turquesa degradado que roba todas las miradas."
 image: /assets/img/watches/addiesdive/ad2078.webp
 youtube: _3IHkKrExfg
-affiliate: REEMPLAZAR_ENLACE_AFILIADO
+affiliate: https://s.click.aliexpress.com/e/_EzYQbs2
 publishedAt: "2026-08-05"
 brand: Addiesdive
 model: AD2078
@@ -29,7 +29,7 @@ El **Addiesdive AD2078** es uno de esos relojes que entran por los ojos desde el
 ::youtube{id="_3IHkKrExfg" title="Addiesdive AD2078, más bonito que un Rolex Submariner y 100 veces más barato | Review 4K en español"}
 ::
 
-::affiliate{url="REEMPLAZAR_ENLACE_AFILIADO" store="aliexpress" label="Click aquí para comprarlo en Aliexpress"}
+::affiliate{url="https://s.click.aliexpress.com/e/_EzYQbs2" store="aliexpress" label="Click aquí para comprarlo en Aliexpress"}
 ::
 
 ## Caja de acero 316L con acabados de sobra

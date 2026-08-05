@@ -4,7 +4,7 @@ title: "Specht & Söhne Santos: el mejor homenaje al Cartier Santos por menos de
 description: "El Specht & Söhne Santos es un homenaje automático al Cartier Santos por unos 120€: caja cuadrada de acero 316L con acabados premium, calibre Miyota 8215, cristal de zafiro y un brazalete integrado espectacular."
 image: /assets/img/watches/specht-sohne/santos.webp
 youtube: 6nXNk8l8Xoo
-affiliate: REEMPLAZAR_ENLACE_AFILIADO
+affiliate: https://s.click.aliexpress.com/e/_EJ0NgoW
 publishedAt: "2026-08-05T11:00:00"
 brand: Specht & Söhne
 model: Santos
@@ -32,7 +32,7 @@ El **Specht & Söhne Santos** es un reloj de una marca a la que le tenía muchas
 ::youtube{id="6nXNk8l8Xoo" title="Specht & Söhne Santos, el homenaje del Cartier por excelencia | Review en español"}
 ::
 
-::affiliate{url="REEMPLAZAR_ENLACE_AFILIADO" store="aliexpress" label="Click aquí para comprarlo en Aliexpress"}
+::affiliate{url="https://s.click.aliexpress.com/e/_EJ0NgoW" store="aliexpress" label="Click aquí para comprarlo en Aliexpress"}
 ::
 
 ## Diseño: elegancia clásica bien entendida
