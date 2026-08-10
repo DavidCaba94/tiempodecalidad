@@ -53,9 +53,10 @@
         <div class="input-row">
           <div class="unique-input-row">
             <div class="input-label">Color</div>
-            <div class="countries-container">
-              <div v-for="fam in filtersContent.colors" :key="fam.key" :title="fam.label" @click="setColor(fam.key)">
+            <div class="colors-grid">
+              <div v-for="fam in filtersContent.colors" :key="fam.key" class="color-item" @click="setColor(fam.key)">
                 <div class="color-circle" :class="filtersValues.color === fam.key ? ' selected' : ''" :style="{ backgroundColor: fam.swatch }"></div>
+                <span class="color-name" :class="filtersValues.color === fam.key ? ' selected' : ''">{{ fam.label }}</span>
               </div>
             </div>
           </div>
@@ -128,11 +129,9 @@ const COLOR_FAMILY_MAP = {
   teal: 'turquoise', turquoise: 'turquoise', aqua: 'turquoise', cyan: 'turquoise',
   green: 'green', yellowgreen: 'green', olive: 'green', lime: 'green',
   darkgreen: 'green', seagreen: 'green', forestgreen: 'green',
-  yellow: 'yellow',
-  gold: 'gold', khaki: 'gold', beige: 'gold', wheat: 'gold',
+  yellow: 'gold', gold: 'gold', khaki: 'gold', beige: 'gold', wheat: 'gold',
   orange: 'orange', orangered: 'orange', darkorange: 'orange', coral: 'orange',
-  red: 'red', crimson: 'red', firebrick: 'red',
-  maroon: 'burgundy', darkred: 'burgundy',
+  red: 'red', crimson: 'red', firebrick: 'red', maroon: 'red', darkred: 'red',
   purple: 'purple', violet: 'purple', indigo: 'purple', magenta: 'purple',
   brown: 'brown', sienna: 'brown', chocolate: 'brown', saddlebrown: 'brown'
 }
@@ -145,11 +144,9 @@ const COLOR_FAMILIES = [
   ['blue', 'Azul', '#2563eb'],
   ['turquoise', 'Turquesa', '#14b8a6'],
   ['green', 'Verde', '#16a34a'],
-  ['yellow', 'Amarillo', '#eab308'],
   ['gold', 'Dorado', '#c69a3a'],
   ['orange', 'Naranja', '#ea580c'],
   ['red', 'Rojo', '#dc2626'],
-  ['burgundy', 'Granate', '#7e2233'],
   ['purple', 'Morado', '#7c3aed'],
   ['brown', 'Marrón', '#8a5a2b']
 ]
@@ -513,23 +510,48 @@ input {
   border: 4px solid #00a182;
 }
 
+.colors-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(64px, 1fr));
+  gap: 12px 6px;
+  width: 100%;
+}
+
+.color-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+}
+
 .color-circle {
   width: 35px;
   height: 35px;
   border-radius: 50px;
-  margin-right: 10px;
-  margin-bottom: 5px;
   border: 1px solid #868686;
   cursor: pointer;
 }
 
-.color-circle:hover {
+.color-item:hover .color-circle {
   transform: scale(1.1);
   transition: transform 0.2s;
 }
 
 .color-circle.selected {
   border: 4px solid #00a182;
+}
+
+.color-name {
+  font-size: 11px;
+  line-height: 1.1;
+  text-align: center;
+  color: #9aa0a6;
+}
+
+.color-name.selected {
+  color: #00a182;
+  font-weight: bold;
 }
 
 .clear-button {
