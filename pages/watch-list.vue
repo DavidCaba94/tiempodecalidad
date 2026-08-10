@@ -54,8 +54,8 @@
           <div class="unique-input-row">
             <div class="input-label">Color</div>
             <div class="countries-container">
-              <div v-for="(color, i) in filtersContent.colors" :key="i" :value="color" @click="setColor(color)">
-                <div class="color-circle" :class="filtersValues.color === color ? ' selected' : ''" :style="{ backgroundColor: color }"></div>
+              <div v-for="fam in filtersContent.colors" :key="fam.key" :title="fam.label" @click="setColor(fam.key)">
+                <div class="color-circle" :class="filtersValues.color === fam.key ? ' selected' : ''" :style="{ backgroundColor: fam.swatch }"></div>
               </div>
             </div>
           </div>
@@ -113,6 +113,54 @@
 </template>
 
 <script>
+// Familias de color para el filtro. Muchos relojes usan tonos muy parecidos
+// (teal/turquoise/aqua, blue/navy/skyblue, gray/silver...). En vez de mostrar
+// una bolita por cada matiz, los agrupamos en familias con un tono
+// representativo y una etiqueta. Las bolitas de las tarjetas siguen usando el
+// color real de cada reloj; esto solo afecta al filtro.
+const COLOR_FAMILY_MAP = {
+  black: 'black',
+  white: 'white',
+  gray: 'gray', grey: 'gray', 'gun gray': 'gray', 'gun grey': 'gray',
+  silver: 'gray', gainsboro: 'gray', darkgray: 'gray', darkgrey: 'gray',
+  blue: 'blue', navy: 'blue', darkblue: 'blue', royalblue: 'blue',
+  skyblue: 'blue', lightblue: 'blue', steelblue: 'blue', dodgerblue: 'blue',
+  teal: 'turquoise', turquoise: 'turquoise', aqua: 'turquoise', cyan: 'turquoise',
+  green: 'green', yellowgreen: 'green', olive: 'green', lime: 'green',
+  darkgreen: 'green', seagreen: 'green', forestgreen: 'green',
+  yellow: 'yellow',
+  gold: 'gold', khaki: 'gold', beige: 'gold', wheat: 'gold',
+  orange: 'orange', orangered: 'orange', darkorange: 'orange', coral: 'orange',
+  red: 'red', crimson: 'red', firebrick: 'red',
+  maroon: 'burgundy', darkred: 'burgundy',
+  purple: 'purple', violet: 'purple', indigo: 'purple', magenta: 'purple',
+  brown: 'brown', sienna: 'brown', chocolate: 'brown', saddlebrown: 'brown'
+}
+
+// Orden y presentación de las familias (clave, etiqueta, tono representativo).
+const COLOR_FAMILIES = [
+  ['black', 'Negro', '#1a1a1a'],
+  ['gray', 'Gris / Plata', '#9aa0a6'],
+  ['white', 'Blanco', '#f3f3f3'],
+  ['blue', 'Azul', '#2563eb'],
+  ['turquoise', 'Turquesa', '#14b8a6'],
+  ['green', 'Verde', '#16a34a'],
+  ['yellow', 'Amarillo', '#eab308'],
+  ['gold', 'Dorado', '#c69a3a'],
+  ['orange', 'Naranja', '#ea580c'],
+  ['red', 'Rojo', '#dc2626'],
+  ['burgundy', 'Granate', '#7e2233'],
+  ['purple', 'Morado', '#7c3aed'],
+  ['brown', 'Marrón', '#8a5a2b']
+]
+
+function colorFamilyKey(raw) {
+  const c = String(raw).trim().toLowerCase()
+  if (COLOR_FAMILY_MAP[c]) return COLOR_FAMILY_MAP[c]
+  if (c.startsWith('#')) return 'gold' // hex tipo champán/beige
+  return c // desconocido: se muestra tal cual, no rompe el filtro
+}
+
 export default {
   name: 'Relojes',
   async setup() {
@@ -173,7 +221,7 @@ export default {
         if (f.country) list = list.filter(w => w.country === f.country);
         if (f.brand) list = list.filter(w => w.brand === f.brand);
         if (f.model) list = list.filter(w => w.model === f.model);
-        if (f.color) list = list.filter(w => w.colors.includes(f.color));
+        if (f.color) list = list.filter(w => (w.colors || []).some(c => colorFamilyKey(c) === f.color));
         if (f.movement) list = list.filter(w => w.movement === f.movement);
         if (f.price) list = list.filter(w => w.price <= f.price);
         if (f.type) list = list.filter(w => w.type === f.type);
@@ -250,15 +298,20 @@ export default {
       this.filtersValues.color = color;
     },
     getColorsCollection(watchesList) {
-      const colors = [];
+      // Familias de color presentes en el catálogo, en el orden definido.
+      const present = new Set();
       watchesList.forEach(watch => {
-        watch.colors.forEach(color => {
-          if (!colors.includes(color)) {
-            colors.push(color);
-          }
-        });
+        (watch.colors || []).forEach(color => present.add(colorFamilyKey(color)));
       });
-      return colors;
+      const families = COLOR_FAMILIES
+        .filter(([key]) => present.has(key))
+        .map(([key, label, swatch]) => ({ key, label, swatch }));
+      // Cualquier familia desconocida (fallback) que no esté en la lista.
+      const known = new Set(COLOR_FAMILIES.map(([key]) => key));
+      present.forEach(key => {
+        if (!known.has(key)) families.push({ key, label: key, swatch: key });
+      });
+      return families;
     },
     filterBySearch() {
       // La búsqueda es reactiva (computed); solo volvemos a la primera página.
