@@ -133,6 +133,7 @@ const COLOR_FAMILY_MAP = {
   orange: 'orange', orangered: 'orange', darkorange: 'orange', coral: 'orange',
   red: 'red', crimson: 'red', firebrick: 'red', maroon: 'red', darkred: 'red',
   purple: 'purple', violet: 'purple', indigo: 'purple', magenta: 'purple',
+  pink: 'pink', hotpink: 'pink', deeppink: 'pink', lightpink: 'pink', rose: 'pink', salmon: 'pink',
   brown: 'brown', sienna: 'brown', chocolate: 'brown', saddlebrown: 'brown'
 }
 
@@ -148,6 +149,7 @@ const COLOR_FAMILIES = [
   ['orange', 'Naranja', '#ea580c'],
   ['red', 'Rojo', '#dc2626'],
   ['purple', 'Morado', '#7c3aed'],
+  ['pink', 'Rosa', '#ec4899'],
   ['brown', 'Marrón', '#8a5a2b']
 ]
 
@@ -261,11 +263,14 @@ export default {
       this.filtersContent.movements = [...new Set(this.watchesList.map(watch => watch.movement))];
       this.filtersContent.countries = [...new Set(this.watchesList.map(watch => watch.country))];
       this.filtersContent.colors = this.getColorsCollection(this.watchesList);
-      this.filtersContent.prices = [...new Set(this.watchesList.map(watch => watch.price))];
-      this.filtersValues.price = this.filtersContent.prices.sort((b, a) => a - b)[0];
-      this.filtersContent.types = [...new Set(this.watchesList.map(watch => watch.type))];
-      this.filtersContent.sizes = [...new Set(this.watchesList.map(watch => watch.size))].sort((a, b) => a - b);
-      this.filtersContent.waterResistances = [...new Set(this.watchesList.map(watch => watch.water_resistance))].sort((a, b) => a - b);
+      // Algunos relojes pueden no tener precio (p. ej. piezas que no se venden)
+      // o resistencia al agua; filtramos los valores vacíos para no romper el
+      // slider de precio ni los desplegables.
+      this.filtersContent.prices = [...new Set(this.watchesList.map(watch => watch.price))].filter(v => typeof v === 'number');
+      this.filtersValues.price = [...this.filtersContent.prices].sort((b, a) => a - b)[0];
+      this.filtersContent.types = [...new Set(this.watchesList.map(watch => watch.type))].filter(Boolean);
+      this.filtersContent.sizes = [...new Set(this.watchesList.map(watch => watch.size))].filter(v => typeof v === 'number').sort((a, b) => a - b);
+      this.filtersContent.waterResistances = [...new Set(this.watchesList.map(watch => watch.water_resistance))].filter(v => typeof v === 'number').sort((a, b) => a - b);
     },
     setModelsContent() {
       this.filtersContent.models = [...new Set(this.watchesList.filter(watch => watch.brand === this.filtersValues.brand).map(watch => watch.model))];
