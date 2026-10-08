@@ -5,6 +5,7 @@ description: "El Geya Planetary G78220 es un reloj de colección de 46 mm con te
 image: /assets/img/watches/geya/planetary.webp
 gallery:
   - /assets/img/watches/geya/planetary-2.webp
+youtube: od0WmfNs0Wc
 affiliate: REEMPLAZAR_ENLACE_AFILIADO
 publishedAt: "2026-10-09T13:00:00"
 brand: Geya
@@ -25,6 +26,9 @@ country: China
 ---
 
 Hay relojes pensados para llevarlos todos los días, otros para ocasiones especiales… y luego hay relojes como este. Cuando saqué de la caja el **Geya Planetary G78220**, mi primera impresión fue clara: esto parece más una **pieza de museo** que un reloj convencional. Con sus 46 milímetros, una esfera completamente abierta y todos esos elementos girando en su interior, es imposible que pase desapercibido. Ronda los 489 euros y llega gracias a una colaboración con GEYA, a quienes agradezco que hayan contado conmigo.
+
+::youtube{id="od0WmfNs0Wc" title="Geya Planetary Flywheel, el tourbillón que no da la hora | Review en español"}
+::
 
 ::affiliate{url="REEMPLAZAR_ENLACE_AFILIADO" store="internet" label="Click aquí para comprarlo en Geya"}
 ::
