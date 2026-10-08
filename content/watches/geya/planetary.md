@@ -30,8 +30,8 @@ Hay relojes pensados para llevarlos todos los días, otros para ocasiones especi
 ::youtube{id="od0WmfNs0Wc" title="Geya Planetary Flywheel, el tourbillón que no da la hora | Review en español"}
 ::
 
-::affiliate{url="REEMPLAZAR_ENLACE_AFILIADO" store="internet" label="Click aquí para comprarlo en Geya"}
-::
+<!-- Enlace de afiliado pendiente: reañadir ::affiliate con la URL real -->
+
 
 ## Diseño
 
