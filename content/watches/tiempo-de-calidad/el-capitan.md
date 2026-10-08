@@ -19,7 +19,7 @@ size: 40
 colors:
   - blue
   - black
-country: China
+country: Spain
 ---
 
 Hay relojes que puedes comprar en cualquier tienda, otros que tienes que esperar meses para conseguir… y luego está este. **El Capitán** es un reloj del que solo existen **veinte unidades** en todo el mundo. No pertenece a ninguna marca, no lo vas a encontrar en AliExpress y ni siquiera podrías pedir otro igual. Pero lo realmente especial es cómo ha llegado a existir: no salió de una fábrica ya terminado, sino que **cada una de sus piezas se eligió, una por una, entre la comunidad de Tiempo de Calidad**, y alguien tuvo que convertir todo eso en un reloj de verdad. Ese alguien es Jose, de Kings Watch Mod.
